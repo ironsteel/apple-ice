@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name apple-ice)(type Legacy)(uri ${KIPRJMOD}/apple-ice.lib)(options "")(descr ""))
+)
