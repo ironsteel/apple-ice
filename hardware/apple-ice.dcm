@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +1V2
+D Power symbol creates a global label with name "+1V2"
+K power-flag
+$ENDCMP
+#
+$CMP +5V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
 $CMP 74AXP8T245PW
 D 8-bit dual supply translating transceiver, 3-state, TSSOP-24
 K bus 3state
@@ -52,6 +62,11 @@ $CMP ECS-2520MV-xxx-xx
 D HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD
 K Crystal Clock Oscillator ECS SMD
 F https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
 $ENDCMP
 #
 $CMP ICE40HX1K-TQ144
@@ -118,6 +133,12 @@ $CMP MCP1703A-5002_SOT223
 D Low Quiescent Current LDO Regulator, 5.0V, 250mA, Vin<=16V, SOT-223
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
+$ENDCMP
+#
+$CMP PWR_FLAG
+D Special symbol for telling ERC where power comes from
+K power-flag
+F ~
 $ENDCMP
 #
 $CMP R_Small
