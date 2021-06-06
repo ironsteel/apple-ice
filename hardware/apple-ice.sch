@@ -14,1888 +14,2392 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L apple-ice:ICE40HX1K-TQ144 U1
+L apple-ice:ICE40HX1K-TQ144 U?
 U 1 1 609DDE92
-P 10850 2800
-F 0 "U1" H 11230 2928 50  0000 L CNN
-F 1 "ICE40HX1K-TQ144" H 11230 2837 50  0000 L CNN
-F 2 "apple-ice:TQFP-144_20x20mm_P0.5mm" H 10850 1350 50  0001 C CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 10000 4200 50  0001 C CNN
-	1    10850 2800
+P 9900 2100
+F 0 "U?" H 10280 2228 50  0000 L CNN
+F 1 "ICE40HX1K-TQ144" H 10280 2137 50  0000 L CNN
+F 2 "apple-ice:TQFP-144_20x20mm_P0.5mm" H 9900 650 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 9050 3500 50  0001 C CNN
+	1    9900 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L apple-ice:ICE40HX1K-TQ144 U1
+L apple-ice:ICE40HX1K-TQ144 U?
 U 2 1 609DFA1D
-P 10700 5950
-F 0 "U1" H 11080 6078 50  0000 L CNN
-F 1 "ICE40HX1K-TQ144" H 11080 5987 50  0000 L CNN
-F 2 "apple-ice:TQFP-144_20x20mm_P0.5mm" H 10700 4500 50  0001 C CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 9850 7350 50  0001 C CNN
-	2    10700 5950
+P 11000 5950
+F 0 "U?" H 11380 6078 50  0000 L CNN
+F 1 "ICE40HX1K-TQ144" H 11380 5987 50  0000 L CNN
+F 2 "apple-ice:TQFP-144_20x20mm_P0.5mm" H 11000 4500 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 10150 7350 50  0001 C CNN
+	2    11000 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L apple-ice:ICE40HX1K-TQ144 U1
+L apple-ice:ICE40HX1K-TQ144 U?
 U 3 1 609E21D5
-P 8150 2700
-F 0 "U1" H 8530 2828 50  0000 L CNN
-F 1 "ICE40HX1K-TQ144" H 8530 2737 50  0000 L CNN
-F 2 "apple-ice:TQFP-144_20x20mm_P0.5mm" H 8150 1250 50  0001 C CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 7300 4100 50  0001 C CNN
-	3    8150 2700
+P 7350 1950
+F 0 "U?" H 7730 2078 50  0000 L CNN
+F 1 "ICE40HX1K-TQ144" H 7730 1987 50  0000 L CNN
+F 2 "apple-ice:TQFP-144_20x20mm_P0.5mm" H 7350 500 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 6500 3350 50  0001 C CNN
+	3    7350 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L apple-ice:ICE40HX1K-TQ144 U1
+L apple-ice:ICE40HX1K-TQ144 U?
 U 5 1 609E76F0
-P 14250 5300
-F 0 "U1" H 14894 5346 50  0000 L CNN
-F 1 "ICE40HX1K-TQ144" H 14894 5255 50  0000 L CNN
-F 2 "apple-ice:TQFP-144_20x20mm_P0.5mm" H 14250 3850 50  0001 C CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 13400 6700 50  0001 C CNN
-	5    14250 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L apple-ice:W25Q16JVSS U8
-U 1 1 60A599C8
-P 14750 3250
-F 0 "U8" H 14750 3831 50  0000 C CNN
-F 1 "W25Q16JVSS" H 14750 3740 50  0000 C CNN
-F 2 "apple-ice:SOIC-8_5.23x5.23mm_P1.27mm" H 14750 3250 50  0001 C CNN
-F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 14750 3250 50  0001 C CNN
-	1    14750 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L apple-ice:MCP1703A-1202_SOT223 U7
-U 1 1 60A75D9A
-P 14000 8000
-F 0 "U7" H 14000 8242 50  0000 C CNN
-F 1 "MCP1703A-1202_SOT223" H 14000 8151 50  0000 C CNN
-F 2 "apple-ice:SOT-223-3_TabPin2" H 14000 8200 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 14000 7950 50  0001 C CNN
-	1    14000 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L apple-ice:SN74LVC8T245PW U3
-U 1 1 60B3B735
-P 3500 8100
-F 0 "U3" H 3500 7950 50  0000 C CNN
-F 1 "SN74LVC8T245PW" H 3500 7800 50  0000 C CNN
-F 2 "apple-ice:TSSOP-24_4.4x7.8mm_P0.65mm" H 3500 6900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 3600 8450 50  0001 C CNN
-	1    3500 8100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L apple-ice:SN74LVC8T245PW U2
-U 1 1 60A716EC
-P 8600 6750
-F 0 "U2" H 8600 6550 50  0000 C CNN
-F 1 "SN74LVC8T245PW" H 8600 6450 50  0000 C CNN
-F 2 "apple-ice:TSSOP-24_4.4x7.8mm_P0.65mm" H 8600 5550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 8700 7100 50  0001 C CNN
-	1    8600 6750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L apple-ice:SN74LVC8T245PW U4
-U 1 1 60A74FA6
-P 5950 4850
-F 0 "U4" H 5950 4650 50  0000 C CNN
-F 1 "SN74LVC8T245PW" H 5950 4550 50  0000 C CNN
-F 2 "apple-ice:TSSOP-24_4.4x7.8mm_P0.65mm" H 5950 3650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 6050 5200 50  0001 C CNN
-	1    5950 4850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L apple-ice:MCP1703A-3302_SOT223 U6
-U 1 1 60AEED14
-P 14000 6850
-F 0 "U6" H 14000 7092 50  0000 C CNN
-F 1 "MCP1703A-3302_SOT223" H 14000 7001 50  0000 C CNN
-F 2 "apple-ice:SOT-223-3_TabPin2" H 14000 7050 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 14000 6800 50  0001 C CNN
-	1    14000 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L apple-ice:C_Small C3
-U 1 1 60AF9D0F
-P 14450 7000
-F 0 "C3" H 14542 7046 50  0000 L CNN
-F 1 "1uF" H 14542 6955 50  0000 L CNN
-F 2 "" H 14450 7000 50  0001 C CNN
-F 3 "~" H 14450 7000 50  0001 C CNN
-	1    14450 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L apple-ice:GND #PWR07
-U 1 1 60AFB3B7
-P 14450 7250
-F 0 "#PWR07" H 14450 7000 50  0001 C CNN
-F 1 "GND" H 14455 7077 50  0000 C CNN
-F 2 "" H 14450 7250 50  0001 C CNN
-F 3 "" H 14450 7250 50  0001 C CNN
-	1    14450 7250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14000 7150 14000 7200
-Wire Wire Line
-	14300 6850 14450 6850
-Wire Wire Line
-	14450 6850 14450 6900
-Connection ~ 14450 6850
-Wire Wire Line
-	14450 6850 14650 6850
-Wire Wire Line
-	14450 7100 14450 7200
-Wire Wire Line
-	14000 7200 14450 7200
-Connection ~ 14450 7200
-Wire Wire Line
-	14450 7200 14450 7250
-Wire Wire Line
-	14650 6850 14650 6700
-Text Label 14650 6700 0    50   ~ 0
-3.3V
-$Comp
-L apple-ice:+5V #PWR03
-U 1 1 60B0E545
-P 13150 6750
-F 0 "#PWR03" H 13150 6600 50  0001 C CNN
-F 1 "+5V" H 13165 6923 50  0000 C CNN
-F 2 "" H 13150 6750 50  0001 C CNN
-F 3 "" H 13150 6750 50  0001 C CNN
-	1    13150 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13150 6750 13150 6850
-Wire Wire Line
-	13150 6850 13500 6850
-Connection ~ 13500 6850
-Wire Wire Line
-	13500 7100 13500 7250
-Wire Wire Line
-	13500 6850 13700 6850
-Wire Wire Line
-	13500 6850 13500 6900
-$Comp
-L apple-ice:GND #PWR05
-U 1 1 60AF7F2F
-P 13500 7250
-F 0 "#PWR05" H 13500 7000 50  0001 C CNN
-F 1 "GND" H 13505 7077 50  0000 C CNN
-F 2 "" H 13500 7250 50  0001 C CNN
-F 3 "" H 13500 7250 50  0001 C CNN
-	1    13500 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L apple-ice:C_Small C1
-U 1 1 60AF41CD
-P 13500 7000
-F 0 "C1" H 13592 7046 50  0000 L CNN
-F 1 "1uF" H 13592 6955 50  0000 L CNN
-F 2 "" H 13500 7000 50  0001 C CNN
-F 3 "~" H 13500 7000 50  0001 C CNN
-	1    13500 7000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13150 7900 13150 8000
-Wire Wire Line
-	13150 8000 13500 8000
-Connection ~ 13500 8000
-Wire Wire Line
-	13500 8250 13500 8400
-Wire Wire Line
-	13500 8000 13700 8000
-Wire Wire Line
-	13500 8000 13500 8050
-$Comp
-L apple-ice:GND #PWR06
-U 1 1 60BACFC6
-P 13500 8400
-F 0 "#PWR06" H 13500 8150 50  0001 C CNN
-F 1 "GND" H 13505 8227 50  0000 C CNN
-F 2 "" H 13500 8400 50  0001 C CNN
-F 3 "" H 13500 8400 50  0001 C CNN
-	1    13500 8400
-	1    0    0    -1  
-$EndComp
-$Comp
-L apple-ice:C_Small C2
-U 1 1 60BACFCC
-P 13500 8150
-F 0 "C2" H 13592 8196 50  0000 L CNN
-F 1 "1uF" H 13592 8105 50  0000 L CNN
-F 2 "" H 13500 8150 50  0001 C CNN
-F 3 "~" H 13500 8150 50  0001 C CNN
-	1    13500 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L apple-ice:+5V #PWR04
-U 1 1 60BAD45C
-P 13150 7900
-F 0 "#PWR04" H 13150 7750 50  0001 C CNN
-F 1 "+5V" H 13165 8073 50  0000 C CNN
-F 2 "" H 13150 7900 50  0001 C CNN
-F 3 "" H 13150 7900 50  0001 C CNN
-	1    13150 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L apple-ice:C_Small C4
-U 1 1 60BBE593
-P 14450 8150
-F 0 "C4" H 14542 8196 50  0000 L CNN
-F 1 "1uF" H 14542 8105 50  0000 L CNN
-F 2 "" H 14450 8150 50  0001 C CNN
-F 3 "~" H 14450 8150 50  0001 C CNN
-	1    14450 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L apple-ice:GND #PWR08
-U 1 1 60BBE599
-P 14450 8400
-F 0 "#PWR08" H 14450 8150 50  0001 C CNN
-F 1 "GND" H 14455 8227 50  0000 C CNN
-F 2 "" H 14450 8400 50  0001 C CNN
-F 3 "" H 14450 8400 50  0001 C CNN
-	1    14450 8400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14300 8000 14450 8000
-Wire Wire Line
-	14450 8000 14450 8050
-Connection ~ 14450 8000
-Wire Wire Line
-	14450 8000 14650 8000
-Wire Wire Line
-	14450 8250 14450 8350
-Wire Wire Line
-	14000 8350 14450 8350
-Connection ~ 14450 8350
-Wire Wire Line
-	14450 8350 14450 8400
-Wire Wire Line
-	14650 8000 14650 7850
-Wire Wire Line
-	14000 8300 14000 8350
-Text Label 14650 7850 0    50   ~ 0
-1.2V
-Entry Wire Line
-	2900 4950 2800 5050
-Entry Wire Line
-	2800 5150 2900 5050
-Entry Wire Line
-	2900 5150 2800 5250
-Entry Wire Line
-	2900 5250 2800 5350
-Entry Wire Line
-	2900 5350 2800 5450
-Entry Wire Line
-	2900 5450 2800 5550
-Entry Wire Line
-	2900 5550 2800 5650
-Entry Wire Line
-	2900 5650 2800 5750
-Entry Wire Line
-	2800 7600 2700 7500
-Wire Wire Line
-	2800 7600 2900 7600
-Wire Wire Line
-	2900 7700 2800 7700
-Wire Wire Line
-	2900 7800 2800 7800
-Wire Wire Line
-	2900 7900 2800 7900
-Wire Wire Line
-	2900 8000 2800 8000
-Wire Wire Line
-	2900 8100 2800 8100
-Wire Wire Line
-	2900 8200 2800 8200
-Entry Wire Line
-	2700 7600 2800 7700
-Entry Wire Line
-	2700 7700 2800 7800
-Entry Wire Line
-	2700 7800 2800 7900
-Entry Wire Line
-	2700 7900 2800 8000
-Entry Wire Line
-	2700 8000 2800 8100
-Entry Wire Line
-	2700 8100 2800 8200
-Wire Wire Line
-	2900 8300 2800 8300
-Entry Wire Line
-	2800 8300 2700 8200
-Text Label 2900 5650 0    50   ~ 0
-D7
-Text Label 2900 5550 0    50   ~ 0
-D6
-Text Label 2900 5450 0    50   ~ 0
-D5
-Text Label 2900 5350 0    50   ~ 0
-D4
-Text Label 2900 5250 0    50   ~ 0
-D3
-Text Label 2900 5150 0    50   ~ 0
-D2
-Text Label 2900 5050 0    50   ~ 0
-D1
-Text Label 2900 4950 0    50   ~ 0
-D0
-Text Label 2800 7600 0    50   ~ 0
-D7
-Text Label 2800 7700 0    50   ~ 0
-D6
-Text Label 2800 7800 0    50   ~ 0
-D5
-Text Label 2800 7900 0    50   ~ 0
-D4
-Text Label 2800 8000 0    50   ~ 0
-D3
-Text Label 2800 8100 0    50   ~ 0
-D2
-Text Label 2800 8200 0    50   ~ 0
-D1
-Text Label 2800 8300 0    50   ~ 0
-D0
-Entry Wire Line
-	5000 4150 5100 4250
-Entry Wire Line
-	5000 4250 5100 4350
-Entry Wire Line
-	5000 4350 5100 4450
-Entry Wire Line
-	5000 4450 5100 4550
-Entry Wire Line
-	5000 4550 5100 4650
-Entry Wire Line
-	5000 4650 5100 4750
-Entry Wire Line
-	5000 4750 5100 4850
-Entry Wire Line
-	5000 4850 5100 4950
-Entry Wire Line
-	5000 4950 5100 5050
-Entry Wire Line
-	5000 5050 5100 5150
-Entry Wire Line
-	5000 5150 5100 5250
-Entry Wire Line
-	5000 5250 5100 5350
-Entry Wire Line
-	5000 5350 5100 5450
-Entry Wire Line
-	5000 5450 5100 5550
-Entry Wire Line
-	5000 5550 5100 5650
-Entry Wire Line
-	5000 5650 5100 5750
-Entry Wire Line
-	5100 4250 5200 4350
-Wire Wire Line
-	5200 4350 5350 4350
-Wire Wire Line
-	5200 4450 5350 4450
-Wire Wire Line
-	5200 4550 5350 4550
-Wire Wire Line
-	5200 4650 5350 4650
-Wire Wire Line
-	5200 4750 5350 4750
-Wire Wire Line
-	5200 4850 5350 4850
-Wire Wire Line
-	5200 4950 5350 4950
-Wire Wire Line
-	5200 5050 5350 5050
-Entry Wire Line
-	5100 4350 5200 4450
-Entry Wire Line
-	5100 4450 5200 4550
-Entry Wire Line
-	5100 4550 5200 4650
-Entry Wire Line
-	5100 4650 5200 4750
-Entry Wire Line
-	5100 4750 5200 4850
-Entry Wire Line
-	5100 4850 5200 4950
-Entry Wire Line
-	5100 4950 5200 5050
-Text Label 4850 5650 0    50   ~ 0
-A15
-Text Label 4850 5550 0    50   ~ 0
-A14
-Text Label 4850 5450 0    50   ~ 0
-A13
-Text Label 4850 5350 0    50   ~ 0
-A12
-Text Label 4850 5250 0    50   ~ 0
-A11
-Text Label 4850 5150 0    50   ~ 0
-A10
-Text Label 4850 5050 0    50   ~ 0
-A9
-Text Label 4850 4950 0    50   ~ 0
-A8
-Text Label 4850 4850 0    50   ~ 0
-A7
-Text Label 4850 4750 0    50   ~ 0
-A6
-Text Label 4850 4650 0    50   ~ 0
-A5
-Text Label 4850 4550 0    50   ~ 0
-A4
-Text Label 4850 4450 0    50   ~ 0
-A3
-Text Label 4850 4350 0    50   ~ 0
-A2
-Text Label 4850 4250 0    50   ~ 0
-A1
-Text Label 4850 4150 0    50   ~ 0
-A0
-Text Label 5200 7150 0    50   ~ 0
-A9
-Text Label 5200 7050 0    50   ~ 0
-A10
-Text Label 5200 6950 0    50   ~ 0
-A11
-Text Label 5200 6850 0    50   ~ 0
-A12
-Text Label 5200 6750 0    50   ~ 0
-A13
-Text Label 5200 6650 0    50   ~ 0
-A14
-Text Label 5200 6550 0    50   ~ 0
-A15
-Text Label 5200 7250 0    50   ~ 0
-A8
-Text Label 5200 4350 0    50   ~ 0
-A7
-Text Label 5200 4450 0    50   ~ 0
-A6
-Text Label 5200 4550 0    50   ~ 0
-A5
-Text Label 5200 4650 0    50   ~ 0
-A4
-Text Label 5200 4750 0    50   ~ 0
-A3
-Text Label 5200 4850 0    50   ~ 0
-A2
-Text Label 5200 4950 0    50   ~ 0
-A1
-Text Label 5200 5050 0    50   ~ 0
-A0
-Entry Wire Line
-	5100 7150 5200 7250
-Entry Wire Line
-	5100 7050 5200 7150
-Entry Wire Line
-	5100 6950 5200 7050
-Entry Wire Line
-	5100 6850 5200 6950
-Entry Wire Line
-	5100 6750 5200 6850
-Entry Wire Line
-	5100 6650 5200 6750
-Entry Wire Line
-	5100 6550 5200 6650
-Wire Wire Line
-	5350 7250 5200 7250
-Wire Wire Line
-	5350 7150 5200 7150
-Wire Wire Line
-	5200 7050 5350 7050
-Wire Wire Line
-	5350 6950 5200 6950
-Wire Wire Line
-	5200 6850 5350 6850
-Wire Wire Line
-	5350 6750 5200 6750
-Wire Wire Line
-	5350 6650 5200 6650
-Wire Wire Line
-	5200 6550 5350 6550
-Entry Wire Line
-	5100 6450 5200 6550
-$Comp
-L apple-ice:SN74LVC8T245PW U5
-U 1 1 60A78CB1
-P 5950 7050
-F 0 "U5" H 5950 6900 50  0000 C CNN
-F 1 "SN74LVC8T245PW" H 5950 6750 50  0000 C CNN
-F 2 "apple-ice:TSSOP-24_4.4x7.8mm_P0.65mm" H 5950 5850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 6050 7400 50  0001 C CNN
-	1    5950 7050
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6550 5250 6750 5250
-Wire Wire Line
-	6750 5250 6750 5350
-Wire Wire Line
-	6750 5650 5950 5650
-Wire Wire Line
-	6550 5350 6750 5350
-Connection ~ 6750 5350
-Wire Wire Line
-	6750 5350 6750 5650
-$Comp
-L apple-ice:GND #PWR0101
-U 1 1 60AB624A
-P 5950 5750
-F 0 "#PWR0101" H 5950 5500 50  0001 C CNN
-F 1 "GND" H 5955 5577 50  0000 C CNN
-F 2 "" H 5950 5750 50  0001 C CNN
-F 3 "" H 5950 5750 50  0001 C CNN
-	1    5950 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 5650 5950 5750
-Connection ~ 5950 5650
-Wire Wire Line
-	6550 7550 6700 7550
-Wire Wire Line
-	6700 7550 6700 7850
-Wire Wire Line
-	6700 7850 5950 7850
-Wire Wire Line
-	6550 7450 6700 7450
-Wire Wire Line
-	6700 7450 6700 7550
-Connection ~ 6700 7550
-$Comp
-L apple-ice:GND #PWR0102
-U 1 1 60ACECF5
-P 5950 7950
-F 0 "#PWR0102" H 5950 7700 50  0001 C CNN
-F 1 "GND" H 5955 7777 50  0000 C CNN
-F 2 "" H 5950 7950 50  0001 C CNN
-F 3 "" H 5950 7950 50  0001 C CNN
-	1    5950 7950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 7850 5950 7950
-Connection ~ 5950 7850
-Entry Wire Line
-	6950 4450 6850 4350
-Entry Wire Line
-	6950 4550 6850 4450
-Entry Wire Line
-	6950 4650 6850 4550
-Entry Wire Line
-	6950 4750 6850 4650
-Entry Wire Line
-	6950 4850 6850 4750
-Entry Wire Line
-	6950 4950 6850 4850
-Entry Wire Line
-	6950 5050 6850 4950
-Entry Wire Line
-	6950 5150 6850 5050
-Wire Wire Line
-	6550 4350 6850 4350
-Wire Wire Line
-	6550 4450 6850 4450
-Wire Wire Line
-	6850 4550 6550 4550
-Wire Wire Line
-	6550 4650 6850 4650
-Wire Wire Line
-	6550 4750 6850 4750
-Wire Wire Line
-	6850 4850 6550 4850
-Wire Wire Line
-	6550 4950 6850 4950
-Wire Wire Line
-	6850 5050 6550 5050
-Entry Wire Line
-	6950 6650 6850 6550
-Entry Wire Line
-	6950 6750 6850 6650
-Entry Wire Line
-	6950 6850 6850 6750
-Entry Wire Line
-	6950 6950 6850 6850
-Entry Wire Line
-	6950 7050 6850 6950
-Entry Wire Line
-	6950 7150 6850 7050
-Entry Wire Line
-	6950 7250 6850 7150
-Entry Wire Line
-	6950 7350 6850 7250
-Wire Wire Line
-	6550 6550 6850 6550
-Wire Wire Line
-	6850 6650 6550 6650
-Wire Wire Line
-	6550 6750 6850 6750
-Wire Wire Line
-	6850 6850 6550 6850
-Wire Wire Line
-	6550 6950 6850 6950
-Wire Wire Line
-	6850 7050 6550 7050
-Wire Wire Line
-	6550 7150 6850 7150
-Wire Wire Line
-	6850 7250 6550 7250
-Text Label 6550 6550 0    50   ~ 0
-A15_33
-Text Label 6550 6650 0    50   ~ 0
-A14_33
-Text Label 6550 6750 0    50   ~ 0
-A13_33
-Text Label 6550 6850 0    50   ~ 0
-A12_33
-Text Label 6550 6950 0    50   ~ 0
-A11_33
-Text Label 6550 7050 0    50   ~ 0
-A10_33
-Text Label 6550 7150 0    50   ~ 0
-A9_33
-Text Label 6550 7250 0    50   ~ 0
-A8_33
-Text Label 6550 4350 0    50   ~ 0
-A7_33
-Text Label 6550 4450 0    50   ~ 0
-A6_33
-Text Label 6550 4550 0    50   ~ 0
-A5_33
-Text Label 6550 4650 0    50   ~ 0
-A4_33
-Text Label 6550 4750 0    50   ~ 0
-A3_33
-Text Label 6550 4850 0    50   ~ 0
-A2_33
-Text Label 6550 4950 0    50   ~ 0
-A1_33
-Text Label 6550 5050 0    50   ~ 0
-A0_33
-Entry Bus Bus
-	2800 7050 2700 7150
-Text Label 6950 9100 0    50   ~ 0
-A0_33
-Text Label 6950 9200 0    50   ~ 0
-A1_33
-Text Label 6950 9300 0    50   ~ 0
-A2_33
-Text Label 6950 9400 0    50   ~ 0
-A3_33
-Text Label 6950 9500 0    50   ~ 0
-A4_33
-Text Label 6950 9600 0    50   ~ 0
-A5_33
-Text Label 6950 9700 0    50   ~ 0
-A6_33
-Text Label 6950 9800 0    50   ~ 0
-A7_33
-Text Label 6950 10000 0    50   ~ 0
-A9_33
-Text Label 6950 10100 0    50   ~ 0
-A10_33
-Text Label 6950 10200 0    50   ~ 0
-A11_33
-Text Label 6950 10300 0    50   ~ 0
-A12_33
-Text Label 6950 10400 0    50   ~ 0
-A13_33
-Text Label 6950 10500 0    50   ~ 0
-A14_33
-Text Label 6950 10600 0    50   ~ 0
-A15_33
-Wire Wire Line
-	6950 8700 7300 8700
-Wire Wire Line
-	7300 8600 6950 8600
-Wire Wire Line
-	6950 8500 7300 8500
-Wire Wire Line
-	7300 8400 6950 8400
-Wire Wire Line
-	6950 8300 7300 8300
-Entry Wire Line
-	6850 8300 6950 8400
-Entry Wire Line
-	6950 8500 6850 8400
-Entry Wire Line
-	6950 8600 6850 8500
-Entry Wire Line
-	6950 8700 6850 8600
-Entry Wire Line
-	6950 8800 6850 8700
-Wire Wire Line
-	7300 9800 6950 9800
-Wire Wire Line
-	6950 9700 7300 9700
-Wire Wire Line
-	7300 9600 6950 9600
-Wire Wire Line
-	6950 9500 7300 9500
-Entry Wire Line
-	6950 8300 6850 8200
-Entry Wire Line
-	6950 9800 6850 9700
-Entry Wire Line
-	6950 9700 6850 9600
-Entry Wire Line
-	6950 9600 6850 9500
-Wire Wire Line
-	6950 9400 7300 9400
-Wire Wire Line
-	6950 9300 7300 9300
-Wire Wire Line
-	6950 9200 7300 9200
-Wire Wire Line
-	6950 9100 7300 9100
-Wire Wire Line
-	6950 9000 7300 9000
-Wire Wire Line
-	6950 8900 7300 8900
-Entry Wire Line
-	6950 9500 6850 9400
-Entry Wire Line
-	6950 9400 6850 9300
-Entry Wire Line
-	6950 9300 6850 9200
-Entry Wire Line
-	6950 9200 6850 9100
-Entry Wire Line
-	6950 9100 6850 9000
-Entry Wire Line
-	6950 9000 6850 8900
-Wire Wire Line
-	6950 8800 7300 8800
-Entry Wire Line
-	6850 8800 6950 8900
-$Comp
-L apple-ice:ICE40HX1K-TQ144 U1
-U 4 1 609E4953
-P 7800 9400
-F 0 "U1" H 8180 9528 50  0000 L CNN
-F 1 "ICE40HX1K-TQ144" H 8180 9437 50  0000 L CNN
-F 2 "apple-ice:TQFP-144_20x20mm_P0.5mm" H 7800 7950 50  0001 C CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 6950 10800 50  0001 C CNN
-	4    7800 9400
-	1    0    0    -1  
-$EndComp
-Entry Bus Bus
-	6950 7950 6850 8050
-Entry Wire Line
-	4350 7600 4450 7700
-Entry Wire Line
-	4350 7700 4450 7800
-Entry Wire Line
-	4350 7800 4450 7900
-Entry Wire Line
-	4350 7900 4450 8000
-Entry Wire Line
-	4350 8000 4450 8100
-Entry Wire Line
-	4350 8100 4450 8200
-Entry Wire Line
-	4350 8200 4450 8300
-Entry Wire Line
-	4350 8300 4450 8400
-Entry Bus Bus
-	4450 9250 4550 9350
-Wire Wire Line
-	7300 9900 6950 9900
-Wire Wire Line
-	7300 10000 6950 10000
-Wire Wire Line
-	6950 10100 7300 10100
-Wire Wire Line
-	7300 10200 6950 10200
-Wire Wire Line
-	7300 10300 6950 10300
-Wire Wire Line
-	6950 10400 7300 10400
-Wire Wire Line
-	7300 10500 6950 10500
-Wire Wire Line
-	7300 10600 6950 10600
-Entry Wire Line
-	6850 10500 6950 10600
-Entry Wire Line
-	6850 10400 6950 10500
-Entry Wire Line
-	6850 10300 6950 10400
-Entry Wire Line
-	6850 10200 6950 10300
-Entry Wire Line
-	6850 10100 6950 10200
-Entry Wire Line
-	6850 10000 6950 10100
-Entry Wire Line
-	6850 9900 6950 10000
-Entry Wire Line
-	6850 9800 6950 9900
-Wire Wire Line
-	4100 7600 4350 7600
-Wire Wire Line
-	4350 7700 4100 7700
-Wire Wire Line
-	4100 7800 4350 7800
-Wire Wire Line
-	4350 7900 4100 7900
-Wire Wire Line
-	4100 8000 4350 8000
-Wire Wire Line
-	4350 8100 4100 8100
-Wire Wire Line
-	4100 8200 4350 8200
-Wire Wire Line
-	4350 8300 4100 8300
-Text Label 4100 7600 0    50   ~ 0
-D7_33
-Text Label 4100 7700 0    50   ~ 0
-D6_33
-Text Label 4100 7900 0    50   ~ 0
-D4_33
-Text Label 4100 8000 0    50   ~ 0
-D3_33
-Text Label 4100 8100 0    50   ~ 0
-D2_33
-Text Label 4100 8200 0    50   ~ 0
-D1_33
-Text Label 4100 8300 0    50   ~ 0
-D0_33
-Text Label 4100 7800 0    50   ~ 0
-D5_33
-Text Label 6950 9000 0    50   ~ 0
-D7_33
-Text Label 6950 8900 0    50   ~ 0
-D6_33
-Text Label 6950 8800 0    50   ~ 0
-D5_33
-Text Label 6950 8700 0    50   ~ 0
-D4_33
-Text Label 6950 8600 0    50   ~ 0
-D3_33
-Text Label 6950 8500 0    50   ~ 0
-D2_33
-Text Label 6950 8400 0    50   ~ 0
-D1_33
-Text Label 6950 8300 0    50   ~ 0
-D0_33
-Text Label 6950 9900 0    50   ~ 0
-A8_33
-Wire Wire Line
-	4100 8500 4550 8500
-Text Label 4550 8500 0    50   ~ 0
-RW
-Wire Wire Line
-	4100 8600 4750 8600
-$Comp
-L apple-ice:R_Small R1
-U 1 1 6122676E
-P 4750 8100
-F 0 "R1" H 4600 8150 50  0000 L CNN
-F 1 "22k" H 4550 8050 50  0000 L CNN
-F 2 "" H 4750 8100 50  0001 C CNN
-F 3 "~" H 4750 8100 50  0001 C CNN
-	1    4750 8100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 8200 4750 8600
-Wire Wire Line
-	4750 8000 4750 7850
-Text Label 4750 7850 0    50   ~ 0
-3.3V
-$Comp
-L apple-ice:C_Small C5
-U 1 1 61246E74
-P 3100 7050
-F 0 "C5" H 3008 7004 50  0000 R CNN
-F 1 "0.1uF" H 3008 7095 50  0000 R CNN
-F 2 "" H 3100 7050 50  0001 C CNN
-F 3 "~" H 3100 7050 50  0001 C CNN
-	1    3100 7050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3100 6950 3100 6900
-Wire Wire Line
-	3100 6900 3400 6900
-Wire Wire Line
-	3400 6900 3400 7300
-$Comp
-L apple-ice:GND #PWR0103
-U 1 1 612CE11F
-P 3100 7200
-F 0 "#PWR0103" H 3100 6950 50  0001 C CNN
-F 1 "GND" H 3105 7027 50  0000 C CNN
-F 2 "" H 3100 7200 50  0001 C CNN
-F 3 "" H 3100 7200 50  0001 C CNN
-	1    3100 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L apple-ice:GND #PWR0104
-U 1 1 612D2F7C
-P 3850 7200
-F 0 "#PWR0104" H 3850 6950 50  0001 C CNN
-F 1 "GND" H 3855 7027 50  0000 C CNN
-F 2 "" H 3850 7200 50  0001 C CNN
-F 3 "" H 3850 7200 50  0001 C CNN
-	1    3850 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 7150 3100 7200
-Text Label 3400 6900 0    50   ~ 0
-5V
-Text Label 3600 6900 0    50   ~ 0
-3.3V
-$Comp
-L apple-ice:GND #PWR0105
-U 1 1 61314AF4
-P 3500 9000
-F 0 "#PWR0105" H 3500 8750 50  0001 C CNN
-F 1 "GND" H 3505 8827 50  0000 C CNN
-F 2 "" H 3500 9000 50  0001 C CNN
-F 3 "" H 3500 9000 50  0001 C CNN
-	1    3500 9000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 8900 3500 9000
-$Comp
-L apple-ice:SN74LVC8T245PW U10
-U 1 1 6133BCED
-P 2350 3300
-F 0 "U10" H 2350 3150 50  0000 C CNN
-F 1 "SN74LVC8T245PW" H 2350 3000 50  0000 C CNN
-F 2 "apple-ice:TSSOP-24_4.4x7.8mm_P0.65mm" H 2350 2100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 2450 3650 50  0001 C CNN
-	1    2350 3300
-	1    0    0    -1  
-$EndComp
-Text Label 5000 8600 0    50   ~ 0
-~D_OE
-$Comp
-L apple-ice:SN74LVC8T245PW U9
-U 1 1 6188BE40
-P 5950 2800
-F 0 "U9" H 5950 2600 50  0000 C CNN
-F 1 "SN74LVC8T245PW" H 5950 2500 50  0000 C CNN
-F 2 "apple-ice:TSSOP-24_4.4x7.8mm_P0.65mm" H 5950 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 6050 3150 50  0001 C CNN
-	1    5950 2800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L apple-ice:A2Bus-apple2 P1
-U 1 1 621B6E8C
-P 3800 4300
-F 0 "P1" H 3800 4250 60  0000 C CNN
-F 1 "A2Bus-apple2" H 3800 4150 60  0000 C CNN
-F 2 "apple-ice:A2-50PIN-MINI" H 3800 4300 60  0001 C CNN
-F 3 "" H 3800 4300 60  0001 C CNN
-	1    3800 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 4150 5000 4150
-Wire Wire Line
-	4500 4250 5000 4250
-Wire Wire Line
-	4500 4350 5000 4350
-Wire Wire Line
-	4500 4450 5000 4450
-Wire Wire Line
-	4500 4550 5000 4550
-Wire Wire Line
-	4500 4650 5000 4650
-Wire Wire Line
-	4500 4750 5000 4750
-Wire Wire Line
-	4500 4850 5000 4850
-Wire Wire Line
-	4500 4950 5000 4950
-Wire Wire Line
-	4500 5050 5000 5050
-Wire Wire Line
-	4500 5150 5000 5150
-Wire Wire Line
-	4500 5250 5000 5250
-Wire Wire Line
-	4500 5350 5000 5350
-Wire Wire Line
-	4500 5450 5000 5450
-Wire Wire Line
-	4500 5550 5000 5550
-Wire Wire Line
-	4500 5650 5000 5650
-Wire Wire Line
-	2900 4950 3100 4950
-Wire Wire Line
-	2900 5050 3100 5050
-Wire Wire Line
-	2900 5150 3100 5150
-Wire Wire Line
-	2900 5250 3100 5250
-Wire Wire Line
-	2900 5350 3100 5350
-Wire Wire Line
-	2900 5450 3100 5450
-Wire Wire Line
-	2900 5550 3100 5550
-Wire Wire Line
-	2900 5650 3100 5650
-Wire Bus Line
-	4550 9350 6750 9350
-Entry Bus Bus
-	6750 9350 6850 9450
-Wire Wire Line
-	3850 7150 3850 7200
-$Comp
-L apple-ice:C_Small C6
-U 1 1 612475AD
-P 3850 7050
-F 0 "C6" H 3758 7004 50  0000 R CNN
-F 1 "0.1uF" H 3758 7095 50  0000 R CNN
-F 2 "" H 3850 7050 50  0001 C CNN
-F 3 "~" H 3850 7050 50  0001 C CNN
-	1    3850 7050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3850 6950 3850 6900
-Wire Wire Line
-	3600 6900 3600 7300
-Wire Wire Line
-	3850 6900 3600 6900
-Wire Wire Line
-	4750 8600 5000 8600
-Connection ~ 4750 8600
-Wire Wire Line
-	4500 2800 4650 2800
-Wire Wire Line
-	4650 2800 4650 2300
-Wire Wire Line
-	4650 2300 5350 2300
-Wire Wire Line
-	4500 2900 4750 2900
-Wire Wire Line
-	4750 2900 4750 2400
-Wire Wire Line
-	4750 2400 5350 2400
-Wire Wire Line
-	4500 3000 4850 3000
-Wire Wire Line
-	4850 3000 4850 2500
-Wire Wire Line
-	4850 2500 5350 2500
-Wire Wire Line
-	4500 3100 4950 3100
-Wire Wire Line
-	4950 3100 4950 2600
-Wire Wire Line
-	4950 2600 5350 2600
-$Comp
-L apple-ice:R_Small R3
-U 1 1 62BEE8A1
-P 4850 3550
-F 0 "R3" V 4780 3550 50  0000 C CNN
-F 1 "390" V 4920 3560 50  0000 C CNN
-F 2 "" H 4850 3550 50  0001 C CNN
-F 3 "~" H 4850 3550 50  0001 C CNN
-	1    4850 3550
+P 13450 5100
+F 0 "U?" V 13850 4350 50  0000 L CNN
+F 1 "ICE40HX1K-TQ144" V 14000 4150 50  0000 L CNN
+F 2 "apple-ice:TQFP-144_20x20mm_P0.5mm" H 13450 3650 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 12600 6500 50  0001 C CNN
+	5    13450 5100
 	0    1    1    0   
 $EndComp
+$Comp
+L apple-ice:W25Q16JVSS U?
+U 1 1 60A599C8
+P 13550 3000
+F 0 "U?" H 13550 2950 50  0000 C CNN
+F 1 "W25Q16JVSS" H 13550 2800 50  0000 C CNN
+F 2 "apple-ice:SOIC-8_5.23x5.23mm_P1.27mm" H 13550 3000 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 13550 3000 50  0001 C CNN
+	1    13550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:MCP1703A-1202_SOT223 U?
+U 1 1 60A75D9A
+P 8650 10350
+F 0 "U?" H 8650 10592 50  0000 C CNN
+F 1 "MCP1703A-1202_SOT223" H 8650 10501 50  0000 C CNN
+F 2 "apple-ice:SOT-223-3_TabPin2" H 8650 10550 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 8650 10300 50  0001 C CNN
+	1    8650 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:SN74LVC8T245PW U?
+U 1 1 60B3B735
+P 4500 10050
+F 0 "U?" H 4500 9900 50  0000 C CNN
+F 1 "SN74LVC8T245PW" H 4500 9750 50  0000 C CNN
+F 2 "apple-ice:TSSOP-24_4.4x7.8mm_P0.65mm" H 4500 8850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 4600 10400 50  0001 C CNN
+	1    4500 10050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L apple-ice:MCP1703A-3302_SOT223 U?
+U 1 1 60AEED14
+P 8650 9200
+F 0 "U?" H 8650 9442 50  0000 C CNN
+F 1 "MCP1703A-3302_SOT223" H 8650 9351 50  0000 C CNN
+F 2 "apple-ice:SOT-223-3_TabPin2" H 8650 9400 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 8650 9150 50  0001 C CNN
+	1    8650 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:C_Small C?
+U 1 1 60AF9D0F
+P 9100 9400
+F 0 "C?" H 9192 9446 50  0000 L CNN
+F 1 "1uF" H 9192 9355 50  0000 L CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9100 9400 50  0001 C CNN
+F 3 "~" H 9100 9400 50  0001 C CNN
+	1    9100 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 60AFB3B7
+P 9100 9600
+F 0 "#PWR?" H 9100 9350 50  0001 C CNN
+F 1 "GND" H 9105 9427 50  0000 C CNN
+F 2 "" H 9100 9600 50  0001 C CNN
+F 3 "" H 9100 9600 50  0001 C CNN
+	1    9100 9600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4500 3550 4750 3550
+	8650 9500 8650 9550
 Wire Wire Line
-	4950 3550 5250 3550
+	8950 9200 9100 9200
 Wire Wire Line
-	5250 2900 5350 2900
-Text Label 4520 2800 0    50   ~ 0
+	9100 9200 9100 9300
+Connection ~ 9100 9200
+Wire Wire Line
+	9100 9200 9300 9200
+Wire Wire Line
+	9100 9500 9100 9550
+Wire Wire Line
+	8650 9550 9100 9550
+Connection ~ 9100 9550
+Wire Wire Line
+	9100 9550 9100 9600
+Wire Wire Line
+	9300 9200 9300 9100
+$Comp
+L apple-ice:+5V #PWR?
+U 1 1 60B0E545
+P 7800 9100
+F 0 "#PWR?" H 7800 8950 50  0001 C CNN
+F 1 "+5V" H 7815 9273 50  0000 C CNN
+F 2 "" H 7800 9100 50  0001 C CNN
+F 3 "" H 7800 9100 50  0001 C CNN
+	1    7800 9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 9100 7800 9200
+Wire Wire Line
+	7800 9200 8150 9200
+Connection ~ 8150 9200
+Wire Wire Line
+	8150 9500 8150 9600
+Wire Wire Line
+	8150 9200 8350 9200
+Wire Wire Line
+	8150 9200 8150 9300
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 60AF7F2F
+P 8150 9600
+F 0 "#PWR?" H 8150 9350 50  0001 C CNN
+F 1 "GND" H 8155 9427 50  0000 C CNN
+F 2 "" H 8150 9600 50  0001 C CNN
+F 3 "" H 8150 9600 50  0001 C CNN
+	1    8150 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:C_Small C?
+U 1 1 60AF41CD
+P 8150 9400
+F 0 "C?" H 8242 9446 50  0000 L CNN
+F 1 "1uF" H 8242 9355 50  0000 L CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8150 9400 50  0001 C CNN
+F 3 "~" H 8150 9400 50  0001 C CNN
+	1    8150 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 10250 7800 10350
+Wire Wire Line
+	7800 10350 8150 10350
+Connection ~ 8150 10350
+Wire Wire Line
+	8150 10650 8150 10750
+Wire Wire Line
+	8150 10350 8350 10350
+Wire Wire Line
+	8150 10350 8150 10450
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 60BACFC6
+P 8150 10750
+F 0 "#PWR?" H 8150 10500 50  0001 C CNN
+F 1 "GND" H 8155 10577 50  0000 C CNN
+F 2 "" H 8150 10750 50  0001 C CNN
+F 3 "" H 8150 10750 50  0001 C CNN
+	1    8150 10750
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:C_Small C?
+U 1 1 60BACFCC
+P 8150 10550
+F 0 "C?" H 8242 10596 50  0000 L CNN
+F 1 "1uF" H 8242 10505 50  0000 L CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8150 10550 50  0001 C CNN
+F 3 "~" H 8150 10550 50  0001 C CNN
+	1    8150 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:+5V #PWR?
+U 1 1 60BAD45C
+P 7800 10250
+F 0 "#PWR?" H 7800 10100 50  0001 C CNN
+F 1 "+5V" H 7815 10423 50  0000 C CNN
+F 2 "" H 7800 10250 50  0001 C CNN
+F 3 "" H 7800 10250 50  0001 C CNN
+	1    7800 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:C_Small C?
+U 1 1 60BBE593
+P 9100 10550
+F 0 "C?" H 9192 10596 50  0000 L CNN
+F 1 "1uF" H 9192 10505 50  0000 L CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9100 10550 50  0001 C CNN
+F 3 "~" H 9100 10550 50  0001 C CNN
+	1    9100 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 60BBE599
+P 9100 10750
+F 0 "#PWR?" H 9100 10500 50  0001 C CNN
+F 1 "GND" H 9105 10577 50  0000 C CNN
+F 2 "" H 9100 10750 50  0001 C CNN
+F 3 "" H 9100 10750 50  0001 C CNN
+	1    9100 10750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 10350 9100 10350
+Wire Wire Line
+	9100 10350 9100 10450
+Connection ~ 9100 10350
+Wire Wire Line
+	9100 10350 9300 10350
+Wire Wire Line
+	9100 10650 9100 10700
+Wire Wire Line
+	8650 10700 9100 10700
+Connection ~ 9100 10700
+Wire Wire Line
+	9100 10700 9100 10750
+Wire Wire Line
+	9300 10350 9300 10250
+Wire Wire Line
+	8650 10650 8650 10700
+Entry Wire Line
+	1400 4950 1300 5050
+Entry Wire Line
+	1300 5150 1400 5050
+Entry Wire Line
+	1400 5150 1300 5250
+Entry Wire Line
+	1400 5250 1300 5350
+Entry Wire Line
+	1400 5350 1300 5450
+Entry Wire Line
+	1400 5450 1300 5550
+Entry Wire Line
+	1400 5550 1300 5650
+Entry Wire Line
+	1400 5650 1300 5750
+Entry Wire Line
+	3800 9550 3700 9450
+Wire Wire Line
+	3800 9550 3900 9550
+Wire Wire Line
+	3900 9650 3800 9650
+Wire Wire Line
+	3900 9750 3800 9750
+Wire Wire Line
+	3900 9850 3800 9850
+Wire Wire Line
+	3900 9950 3800 9950
+Wire Wire Line
+	3900 10050 3800 10050
+Wire Wire Line
+	3900 10150 3800 10150
+Entry Wire Line
+	3700 9550 3800 9650
+Entry Wire Line
+	3700 9650 3800 9750
+Entry Wire Line
+	3700 9750 3800 9850
+Entry Wire Line
+	3700 9850 3800 9950
+Entry Wire Line
+	3700 9950 3800 10050
+Entry Wire Line
+	3700 10050 3800 10150
+Wire Wire Line
+	3900 10250 3800 10250
+Entry Wire Line
+	3800 10250 3700 10150
+Text Label 1400 5650 0    50   ~ 0
+D7
+Text Label 1400 5550 0    50   ~ 0
+D6
+Text Label 1400 5450 0    50   ~ 0
+D5
+Text Label 1400 5350 0    50   ~ 0
+D4
+Text Label 1400 5250 0    50   ~ 0
+D3
+Text Label 1400 5150 0    50   ~ 0
+D2
+Text Label 1400 5050 0    50   ~ 0
+D1
+Text Label 1400 4950 0    50   ~ 0
+D0
+Text Label 3800 9550 0    50   ~ 0
+D7
+Text Label 3800 9650 0    50   ~ 0
+D6
+Text Label 3800 9750 0    50   ~ 0
+D5
+Text Label 3800 9850 0    50   ~ 0
+D4
+Text Label 3800 9950 0    50   ~ 0
+D3
+Text Label 3800 10050 0    50   ~ 0
+D2
+Text Label 3800 10150 0    50   ~ 0
+D1
+Text Label 3800 10250 0    50   ~ 0
+D0
+Entry Wire Line
+	3550 4150 3650 4250
+Entry Wire Line
+	3550 4250 3650 4350
+Entry Wire Line
+	3550 4350 3650 4450
+Entry Wire Line
+	3550 4450 3650 4550
+Entry Wire Line
+	3550 4550 3650 4650
+Entry Wire Line
+	3550 4650 3650 4750
+Entry Wire Line
+	3550 4750 3650 4850
+Entry Wire Line
+	3550 4850 3650 4950
+Entry Wire Line
+	3550 4950 3650 5050
+Entry Wire Line
+	3550 5050 3650 5150
+Entry Wire Line
+	3550 5150 3650 5250
+Entry Wire Line
+	3550 5250 3650 5350
+Entry Wire Line
+	3550 5350 3650 5450
+Entry Wire Line
+	3550 5450 3650 5550
+Entry Wire Line
+	3550 5550 3650 5650
+Entry Wire Line
+	3550 5650 3650 5750
+Text Label 3350 5650 0    50   ~ 0
+A15
+Text Label 3350 5550 0    50   ~ 0
+A14
+Text Label 3350 5450 0    50   ~ 0
+A13
+Text Label 3350 5350 0    50   ~ 0
+A12
+Text Label 3350 5250 0    50   ~ 0
+A11
+Text Label 3350 5150 0    50   ~ 0
+A10
+Text Label 3350 5050 0    50   ~ 0
+A9
+Text Label 3350 4950 0    50   ~ 0
+A8
+Text Label 3350 4850 0    50   ~ 0
+A7
+Text Label 3350 4750 0    50   ~ 0
+A6
+Text Label 3350 4650 0    50   ~ 0
+A5
+Text Label 3350 4550 0    50   ~ 0
+A4
+Text Label 3350 4450 0    50   ~ 0
+A3
+Text Label 3350 4350 0    50   ~ 0
+A2
+Text Label 3350 4250 0    50   ~ 0
+A1
+Text Label 3350 4150 0    50   ~ 0
+A0
+Text Label 3750 8000 0    50   ~ 0
+A9
+Text Label 3750 7900 0    50   ~ 0
+A10
+Text Label 3750 7800 0    50   ~ 0
+A11
+Text Label 3750 7700 0    50   ~ 0
+A12
+Text Label 3750 7600 0    50   ~ 0
+A13
+Text Label 3750 7500 0    50   ~ 0
+A14
+Text Label 3750 7400 0    50   ~ 0
+A15
+Text Label 3750 8100 0    50   ~ 0
+A8
+Wire Wire Line
+	3900 8100 3750 8100
+Wire Wire Line
+	3900 8000 3750 8000
+Wire Wire Line
+	3750 7900 3900 7900
+Wire Wire Line
+	3900 7800 3750 7800
+Wire Wire Line
+	3750 7700 3900 7700
+Wire Wire Line
+	3900 7600 3750 7600
+Wire Wire Line
+	3900 7500 3750 7500
+Wire Wire Line
+	3750 7400 3900 7400
+$Comp
+L apple-ice:SN74LVC8T245PW U?
+U 1 1 60A78CB1
+P 4500 7900
+F 0 "U?" H 4500 7750 50  0000 C CNN
+F 1 "SN74LVC8T245PW" H 4500 7600 50  0000 C CNN
+F 2 "apple-ice:TSSOP-24_4.4x7.8mm_P0.65mm" H 4500 6700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 4600 8250 50  0001 C CNN
+	1    4500 7900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 60AB624A
+P 4500 6550
+F 0 "#PWR?" H 4500 6300 50  0001 C CNN
+F 1 "GND" H 4600 6600 50  0000 C CNN
+F 2 "" H 4500 6550 50  0001 C CNN
+F 3 "" H 4500 6550 50  0001 C CNN
+	1    4500 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 8400 5250 8400
+Wire Wire Line
+	5250 8400 5250 8700
+Wire Wire Line
+	5250 8700 4500 8700
+Wire Wire Line
+	5100 8300 5250 8300
+Wire Wire Line
+	5250 8300 5250 8400
+Connection ~ 5250 8400
+Connection ~ 4500 8700
+Wire Wire Line
+	5100 7400 5400 7400
+Wire Wire Line
+	5400 7500 5100 7500
+Wire Wire Line
+	5100 7600 5400 7600
+Wire Wire Line
+	5400 7700 5100 7700
+Wire Wire Line
+	5100 7800 5400 7800
+Wire Wire Line
+	5400 7900 5100 7900
+Wire Wire Line
+	5100 8000 5400 8000
+Wire Wire Line
+	5400 8100 5100 8100
+Text Label 5100 7400 0    50   ~ 0
+A15_33
+Text Label 5100 7500 0    50   ~ 0
+A14_33
+Text Label 5100 7600 0    50   ~ 0
+A13_33
+Text Label 5100 7700 0    50   ~ 0
+A12_33
+Text Label 5100 7800 0    50   ~ 0
+A11_33
+Text Label 5100 7900 0    50   ~ 0
+A10_33
+Text Label 5100 8000 0    50   ~ 0
+A9_33
+Text Label 5100 8100 0    50   ~ 0
+A8_33
+Text Label 5700 8000 0    50   ~ 0
+A0_33
+Text Label 5700 8100 0    50   ~ 0
+A1_33
+Text Label 5700 8200 0    50   ~ 0
+A2_33
+Text Label 5700 8300 0    50   ~ 0
+A3_33
+Text Label 5700 8400 0    50   ~ 0
+A4_33
+Text Label 5700 8500 0    50   ~ 0
+A5_33
+Text Label 5700 8600 0    50   ~ 0
+A6_33
+Text Label 5700 8700 0    50   ~ 0
+A7_33
+Text Label 5700 8900 0    50   ~ 0
+A9_33
+Text Label 5700 9000 0    50   ~ 0
+A10_33
+Text Label 5700 9100 0    50   ~ 0
+A11_33
+Text Label 5700 9200 0    50   ~ 0
+A12_33
+Text Label 5700 9300 0    50   ~ 0
+A13_33
+Text Label 5700 9400 0    50   ~ 0
+A14_33
+Text Label 5700 9500 0    50   ~ 0
+A15_33
+$Comp
+L apple-ice:ICE40HX1K-TQ144 U?
+U 4 1 609E4953
+P 6500 8300
+F 0 "U?" H 6880 8428 50  0000 L CNN
+F 1 "ICE40HX1K-TQ144" H 6880 8337 50  0000 L CNN
+F 2 "apple-ice:TQFP-144_20x20mm_P0.5mm" H 6500 6850 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 5650 9700 50  0001 C CNN
+	4    6500 8300
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	5400 9650 5500 9550
+Entry Wire Line
+	5400 9750 5500 9650
+Entry Wire Line
+	5400 9850 5500 9750
+Entry Wire Line
+	5400 9950 5500 9850
+Entry Wire Line
+	5400 10050 5500 9950
+Entry Wire Line
+	5400 10150 5500 10050
+Entry Wire Line
+	5400 10250 5500 10150
+Entry Wire Line
+	5400 9550 5500 9450
+Wire Wire Line
+	5100 9550 5400 9550
+Wire Wire Line
+	5400 9650 5100 9650
+Wire Wire Line
+	5100 9750 5400 9750
+Wire Wire Line
+	5400 9850 5100 9850
+Wire Wire Line
+	5100 9950 5400 9950
+Wire Wire Line
+	5400 10050 5100 10050
+Wire Wire Line
+	5100 10150 5400 10150
+Wire Wire Line
+	5400 10250 5100 10250
+Text Label 5100 9550 0    50   ~ 0
+D7_33
+Text Label 5100 9650 0    50   ~ 0
+D6_33
+Text Label 5100 9850 0    50   ~ 0
+D4_33
+Text Label 5100 9950 0    50   ~ 0
+D3_33
+Text Label 5100 10050 0    50   ~ 0
+D2_33
+Text Label 5100 10150 0    50   ~ 0
+D1_33
+Text Label 5100 10250 0    50   ~ 0
+D0_33
+Text Label 5100 9750 0    50   ~ 0
+D5_33
+Text Label 5700 7900 0    50   ~ 0
+D7_33
+Text Label 5700 7800 0    50   ~ 0
+D6_33
+Text Label 5700 7700 0    50   ~ 0
+D5_33
+Text Label 5700 7600 0    50   ~ 0
+D4_33
+Text Label 5700 7500 0    50   ~ 0
+D3_33
+Text Label 5700 7400 0    50   ~ 0
+D2_33
+Text Label 5700 7300 0    50   ~ 0
+D1_33
+Text Label 5700 7200 0    50   ~ 0
+D0_33
+Text Label 5700 8800 0    50   ~ 0
+A8_33
+Wire Wire Line
+	5100 10450 5550 10450
+Text Label 5550 10450 0    50   ~ 0
 RW
 Wire Wire Line
-	6550 3000 7650 3000
-Wire Wire Line
-	6550 2900 7650 2900
-Wire Wire Line
-	6550 2800 7650 2800
-Wire Wire Line
-	6550 2700 7650 2700
-Wire Wire Line
-	6550 2600 7650 2600
-Wire Wire Line
-	7650 2500 6550 2500
-Wire Wire Line
-	6550 2400 7650 2400
-Wire Wire Line
-	7650 2300 6550 2300
-Wire Wire Line
-	3100 5800 2850 5800
-Wire Wire Line
-	2850 5800 2850 6400
-Wire Wire Line
-	2850 6400 4800 6400
-Wire Wire Line
-	4800 6400 4800 5800
-Wire Wire Line
-	4800 5800 4500 5800
-Wire Wire Line
-	3100 5900 2950 5900
-Wire Wire Line
-	2950 5900 2950 6300
-Wire Wire Line
-	2950 6300 4700 6300
-Wire Wire Line
-	4700 6300 4700 5900
-Wire Wire Line
-	4700 5900 4500 5900
-Wire Wire Line
-	6550 3200 6650 3200
-Wire Wire Line
-	6650 3200 6650 3300
-Wire Wire Line
-	6650 3300 6550 3300
-Wire Wire Line
-	6650 3300 6650 3600
-Connection ~ 6650 3300
+	5100 10550 5750 10550
 $Comp
-L apple-ice:GND #PWR0106
-U 1 1 62DC9E2C
-P 5950 3650
-F 0 "#PWR0106" H 5950 3400 50  0001 C CNN
-F 1 "GND" H 5955 3477 50  0000 C CNN
-F 2 "" H 5950 3650 50  0001 C CNN
-F 3 "" H 5950 3650 50  0001 C CNN
-	1    5950 3650
+L apple-ice:R_Small R?
+U 1 1 6122676E
+P 5750 10200
+F 0 "R?" H 5600 10250 50  0000 L CNN
+F 1 "22k" H 5550 10150 50  0000 L CNN
+F 2 "apple-ice:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5750 10200 50  0001 C CNN
+F 3 "~" H 5750 10200 50  0001 C CNN
+	1    5750 10200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 3200 5050 3200
+	5750 10300 5750 10550
 Wire Wire Line
-	5050 3200 5050 2700
-Wire Wire Line
-	5050 2700 5350 2700
-Wire Wire Line
-	4500 3350 5150 3350
-Wire Wire Line
-	5150 3350 5150 2800
-Wire Wire Line
-	5150 2800 5350 2800
-NoConn ~ 4500 3450
-Wire Wire Line
-	5250 2900 5250 3550
-Wire Wire Line
-	4500 3750 5350 3750
-Wire Wire Line
-	5350 3750 5350 3000
-NoConn ~ 4500 3650
-Wire Wire Line
-	2950 2800 3100 2800
-Wire Wire Line
-	3100 2900 2950 2900
-Wire Wire Line
-	2950 3000 3100 3000
-Wire Wire Line
-	2950 3100 3100 3100
-Wire Wire Line
-	7650 2200 6700 2200
-Wire Wire Line
-	6700 2200 6700 1350
-Wire Wire Line
-	6700 1350 1600 1350
-Wire Wire Line
-	1600 1350 1600 2800
-Wire Wire Line
-	1600 2800 1750 2800
-Wire Wire Line
-	7650 2100 6800 2100
-Wire Wire Line
-	6800 2100 6800 1250
-Wire Wire Line
-	6800 1250 1500 1250
-Wire Wire Line
-	1500 1250 1500 2900
-Wire Wire Line
-	1500 2900 1750 2900
-Wire Wire Line
-	7650 2000 6900 2000
-Wire Wire Line
-	6900 2000 6900 1150
-Wire Wire Line
-	6900 1150 1400 1150
-Wire Wire Line
-	1400 1150 1400 3000
-Wire Wire Line
-	1400 3000 1750 3000
-Wire Wire Line
-	7650 1900 7000 1900
-Wire Wire Line
-	7000 1900 7000 1050
-Wire Wire Line
-	7000 1050 1300 1050
-Wire Wire Line
-	1300 1050 1300 3100
-Wire Wire Line
-	1300 3100 1750 3100
-NoConn ~ 4500 3850
-NoConn ~ 4500 3950
+	5750 10100 5750 10000
 $Comp
-L apple-ice:GND #PWR0107
-U 1 1 6319C83D
-P 2350 4200
-F 0 "#PWR0107" H 2350 3950 50  0001 C CNN
-F 1 "GND" H 2355 4027 50  0000 C CNN
-F 2 "" H 2350 4200 50  0001 C CNN
-F 3 "" H 2350 4200 50  0001 C CNN
-	1    2350 4200
+L apple-ice:C_Small C?
+U 1 1 61246E74
+P 4100 9100
+F 0 "C?" H 4250 9050 50  0000 R CNN
+F 1 "0.1uF" H 4350 9200 50  0000 R CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4100 9100 50  0001 C CNN
+F 3 "~" H 4100 9100 50  0001 C CNN
+	1    4100 9100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 9000 4400 9000
+Wire Wire Line
+	4400 9000 4400 9250
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 612CE11F
+P 4100 9200
+F 0 "#PWR?" H 4100 8950 50  0001 C CNN
+F 1 "GND" H 4105 9027 50  0000 C CNN
+F 2 "" H 4100 9200 50  0001 C CNN
+F 3 "" H 4100 9200 50  0001 C CNN
+	1    4100 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 612D2F7C
+P 4850 9200
+F 0 "#PWR?" H 4850 8950 50  0001 C CNN
+F 1 "GND" H 4855 9027 50  0000 C CNN
+F 2 "" H 4850 9200 50  0001 C CNN
+F 3 "" H 4850 9200 50  0001 C CNN
+	1    4850 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 61314AF4
+P 4500 10950
+F 0 "#PWR?" H 4500 10700 50  0001 C CNN
+F 1 "GND" H 4505 10777 50  0000 C CNN
+F 2 "" H 4500 10950 50  0001 C CNN
+F 3 "" H 4500 10950 50  0001 C CNN
+	1    4500 10950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 3700 1000 3700
-NoConn ~ 1750 3300
-NoConn ~ 1750 3400
-NoConn ~ 1750 3500
-Wire Wire Line
-	2950 3300 3050 3300
-Wire Wire Line
-	3050 3300 3050 3400
-Wire Wire Line
-	3050 3400 2950 3400
-Wire Wire Line
-	2950 3500 3050 3500
-Wire Wire Line
-	3050 3500 3050 3400
-Connection ~ 3050 3400
+	4500 10850 4500 10950
 $Comp
-L apple-ice:GND #PWR01
-U 1 1 60CAC61C
-P 3050 3650
-F 0 "#PWR01" H 3050 3400 50  0001 C CNN
-F 1 "GND" H 3055 3477 50  0000 C CNN
-F 2 "" H 3050 3650 50  0001 C CNN
-F 3 "" H 3050 3650 50  0001 C CNN
-	1    3050 3650
-	1    0    0    -1  
+L apple-ice:SN74LVC8T245PW U?
+U 1 1 6133BCED
+P 4500 1550
+F 0 "U?" H 4500 1400 50  0000 C CNN
+F 1 "SN74LVC8T245PW" H 4500 1250 50  0000 C CNN
+F 2 "apple-ice:TSSOP-24_4.4x7.8mm_P0.65mm" H 4500 350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 4600 1900 50  0001 C CNN
+	1    4500 1550
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3050 3500 3050 3650
-Connection ~ 3050 3500
-Wire Wire Line
-	700  3800 700  3600
-$Comp
-L apple-ice:R_Small R2
-U 1 1 60D9F791
-P 700 3500
-F 0 "R2" H 550 3550 50  0000 L CNN
-F 1 "22k" H 500 3450 50  0000 L CNN
-F 2 "" H 700 3500 50  0001 C CNN
-F 3 "~" H 700 3500 50  0001 C CNN
-	1    700  3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	700  3400 700  3350
-$Comp
-L apple-ice:R_Small R4
-U 1 1 60DEBCD6
-P 1000 3500
-F 0 "R4" H 850 3550 50  0000 L CNN
-F 1 "22k" H 800 3450 50  0000 L CNN
-F 2 "" H 1000 3500 50  0001 C CNN
-F 3 "~" H 1000 3500 50  0001 C CNN
-	1    1000 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 3600 1000 3700
-Text Label 1000 3050 0    50   ~ 0
-3.3V
-Wire Wire Line
-	700  3800 1200 3800
-Wire Wire Line
-	1200 3800 1200 950 
-Wire Wire Line
-	1200 950  7100 950 
-Connection ~ 1200 3800
-Wire Wire Line
-	1200 3800 1750 3800
-Wire Wire Line
-	2350 4100 2350 4200
-Wire Wire Line
-	7100 1800 7650 1800
-Wire Wire Line
-	7100 950  7100 1800
-Wire Wire Line
-	5950 3600 5950 3650
-Wire Wire Line
-	6650 3600 5950 3600
-Connection ~ 5950 3600
-Wire Wire Line
-	1000 3050 1000 3350
-Wire Wire Line
-	700  3350 1000 3350
-Connection ~ 1000 3350
-Wire Wire Line
-	1000 3350 1000 3400
-NoConn ~ 1750 3200
-NoConn ~ 3100 3200
-Wire Wire Line
-	2950 3200 3050 3200
-Wire Wire Line
-	3050 3200 3050 3300
-Connection ~ 3050 3300
-Text Label 1600 2800 0    50   ~ 0
-~NMI
-Text Label 1600 2900 0    50   ~ 0
-~IRQ
-Text Label 1600 3000 0    50   ~ 0
-~INH
-Text Label 1600 3100 0    50   ~ 0
-~RDY
-Text Label 7050 2200 0    50   ~ 0
-~NMI
-Text Label 7050 2100 0    50   ~ 0
-~IRQ
-Text Label 7050 2000 0    50   ~ 0
-~INH
-Text Label 7050 1900 0    50   ~ 0
-~RDY
-Wire Wire Line
-	7650 3100 6850 3100
-Text Label 6850 3100 0    50   ~ 0
+Text Label 6000 10550 0    50   ~ 0
 ~D_OE
 $Comp
-L apple-ice:Conn_02x10_Odd_Even J1
+L apple-ice:A2Bus-apple2 P?
+U 1 1 621B6E8C
+P 2300 4300
+F 0 "P?" H 2300 4250 60  0000 C CNN
+F 1 "A2Bus-apple2" H 2300 4150 60  0000 C CNN
+F 2 "apple-ice:A2-50PIN-MINI" H 2300 4300 60  0001 C CNN
+F 3 "" H 2300 4300 60  0001 C CNN
+	1    2300 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4150 3550 4150
+Wire Wire Line
+	3000 4250 3550 4250
+Wire Wire Line
+	3000 4350 3550 4350
+Wire Wire Line
+	3000 4450 3550 4450
+Wire Wire Line
+	3000 4550 3550 4550
+Wire Wire Line
+	3000 4650 3550 4650
+Wire Wire Line
+	3000 4750 3550 4750
+Wire Wire Line
+	3000 4850 3550 4850
+Wire Wire Line
+	3000 4950 3550 4950
+Wire Wire Line
+	3000 5050 3550 5050
+Wire Wire Line
+	3000 5150 3550 5150
+Wire Wire Line
+	3000 5250 3550 5250
+Wire Wire Line
+	3000 5350 3550 5350
+Wire Wire Line
+	3000 5450 3550 5450
+Wire Wire Line
+	3000 5550 3550 5550
+Wire Wire Line
+	3000 5650 3550 5650
+Wire Wire Line
+	1400 4950 1600 4950
+Wire Wire Line
+	1400 5050 1600 5050
+Wire Wire Line
+	1400 5150 1600 5150
+Wire Wire Line
+	1400 5250 1600 5250
+Wire Wire Line
+	1400 5350 1600 5350
+Wire Wire Line
+	1400 5450 1600 5450
+Wire Wire Line
+	1400 5550 1600 5550
+Wire Wire Line
+	1400 5650 1600 5650
+$Comp
+L apple-ice:C_Small C?
+U 1 1 612475AD
+P 4850 9100
+F 0 "C?" H 4758 9054 50  0000 R CNN
+F 1 "0.1uF" H 4758 9145 50  0000 R CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4850 9100 50  0001 C CNN
+F 3 "~" H 4850 9100 50  0001 C CNN
+	1    4850 9100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 9000 4600 9250
+Wire Wire Line
+	4850 9000 4600 9000
+Wire Wire Line
+	5750 10550 6000 10550
+$Comp
+L apple-ice:R_Small R?
+U 1 1 62BEE8A1
+P 3250 3650
+F 0 "R?" V 3180 3650 50  0000 C CNN
+F 1 "390" V 3320 3660 50  0000 C CNN
+F 2 "apple-ice:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3250 3650 50  0001 C CNN
+F 3 "~" H 3250 3650 50  0001 C CNN
+	1    3250 3650
+	0    1    1    0   
+$EndComp
+Text Label 3020 2800 0    50   ~ 0
+RW
+Wire Wire Line
+	1600 5800 1350 5800
+Wire Wire Line
+	1350 5800 1350 6400
+Wire Wire Line
+	1350 6400 3300 6400
+Wire Wire Line
+	3300 6400 3300 5800
+Wire Wire Line
+	3300 5800 3000 5800
+Wire Wire Line
+	1600 5900 1450 5900
+Wire Wire Line
+	1450 5900 1450 6300
+Wire Wire Line
+	1450 6300 3200 6300
+Wire Wire Line
+	3200 6300 3200 5900
+Wire Wire Line
+	3200 5900 3000 5900
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 62DC9E2C
+P 4500 4400
+F 0 "#PWR?" H 4500 4150 50  0001 C CNN
+F 1 "GND" H 4505 4227 50  0000 C CNN
+F 2 "" H 4500 4400 50  0001 C CNN
+F 3 "" H 4500 4400 50  0001 C CNN
+	1    4500 4400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3000 3450
+NoConn ~ 3000 3650
+Wire Wire Line
+	6850 1450 5650 1450
+NoConn ~ 3000 3850
+NoConn ~ 3000 3950
+Wire Wire Line
+	5100 1950 5300 1950
+Wire Wire Line
+	5550 2050 5550 1950
+$Comp
+L apple-ice:R_Small R?
+U 1 1 60D9F791
+P 5550 1800
+F 0 "R?" H 5600 1850 50  0000 L CNN
+F 1 "22k" H 5600 1750 50  0000 L CNN
+F 2 "apple-ice:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5550 1800 50  0001 C CNN
+F 3 "~" H 5550 1800 50  0001 C CNN
+	1    5550 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1700 5550 1600
+$Comp
+L apple-ice:R_Small R?
+U 1 1 60DEBCD6
+P 5300 1800
+F 0 "R?" H 5350 1850 50  0000 L CNN
+F 1 "22k" H 5350 1750 50  0000 L CNN
+F 2 "apple-ice:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5300 1800 50  0001 C CNN
+F 3 "~" H 5300 1800 50  0001 C CNN
+	1    5300 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1900 5300 1950
+Wire Wire Line
+	4500 4350 4500 4400
+Wire Wire Line
+	5200 4350 4500 4350
+Wire Wire Line
+	5550 1600 5300 1600
+Connection ~ 5300 1600
+Wire Wire Line
+	5300 1600 5300 1700
+NoConn ~ 1600 3200
+Text Label 5750 1350 0    50   ~ 0
+~NMI
+Text Label 5750 1250 0    50   ~ 0
+~IRQ
+Text Label 5750 1150 0    50   ~ 0
+~INH
+Text Label 5750 1050 0    50   ~ 0
+~RDY
+$Comp
+L apple-ice:Conn_02x10_Odd_Even J?
 U 1 1 6132234F
-P 7750 5050
-F 0 "J1" H 7800 5550 50  0000 C CNN
-F 1 "TO_SP_DRIVE" H 7800 4450 50  0000 C CNN
-F 2 "apple-ice:IDC-Header_2x10_P2.54mm_Vertical" H 7750 5050 50  0001 C CNN
-F 3 "~" H 7750 5050 50  0001 C CNN
-	1    7750 5050
+P 6050 4750
+F 0 "J?" H 6100 5250 50  0000 C CNN
+F 1 "TO_SP_DRIVE" H 6100 4150 50  0000 C CNN
+F 2 "apple-ice:IDC-Header_2x10_P2.54mm_Vertical" H 6050 4750 50  0001 C CNN
+F 3 "~" H 6050 4750 50  0001 C CNN
+	1    6050 4750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3700 2500 3700 2300
 $Comp
-L apple-ice:+5V #PWR02
+L apple-ice:+5V #PWR?
 U 1 1 60BAECBB
-P 3700 2250
-F 0 "#PWR02" H 3700 2100 50  0001 C CNN
-F 1 "+5V" H 3715 2423 50  0000 C CNN
-F 2 "" H 3700 2250 50  0001 C CNN
-F 3 "" H 3700 2250 50  0001 C CNN
-	1    3700 2250
+P 2200 2250
+F 0 "#PWR?" H 2200 2100 50  0001 C CNN
+F 1 "+5V" H 2215 2423 50  0000 C CNN
+F 2 "" H 2200 2250 50  0001 C CNN
+F 3 "" H 2200 2250 50  0001 C CNN
+	1    2200 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 2300 3850 2300
-Wire Wire Line
-	3850 2300 3850 2150
-Connection ~ 3700 2300
-Wire Wire Line
-	3700 2300 3700 2250
-Text Label 3850 2150 0    50   ~ 0
-5V
-Wire Wire Line
-	7550 4750 7550 4650
-Connection ~ 7550 4650
+	5850 4450 5850 4350
+Connection ~ 5850 4350
 $Comp
-L apple-ice:GND #PWR09
+L apple-ice:GND #PWR?
 U 1 1 60C47F24
-P 7300 4400
-F 0 "#PWR09" H 7300 4150 50  0001 C CNN
-F 1 "GND" H 7305 4227 50  0000 C CNN
-F 2 "" H 7300 4400 50  0001 C CNN
-F 3 "" H 7300 4400 50  0001 C CNN
-	1    7300 4400
+P 5600 4100
+F 0 "#PWR?" H 5600 3850 50  0001 C CNN
+F 1 "GND" H 5605 3927 50  0000 C CNN
+F 2 "" H 5600 4100 50  0001 C CNN
+F 3 "" H 5600 4100 50  0001 C CNN
+	1    5600 4100
 	1    0    0    -1  
 $EndComp
-Text Label 8350 4650 2    50   ~ 0
+Text Label 6500 4350 2    50   ~ 0
 PH0
-Text Label 8350 4750 2    50   ~ 0
+Text Label 6500 4450 2    50   ~ 0
 PH1
-Text Label 8350 4850 2    50   ~ 0
+Text Label 6500 4550 2    50   ~ 0
 PH2
-Text Label 8350 4950 2    50   ~ 0
+Text Label 6500 4650 2    50   ~ 0
 PH3
-Text Label 8350 5050 2    50   ~ 0
+Text Label 6550 4750 2    50   ~ 0
 ~WREQ
-Text Label 8350 5150 2    50   ~ 0
+Text Label 6500 4850 2    50   ~ 0
 SEL
-Text Label 8350 5250 2    50   ~ 0
+Text Label 6650 4950 2    50   ~ 0
 ~ENABLE
-Text Label 8500 5350 2    50   ~ 0
+Text Label 6650 5050 2    50   ~ 0
 RDDATA
-Text Label 8350 5450 2    50   ~ 0
+Text Label 6650 5150 2    50   ~ 0
 WRDATA
-Text Label 8500 5550 2    50   ~ 0
+Text Label 6600 5250 2    50   ~ 0
 SENSE
-NoConn ~ 7550 5450
-NoConn ~ 7550 5550
+NoConn ~ 5850 5150
+NoConn ~ 5850 5250
 Wire Wire Line
-	7550 5350 7550 5250
+	5850 5050 5850 4950
 Wire Wire Line
-	7550 5250 7200 5250
-Connection ~ 7550 5250
-Text Label 7200 5250 0    50   ~ 0
-12V
+	5850 4850 5500 4850
 Wire Wire Line
-	7550 5150 7200 5150
-Text Label 7200 5150 0    50   ~ 0
-5V
-Wire Wire Line
-	7550 5050 7200 5050
-Text Label 7200 5050 0    50   ~ 0
--12V
-NoConn ~ 7550 4950
-Text Label 7200 4850 0    50   ~ 0
+	5850 4750 5500 4750
+NoConn ~ 5850 4650
+Text Label 5500 4550 0    50   ~ 0
 ~ENABLE2
 Wire Wire Line
-	7200 4850 7550 4850
+	5500 4550 5850 4550
 Wire Wire Line
-	7300 4300 7300 4400
+	5600 4000 5600 4100
 Wire Wire Line
-	7550 4650 7550 4300
+	5850 4350 5850 4000
 Wire Wire Line
-	7550 4300 7300 4300
+	5850 4000 5600 4000
 Wire Wire Line
-	9200 5150 9200 4000
+	6350 4850 6750 4850
 Wire Wire Line
-	9200 4000 7150 4000
+	6350 4750 6700 4750
 Wire Wire Line
-	7150 4000 7150 3700
+	6350 4650 6650 4650
 Wire Wire Line
-	7150 3700 7650 3700
+	6500 2450 6850 2450
 Wire Wire Line
-	8050 5150 9200 5150
+	6350 4350 6500 4350
+NoConn ~ 5500 4550
 Wire Wire Line
-	9150 5050 9150 4050
+	6350 4950 6800 4950
 Wire Wire Line
-	9150 4050 7100 4050
+	6350 5250 6800 5250
 Wire Wire Line
-	7100 4050 7100 3600
+	4400 7100 4400 6800
 Wire Wire Line
-	7100 3600 7650 3600
+	4400 6800 4250 6800
 Wire Wire Line
-	8050 5050 9150 5050
+	4250 6800 4250 6850
 Wire Wire Line
-	9100 4950 9100 4100
+	4600 7100 4600 6800
 Wire Wire Line
-	9100 4100 7050 4100
+	4600 6800 4750 6800
 Wire Wire Line
-	7050 4100 7050 3500
-Wire Wire Line
-	7050 3500 7650 3500
-Wire Wire Line
-	8050 4950 9100 4950
-Wire Wire Line
-	9050 4850 9050 4150
-Wire Wire Line
-	9050 4150 7000 4150
-Wire Wire Line
-	7000 4150 7000 3400
-Wire Wire Line
-	7000 3400 7650 3400
-Wire Wire Line
-	8050 4850 9050 4850
-Wire Wire Line
-	9000 4750 9000 4200
-Wire Wire Line
-	9000 4200 6950 4200
-Wire Wire Line
-	6950 4200 6950 3300
-Wire Wire Line
-	6950 3300 7650 3300
-Wire Wire Line
-	8050 4750 9000 4750
-Wire Wire Line
-	8950 4650 8950 4250
-Wire Wire Line
-	8950 4250 6900 4250
-Wire Wire Line
-	6900 4250 6900 3200
-Wire Wire Line
-	6900 3200 7650 3200
-Wire Wire Line
-	8050 4650 8950 4650
-NoConn ~ 7200 4850
-Wire Wire Line
-	9700 5250 9700 4750
-Wire Wire Line
-	9700 4750 10200 4750
-Wire Wire Line
-	8050 5250 9700 5250
-Wire Wire Line
-	9800 5450 9800 4850
-Wire Wire Line
-	9800 4850 10200 4850
-Wire Wire Line
-	8050 5450 9800 5450
-Wire Wire Line
-	8050 5350 8500 5350
-Wire Wire Line
-	8050 5550 8500 5550
-Text Label 7700 6250 0    50   ~ 0
-RDDATA
-Text Label 7700 6350 0    50   ~ 0
-SENSE
-Wire Wire Line
-	9200 6250 9650 6250
-Wire Wire Line
-	9650 6250 9650 5550
-Wire Wire Line
-	9200 6350 9700 6350
-Wire Wire Line
-	9700 6350 9700 5600
-Wire Wire Line
-	9700 5600 10000 5600
-Wire Wire Line
-	10000 5050 10200 5050
-Text Label 9200 6250 0    50   ~ 0
-RDDATA_33
-Wire Wire Line
-	10000 5600 10000 5050
-Wire Wire Line
-	9950 4950 10200 4950
-Wire Wire Line
-	9650 5550 9950 5550
-Wire Wire Line
-	9950 5550 9950 4950
-Text Label 9200 6350 0    50   ~ 0
-SENSE_33
-$Comp
-L apple-ice:R_Small R6
-U 1 1 61B29255
-P 7400 6000
-F 0 "R6" H 7250 6050 50  0000 L CNN
-F 1 "22k" H 7200 5950 50  0000 L CNN
-F 2 "" H 7400 6000 50  0001 C CNN
-F 3 "~" H 7400 6000 50  0001 C CNN
-	1    7400 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 6250 7400 6100
-Wire Wire Line
-	7400 6250 8000 6250
-$Comp
-L apple-ice:R_Small R5
-U 1 1 61B4C429
-P 7150 6000
-F 0 "R5" H 7000 6050 50  0000 L CNN
-F 1 "22k" H 6950 5950 50  0000 L CNN
-F 2 "" H 7150 6000 50  0001 C CNN
-F 3 "~" H 7150 6000 50  0001 C CNN
-	1    7150 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 6350 7150 6100
-Wire Wire Line
-	7150 6350 8000 6350
-Wire Wire Line
-	7150 5900 7150 5800
-Wire Wire Line
-	7400 5900 7400 5800
-Text Label 7150 5800 0    50   ~ 0
-5V
-Text Label 7400 5800 0    50   ~ 0
-5V
-Wire Wire Line
-	5850 2000 5850 1700
-Wire Wire Line
-	5850 1700 5650 1700
-$Comp
-L apple-ice:C_Small C?
-U 1 1 61D12146
-P 5650 1850
-F 0 "C?" H 5800 1800 50  0000 R CNN
-F 1 "0.1uF" H 5950 1900 50  0000 R CNN
-F 2 "" H 5650 1850 50  0001 C CNN
-F 3 "~" H 5650 1850 50  0001 C CNN
-	1    5650 1850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5650 1700 5650 1750
-$Comp
-L apple-ice:C_Small C?
-U 1 1 61DABD65
-P 6200 1850
-F 0 "C?" H 6108 1804 50  0000 R CNN
-F 1 "0.1uF" H 6108 1895 50  0000 R CNN
-F 2 "" H 6200 1850 50  0001 C CNN
-F 3 "~" H 6200 1850 50  0001 C CNN
-	1    6200 1850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6050 2000 6050 1700
-Wire Wire Line
-	6050 1700 6200 1700
-Wire Wire Line
-	6200 1700 6200 1750
-$Comp
-L apple-ice:GND #PWR?
-U 1 1 62166037
-P 5650 1950
-F 0 "#PWR?" H 5650 1700 50  0001 C CNN
-F 1 "GND" H 5655 1777 50  0000 C CNN
-F 2 "" H 5650 1950 50  0001 C CNN
-F 3 "" H 5650 1950 50  0001 C CNN
-	1    5650 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L apple-ice:GND #PWR?
-U 1 1 62175429
-P 6200 1950
-F 0 "#PWR?" H 6200 1700 50  0001 C CNN
-F 1 "GND" H 6205 1777 50  0000 C CNN
-F 2 "" H 6200 1950 50  0001 C CNN
-F 3 "" H 6200 1950 50  0001 C CNN
-	1    6200 1950
-	1    0    0    -1  
-$EndComp
-Text Label 5650 1700 0    50   ~ 0
-5V
-Text Label 6200 1700 0    50   ~ 0
-3.3V
-Wire Wire Line
-	5850 4050 5850 3750
-Wire Wire Line
-	5850 3750 5700 3750
-Wire Wire Line
-	5700 3750 5700 3800
-Wire Wire Line
-	6050 4050 6050 3750
-Wire Wire Line
-	6050 3750 6200 3750
-Wire Wire Line
-	6200 3750 6200 3800
-$Comp
-L apple-ice:C_Small C?
-U 1 1 6222ECB3
-P 5700 3900
-F 0 "C?" H 5850 3850 50  0000 R CNN
-F 1 "0.1uF" H 6000 3950 50  0000 R CNN
-F 2 "" H 5700 3900 50  0001 C CNN
-F 3 "~" H 5700 3900 50  0001 C CNN
-	1    5700 3900
-	-1   0    0    1   
-$EndComp
-$Comp
-L apple-ice:C_Small C?
-U 1 1 622368F0
-P 6200 3900
-F 0 "C?" H 6100 3850 50  0000 R CNN
-F 1 "0.1uF" H 6100 3950 50  0000 R CNN
-F 2 "" H 6200 3900 50  0001 C CNN
-F 3 "~" H 6200 3900 50  0001 C CNN
-	1    6200 3900
-	-1   0    0    1   
-$EndComp
-$Comp
-L apple-ice:GND #PWR?
-U 1 1 6223ED62
-P 6200 4000
-F 0 "#PWR?" H 6200 3750 50  0001 C CNN
-F 1 "GND" H 6205 3827 50  0000 C CNN
-F 2 "" H 6200 4000 50  0001 C CNN
-F 3 "" H 6200 4000 50  0001 C CNN
-	1    6200 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L apple-ice:GND #PWR?
-U 1 1 6223F8AD
-P 5700 4000
-F 0 "#PWR?" H 5700 3750 50  0001 C CNN
-F 1 "GND" H 5705 3827 50  0000 C CNN
-F 2 "" H 5700 4000 50  0001 C CNN
-F 3 "" H 5700 4000 50  0001 C CNN
-	1    5700 4000
-	1    0    0    -1  
-$EndComp
-Text Label 6200 3750 0    50   ~ 0
-3.3V
-Text Label 5700 3750 0    50   ~ 0
-5V
-Wire Wire Line
-	5850 6250 5850 5950
-Wire Wire Line
-	5850 5950 5700 5950
-Wire Wire Line
-	5700 5950 5700 6000
-Wire Wire Line
-	6050 6250 6050 5950
-Wire Wire Line
-	6050 5950 6200 5950
-Wire Wire Line
-	6200 5950 6200 6000
+	4750 6800 4750 6850
 $Comp
 L apple-ice:C_Small C?
 U 1 1 62344376
-P 5700 6100
-F 0 "C?" H 5850 6050 50  0000 R CNN
-F 1 "0.1uF" H 6000 6150 50  0000 R CNN
-F 2 "" H 5700 6100 50  0001 C CNN
-F 3 "~" H 5700 6100 50  0001 C CNN
-	1    5700 6100
+P 4250 6950
+F 0 "C?" H 4400 6900 50  0000 R CNN
+F 1 "0.1uF" H 4550 7000 50  0000 R CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4250 6950 50  0001 C CNN
+F 3 "~" H 4250 6950 50  0001 C CNN
+	1    4250 6950
 	-1   0    0    1   
 $EndComp
 $Comp
 L apple-ice:C_Small C?
 U 1 1 6234437C
-P 6200 6100
-F 0 "C?" H 6100 6050 50  0000 R CNN
-F 1 "0.1uF" H 6100 6150 50  0000 R CNN
-F 2 "" H 6200 6100 50  0001 C CNN
-F 3 "~" H 6200 6100 50  0001 C CNN
-	1    6200 6100
+P 4750 6950
+F 0 "C?" H 4650 6900 50  0000 R CNN
+F 1 "0.1uF" H 4650 7000 50  0000 R CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4750 6950 50  0001 C CNN
+F 3 "~" H 4750 6950 50  0001 C CNN
+	1    4750 6950
 	-1   0    0    1   
 $EndComp
 $Comp
 L apple-ice:GND #PWR?
 U 1 1 62344382
-P 6200 6200
-F 0 "#PWR?" H 6200 5950 50  0001 C CNN
-F 1 "GND" H 6205 6027 50  0000 C CNN
-F 2 "" H 6200 6200 50  0001 C CNN
-F 3 "" H 6200 6200 50  0001 C CNN
-	1    6200 6200
+P 4750 7050
+F 0 "#PWR?" H 4750 6800 50  0001 C CNN
+F 1 "GND" H 4755 6877 50  0000 C CNN
+F 2 "" H 4750 7050 50  0001 C CNN
+F 3 "" H 4750 7050 50  0001 C CNN
+	1    4750 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L apple-ice:GND #PWR?
 U 1 1 62344388
-P 5700 6200
-F 0 "#PWR?" H 5700 5950 50  0001 C CNN
-F 1 "GND" H 5705 6027 50  0000 C CNN
-F 2 "" H 5700 6200 50  0001 C CNN
-F 3 "" H 5700 6200 50  0001 C CNN
-	1    5700 6200
+P 4250 7050
+F 0 "#PWR?" H 4250 6800 50  0001 C CNN
+F 1 "GND" H 4255 6877 50  0000 C CNN
+F 2 "" H 4250 7050 50  0001 C CNN
+F 3 "" H 4250 7050 50  0001 C CNN
+	1    4250 7050
 	1    0    0    -1  
 $EndComp
-Text Label 6200 5950 0    50   ~ 0
-3.3V
-Text Label 5700 5950 0    50   ~ 0
-5V
 Wire Wire Line
-	2250 2500 2250 2200
+	4400 750  4400 550 
 Wire Wire Line
-	2250 2200 2100 2200
+	4400 550  4250 550 
 Wire Wire Line
-	2100 2200 2100 2250
+	4600 750  4600 550 
 Wire Wire Line
-	2450 2500 2450 2200
-Wire Wire Line
-	2450 2200 2600 2200
-Wire Wire Line
-	2600 2200 2600 2250
+	4600 550  4750 550 
 $Comp
 L apple-ice:C_Small C?
 U 1 1 6241497A
-P 2100 2350
-F 0 "C?" H 2250 2300 50  0000 R CNN
-F 1 "0.1uF" H 2400 2400 50  0000 R CNN
-F 2 "" H 2100 2350 50  0001 C CNN
-F 3 "~" H 2100 2350 50  0001 C CNN
-	1    2100 2350
+P 4250 650
+F 0 "C?" H 4400 600 50  0000 R CNN
+F 1 "0.1uF" H 4550 700 50  0000 R CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4250 650 50  0001 C CNN
+F 3 "~" H 4250 650 50  0001 C CNN
+	1    4250 650 
 	-1   0    0    1   
 $EndComp
 $Comp
 L apple-ice:C_Small C?
 U 1 1 62414980
-P 2600 2350
-F 0 "C?" H 2500 2300 50  0000 R CNN
-F 1 "0.1uF" H 2500 2400 50  0000 R CNN
-F 2 "" H 2600 2350 50  0001 C CNN
-F 3 "~" H 2600 2350 50  0001 C CNN
-	1    2600 2350
+P 4750 650
+F 0 "C?" H 4650 600 50  0000 R CNN
+F 1 "0.1uF" H 4650 700 50  0000 R CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4750 650 50  0001 C CNN
+F 3 "~" H 4750 650 50  0001 C CNN
+	1    4750 650 
 	-1   0    0    1   
 $EndComp
 $Comp
 L apple-ice:GND #PWR?
 U 1 1 62414986
-P 2600 2450
-F 0 "#PWR?" H 2600 2200 50  0001 C CNN
-F 1 "GND" H 2605 2277 50  0000 C CNN
-F 2 "" H 2600 2450 50  0001 C CNN
-F 3 "" H 2600 2450 50  0001 C CNN
-	1    2600 2450
+P 4750 750
+F 0 "#PWR?" H 4750 500 50  0001 C CNN
+F 1 "GND" H 4750 600 50  0000 C CNN
+F 2 "" H 4750 750 50  0001 C CNN
+F 3 "" H 4750 750 50  0001 C CNN
+	1    4750 750 
 	1    0    0    -1  
 $EndComp
 $Comp
 L apple-ice:GND #PWR?
 U 1 1 6241498C
-P 2100 2450
-F 0 "#PWR?" H 2100 2200 50  0001 C CNN
-F 1 "GND" H 2105 2277 50  0000 C CNN
-F 2 "" H 2100 2450 50  0001 C CNN
-F 3 "" H 2100 2450 50  0001 C CNN
-	1    2100 2450
+P 4250 750
+F 0 "#PWR?" H 4250 500 50  0001 C CNN
+F 1 "GND" H 4250 600 50  0000 C CNN
+F 2 "" H 4250 750 50  0001 C CNN
+F 3 "" H 4250 750 50  0001 C CNN
+	1    4250 750 
 	1    0    0    -1  
 $EndComp
-Text Label 2600 2200 0    50   ~ 0
-3.3V
-Text Label 2100 2200 0    50   ~ 0
-5V
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 6262B9B2
+P 8600 7750
+F 0 "#PWR?" H 8600 7500 50  0001 C CNN
+F 1 "GND" H 8605 7577 50  0000 C CNN
+F 2 "" H 8600 7750 50  0001 C CNN
+F 3 "" H 8600 7750 50  0001 C CNN
+	1    8600 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:ECS-2520MV-xxx-xx X?
+U 1 1 60D9F0CB
+P 10100 8350
+F 0 "X?" H 10150 8600 50  0000 L CNN
+F 1 "ECS-2520MV-xxx-xx" H 10150 8100 50  0000 L CNN
+F 2 "apple-ice:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm" H 10550 8000 50  0001 C CNN
+F 3 "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf" H 9925 8475 50  0001 C CNN
+	1    10100 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:R_Small R?
+U 1 1 6102832E
+P 10100 7900
+F 0 "R?" H 10159 7946 50  0000 L CNN
+F 1 "10" H 10159 7855 50  0000 L CNN
+F 2 "" H 10100 7900 50  0001 C CNN
+F 3 "~" H 10100 7900 50  0001 C CNN
+	1    10100 7900
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8500 5950 8500 5650
+	10100 8000 10100 8050
 Wire Wire Line
-	8500 5650 8350 5650
+	10100 7800 10100 7750
 Wire Wire Line
-	8350 5650 8350 5700
+	9700 8350 9500 8350
 Wire Wire Line
-	8700 5950 8700 5650
+	9500 7750 10100 7750
+Connection ~ 10100 7750
 Wire Wire Line
-	8700 5650 8850 5650
+	10100 7750 10100 7700
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 611225D8
+P 10100 8700
+F 0 "#PWR?" H 10100 8450 50  0001 C CNN
+F 1 "GND" H 10105 8527 50  0000 C CNN
+F 2 "" H 10100 8700 50  0001 C CNN
+F 3 "" H 10100 8700 50  0001 C CNN
+	1    10100 8700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8850 5650 8850 5700
+	10100 8650 10100 8700
+Wire Wire Line
+	10500 8350 10650 8350
+Text Label 11000 8350 0    50   ~ 0
+16Mhz
+Wire Wire Line
+	10500 5950 9850 5950
+Text Label 9850 5950 0    50   ~ 0
+16Mhz
+$Comp
+L apple-ice:R_Small R?
+U 1 1 612114F9
+P 10750 8350
+F 0 "R?" V 10650 8350 50  0000 C CNN
+F 1 "10" V 10850 8350 50  0000 C CNN
+F 2 "" H 10750 8350 50  0001 C CNN
+F 3 "~" H 10750 8350 50  0001 C CNN
+	1    10750 8350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11000 8350 10850 8350
+$Comp
+L apple-ice:1N5819 D?
+U 1 1 60BDBED4
+P 14450 5200
+F 0 "D?" H 14550 5250 50  0000 C CNN
+F 1 "1N5819" H 14650 5150 50  0000 C CNN
+F 2 "apple-ice:D_SOD-123" H 14450 5025 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 14450 5200 50  0001 C CNN
+	1    14450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:+1V2 #PWR?
+U 1 1 60DCC3AC
+P 15600 4800
+F 0 "#PWR?" H 15600 4650 50  0001 C CNN
+F 1 "+1V2" V 15600 4900 50  0000 L CNN
+F 2 "" H 15600 4800 50  0001 C CNN
+F 3 "" H 15600 4800 50  0001 C CNN
+	1    15600 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14150 5200 14300 5200
+Wire Wire Line
+	14600 5200 15100 5200
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 610C9F18
+P 15250 5200
+F 0 "#PWR?" H 15250 5050 50  0001 C CNN
+F 1 "+3.3V" V 15250 5300 50  0000 L CNN
+F 2 "" H 15250 5200 50  0001 C CNN
+F 3 "" H 15250 5200 50  0001 C CNN
+	1    15250 5200
+	0    1    1    0   
+$EndComp
+NoConn ~ 14200 5000
+Wire Wire Line
+	14400 4800 14400 4550
+Wire Wire Line
+	14400 4550 14650 4550
+Wire Wire Line
+	14150 4800 14400 4800
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 6117C783
+P 15600 4550
+F 0 "#PWR?" H 15600 4400 50  0001 C CNN
+F 1 "+3.3V" V 15615 4678 50  0000 L CNN
+F 2 "" H 15600 4550 50  0001 C CNN
+F 3 "" H 15600 4550 50  0001 C CNN
+	1    15600 4550
+	0    1    1    0   
+$EndComp
 $Comp
 L apple-ice:C_Small C?
-U 1 1 625B3075
-P 8350 5800
-F 0 "C?" H 8500 5750 50  0000 R CNN
-F 1 "0.1uF" H 8650 5850 50  0000 R CNN
-F 2 "" H 8350 5800 50  0001 C CNN
-F 3 "~" H 8350 5800 50  0001 C CNN
-	1    8350 5800
+U 1 1 6125F174
+P 14650 4650
+F 0 "C?" H 14742 4696 50  0000 L CNN
+F 1 "100n" H 14742 4605 50  0000 L CNN
+F 2 "" H 14650 4650 50  0001 C CNN
+F 3 "~" H 14650 4650 50  0001 C CNN
+	1    14650 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 14650 4550
+Wire Wire Line
+	14650 4550 15600 4550
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 6133BC98
+P 14650 4750
+F 0 "#PWR?" H 14650 4500 50  0001 C CNN
+F 1 "GND" H 14655 4577 50  0000 C CNN
+F 2 "" H 14650 4750 50  0001 C CNN
+F 3 "" H 14650 4750 50  0001 C CNN
+	1    14650 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 5100 14900 5100
+Wire Wire Line
+	14900 4800 15000 4800
+$Comp
+L apple-ice:C_Small C?
+U 1 1 6142750A
+P 15250 4900
+F 0 "C?" H 15342 4946 50  0000 L CNN
+F 1 "100n" H 15342 4855 50  0000 L CNN
+F 2 "" H 15250 4900 50  0001 C CNN
+F 3 "~" H 15250 4900 50  0001 C CNN
+	1    15250 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 15250 4800
+Wire Wire Line
+	15250 4800 15550 4800
+Wire Wire Line
+	14900 5100 14900 4800
+$Comp
+L apple-ice:+1V2 #PWR?
+U 1 1 615893D4
+P 9300 10250
+F 0 "#PWR?" H 9300 10100 50  0001 C CNN
+F 1 "+1V2" H 9200 10400 50  0000 L CNN
+F 2 "" H 9300 10250 50  0001 C CNN
+F 3 "" H 9300 10250 50  0001 C CNN
+	1    9300 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 6160C690
+P 9300 9100
+F 0 "#PWR?" H 9300 8950 50  0001 C CNN
+F 1 "+3.3V" H 9315 9273 50  0000 C CNN
+F 2 "" H 9300 9100 50  0001 C CNN
+F 3 "" H 9300 9100 50  0001 C CNN
+	1    9300 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:C_Small C?
+U 1 1 616E2D59
+P 15100 5300
+F 0 "C?" H 15192 5346 50  0000 L CNN
+F 1 "100n" H 15192 5255 50  0000 L CNN
+F 2 "" H 15100 5300 50  0001 C CNN
+F 3 "~" H 15100 5300 50  0001 C CNN
+	1    15100 5300
+	1    0    0    -1  
+$EndComp
+Connection ~ 15100 5200
+Wire Wire Line
+	15100 5200 15250 5200
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 616E5423
+P 15100 5400
+F 0 "#PWR?" H 15100 5150 50  0001 C CNN
+F 1 "GND" H 15100 5250 50  0000 C CNN
+F 2 "" H 15100 5400 50  0001 C CNN
+F 3 "" H 15100 5400 50  0001 C CNN
+	1    15100 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14600 5650 15350 5650
+$Comp
+L apple-ice:+1V2 #PWR?
+U 1 1 61742D1C
+P 15350 5650
+F 0 "#PWR?" H 15350 5500 50  0001 C CNN
+F 1 "+1V2" V 15350 5750 50  0000 L CNN
+F 2 "" H 15350 5650 50  0001 C CNN
+F 3 "" H 15350 5650 50  0001 C CNN
+	1    15350 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14600 5350 14600 5450
+Wire Wire Line
+	14150 5350 14600 5350
+$Comp
+L apple-ice:C_Small C?
+U 1 1 617CF47A
+P 14350 5450
+F 0 "C?" V 14400 5350 50  0000 C CNN
+F 1 "100n" V 14400 5600 50  0000 C CNN
+F 2 "" H 14350 5450 50  0001 C CNN
+F 3 "~" H 14350 5450 50  0001 C CNN
+	1    14350 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14150 5450 14250 5450
+Wire Wire Line
+	14450 5450 14600 5450
+Connection ~ 14600 5450
+Wire Wire Line
+	14600 5450 14600 5650
+Wire Wire Line
+	12750 5100 12450 5100
+Wire Wire Line
+	12450 5100 12450 5250
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 6187FBCE
+P 12450 5250
+F 0 "#PWR?" H 12450 5000 50  0001 C CNN
+F 1 "GND" H 12450 5100 50  0000 C CNN
+F 2 "" H 12450 5250 50  0001 C CNN
+F 3 "" H 12450 5250 50  0001 C CNN
+	1    12450 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 8350 9500 8150
+Wire Wire Line
+	9500 7950 9500 7750
+$Comp
+L apple-ice:R_Small R?
+U 1 1 610D0381
+P 9500 8050
+F 0 "R?" H 9559 8096 50  0000 L CNN
+F 1 "10k" H 9559 8005 50  0000 L CNN
+F 2 "" H 9500 8050 50  0001 C CNN
+F 3 "~" H 9500 8050 50  0001 C CNN
+	1    9500 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2250 2200 2500
+Wire Wire Line
+	13600 2600 13600 2150
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 61BB87FF
+P 13600 2050
+F 0 "#PWR?" H 13600 1900 50  0001 C CNN
+F 1 "+3.3V" H 13615 2223 50  0000 C CNN
+F 2 "" H 13600 2050 50  0001 C CNN
+F 3 "" H 13600 2050 50  0001 C CNN
+	1    13600 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 2600 13450 2450
+Wire Wire Line
+	13450 2450 13300 2450
+$Comp
+L apple-ice:C_Small C?
+U 1 1 61C6D464
+P 13300 2250
+F 0 "C?" H 13392 2296 50  0000 L CNN
+F 1 "100n" H 13392 2205 50  0000 L CNN
+F 2 "" H 13300 2250 50  0001 C CNN
+F 3 "~" H 13300 2250 50  0001 C CNN
+	1    13300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13300 2150 13600 2150
+Connection ~ 13600 2150
+Wire Wire Line
+	13600 2150 13600 2050
+Wire Wire Line
+	13300 2350 13300 2450
+Wire Wire Line
+	13300 2450 12950 2450
+Wire Wire Line
+	12950 2450 12950 2550
+Connection ~ 13300 2450
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 61D25B3A
+P 12950 2550
+F 0 "#PWR?" H 12950 2300 50  0001 C CNN
+F 1 "GND" H 12955 2377 50  0000 C CNN
+F 2 "" H 12950 2550 50  0001 C CNN
+F 3 "" H 12950 2550 50  0001 C CNN
+	1    12950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:R_Small R?
+U 1 1 61DCE621
+P 13050 3950
+F 0 "R?" H 12900 4000 50  0000 L CNN
+F 1 "10k" H 12850 3900 50  0000 L CNN
+F 2 "" H 13050 3950 50  0001 C CNN
+F 3 "~" H 13050 3950 50  0001 C CNN
+	1    13050 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13050 4050 13050 4400
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 61E26B69
+P 13050 3800
+F 0 "#PWR?" H 13050 3650 50  0001 C CNN
+F 1 "+3.3V" H 13000 3950 50  0000 C CNN
+F 2 "" H 13050 3800 50  0001 C CNN
+F 3 "" H 13050 3800 50  0001 C CNN
+	1    13050 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:R_Small R?
+U 1 1 61F643E0
+P 13250 3950
+F 0 "R?" H 13300 4000 50  0000 L CNN
+F 1 "10k" H 13300 3900 50  0000 L CNN
+F 2 "" H 13250 3950 50  0001 C CNN
+F 3 "~" H 13250 3950 50  0001 C CNN
+	1    13250 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 5000 14200 5000
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 6227CDFD
+P 5300 1600
+F 0 "#PWR?" H 5300 1450 50  0001 C CNN
+F 1 "+3.3V" H 5300 1750 50  0000 C CNN
+F 2 "" H 5300 1600 50  0001 C CNN
+F 3 "" H 5300 1600 50  0001 C CNN
+	1    5300 1600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 4500 13550 4450
+$Comp
+L apple-ice:R_Small R?
+U 1 1 623FDA31
+P 14900 2850
+F 0 "R?" H 14750 2900 50  0000 L CNN
+F 1 "10k" H 14700 2800 50  0000 L CNN
+F 2 "" H 14900 2850 50  0001 C CNN
+F 3 "~" H 14900 2850 50  0001 C CNN
+	1    14900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14900 2950 14900 3100
+Connection ~ 14900 3100
+$Comp
+L apple-ice:R_Small R?
+U 1 1 6248FC28
+P 15050 2850
+F 0 "R?" H 15100 2900 50  0000 L CNN
+F 1 "10k" H 15100 2800 50  0000 L CNN
+F 2 "" H 15050 2850 50  0001 C CNN
+F 3 "~" H 15050 2850 50  0001 C CNN
+	1    15050 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 2950 15050 3200
+Connection ~ 15050 3200
+Wire Wire Line
+	14900 2750 14900 2650
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 624F25BC
+P 14900 2600
+F 0 "#PWR?" H 14900 2450 50  0001 C CNN
+F 1 "+3.3V" H 14915 2773 50  0000 C CNN
+F 2 "" H 14900 2600 50  0001 C CNN
+F 3 "" H 14900 2600 50  0001 C CNN
+	1    14900 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14900 3100 15200 3100
+Wire Wire Line
+	15050 3200 15200 3200
+Text Label 15200 3100 0    50   ~ 0
+~FLASH_WP(~IO3)
+Text Label 15200 3200 0    50   ~ 0
+~FLASH_HOLD(~IO4)
+Text Label 9850 5150 0    50   ~ 0
+~FLASH_WP(~IO3)
+Wire Wire Line
+	9850 5150 10500 5150
+Text Label 9850 5250 0    50   ~ 0
+~FLASH_HOLD(~IO4)
+Wire Wire Line
+	9850 5250 10500 5250
+Connection ~ 13050 4400
+Wire Wire Line
+	13050 4400 13050 4500
+Text Label 12500 4400 0    50   ~ 0
+~iCE40_CRESET
+$Comp
+L apple-ice:Conn_02x05_Odd_Even J?
+U 1 1 6279DE47
+P 14950 3800
+F 0 "J?" H 15000 4217 50  0000 C CNN
+F 1 "SPI_FLASH_PROG" H 15000 4126 50  0000 C CNN
+F 2 "" H 14950 3800 50  0001 C CNN
+F 3 "~" H 14950 3800 50  0001 C CNN
+	1    14950 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 4050 13250 4150
+Wire Wire Line
+	14900 2650 15050 2650
+Wire Wire Line
+	15050 2650 15050 2750
+Connection ~ 14900 2650
+Wire Wire Line
+	14900 2650 14900 2600
+Wire Wire Line
+	14050 2800 14250 2800
+Wire Wire Line
+	14050 2900 14250 2900
+Text Label 12600 2900 0    50   ~ 0
+~iCE40_CS
+Wire Wire Line
+	12600 2900 13050 2900
+Wire Wire Line
+	13550 4450 13800 4450
+Wire Wire Line
+	13450 4350 13800 4350
+Wire Wire Line
+	13450 4350 13450 4500
+Wire Wire Line
+	13350 4250 13800 4250
+Wire Wire Line
+	13350 4250 13350 4500
+Wire Wire Line
+	13050 3800 13050 3850
+Wire Wire Line
+	13250 4150 13800 4150
+Connection ~ 13250 4150
+Wire Wire Line
+	13250 4150 13250 4500
+Wire Wire Line
+	13250 3800 13250 3850
+Wire Wire Line
+	13250 3800 13050 3800
+Connection ~ 13050 3800
+Text Label 13800 4150 0    50   ~ 0
+~iCE40_CS
+Text Label 13800 4250 0    50   ~ 0
+iCE40_SCK
+Text Label 13800 4350 0    50   ~ 0
+iC40_SDI
+Text Label 13800 4450 0    50   ~ 0
+iC40_SDO
+Text Label 12600 3100 0    50   ~ 0
+iCE40_SCK
+Wire Wire Line
+	12600 3100 13050 3100
+Wire Wire Line
+	14050 3100 14900 3100
+Wire Wire Line
+	14050 3200 15050 3200
+Text Label 14250 2900 0    50   ~ 0
+iC40_SDO
+Text Label 14250 2800 0    50   ~ 0
+iC40_SDI
+Wire Wire Line
+	13450 5700 13450 5950
+$Comp
+L apple-ice:R_Small R?
+U 1 1 630AA247
+P 14150 5950
+F 0 "R?" V 14050 5950 50  0000 C CNN
+F 1 "2k2" V 14250 5950 50  0000 C CNN
+F 2 "" H 14150 5950 50  0001 C CNN
+F 3 "~" H 14150 5950 50  0001 C CNN
+	1    14150 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13450 5950 13850 5950
+Wire Wire Line
+	14250 5950 14550 5950
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 631104C7
+P 14550 5950
+F 0 "#PWR?" H 14550 5800 50  0001 C CNN
+F 1 "+3.3V" V 14550 6050 50  0000 L CNN
+F 2 "" H 14550 5950 50  0001 C CNN
+F 3 "" H 14550 5950 50  0001 C CNN
+	1    14550 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13450 5950 12850 5950
+Connection ~ 13450 5950
+Text Label 12850 5950 0    50   ~ 0
+iCE40_CDONE
+Wire Wire Line
+	13850 5950 13850 6250
+Connection ~ 13850 5950
+Wire Wire Line
+	13850 5950 14050 5950
+$Comp
+L apple-ice:LED D?
+U 1 1 631AD953
+P 14300 6250
+F 0 "D?" H 14300 6150 50  0000 C CNN
+F 1 "LED" H 14300 6350 50  0000 C CNN
+F 2 "" H 14300 6250 50  0001 C CNN
+F 3 "~" H 14300 6250 50  0001 C CNN
+	1    14300 6250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13850 6250 14150 6250
+Wire Wire Line
+	14450 6250 14700 6250
+$Comp
+L apple-ice:R_Small R?
+U 1 1 63218697
+P 14700 6450
+F 0 "R?" H 14759 6496 50  0000 L CNN
+F 1 "22" H 14759 6405 50  0000 L CNN
+F 2 "" H 14700 6450 50  0001 C CNN
+F 3 "~" H 14700 6450 50  0001 C CNN
+	1    14700 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 6250 14700 6350
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 6324C519
+P 14700 6600
+F 0 "#PWR?" H 14700 6350 50  0001 C CNN
+F 1 "GND" H 14700 6450 50  0000 C CNN
+F 2 "" H 14700 6600 50  0001 C CNN
+F 3 "" H 14700 6600 50  0001 C CNN
+	1    14700 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 6550 14700 6600
+NoConn ~ 14750 3600
+NoConn ~ 14750 3700
+NoConn ~ 15250 3700
+Text Label 14150 3800 0    50   ~ 0
+iCE40_CDONE
+Wire Wire Line
+	14750 3800 14150 3800
+Text Label 15850 3800 2    50   ~ 0
+~iCE40_CRESET
+Wire Wire Line
+	15250 3800 15850 3800
+Wire Wire Line
+	14750 3900 14150 3900
+Text Label 14150 3900 0    50   ~ 0
+iC40_SDI
+Wire Wire Line
+	14750 4000 14150 4000
+Text Label 14150 4000 0    50   ~ 0
+iCE40_SCK
+Wire Wire Line
+	15250 3900 15850 3900
+Wire Wire Line
+	15250 4000 15850 4000
+Text Label 15300 3900 0    50   ~ 0
+iC40_SDO
+Text Label 15300 4000 0    50   ~ 0
+~iCE40_CS
+$Comp
+L apple-ice:SW_Push SW?
+U 1 1 635A52F4
+P 12250 4400
+F 0 "SW?" H 12250 4600 50  0000 C CNN
+F 1 "SW_Push" H 12250 4300 50  0000 C CNN
+F 2 "" H 12250 4600 50  0001 C CNN
+F 3 "~" H 12250 4600 50  0001 C CNN
+	1    12250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12450 4400 13050 4400
+Wire Wire Line
+	12050 4400 12050 4550
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 636245E4
+P 12050 4550
+F 0 "#PWR?" H 12050 4300 50  0001 C CNN
+F 1 "GND" H 12050 4400 50  0000 C CNN
+F 2 "" H 12050 4550 50  0001 C CNN
+F 3 "" H 12050 4550 50  0001 C CNN
+	1    12050 4550
+	1    0    0    -1  
+$EndComp
+Text Label 9750 4950 0    50   ~ 0
+RDDATA_33
+Text Label 9750 5050 0    50   ~ 0
+SENSE_33
+Text Label 9750 4750 0    50   ~ 0
+~ENABLE
+Text Label 9750 4850 0    50   ~ 0
+WRDATA
+Wire Wire Line
+	5550 2050 5100 2050
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 639D5C60
+P 4500 8700
+F 0 "#PWR?" H 4500 8450 50  0001 C CNN
+F 1 "GND" H 4650 8650 50  0000 C CNN
+F 2 "" H 4500 8700 50  0001 C CNN
+F 3 "" H 4500 8700 50  0001 C CNN
+	1    4500 8700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 6550
+Wire Wire Line
+	5300 6550 4500 6550
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 6223F8AD
+P 4250 4900
+F 0 "#PWR?" H 4250 4650 50  0001 C CNN
+F 1 "GND" H 4255 4727 50  0000 C CNN
+F 2 "" H 4250 4900 50  0001 C CNN
+F 3 "" H 4250 4900 50  0001 C CNN
+	1    4250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 6223ED62
+P 4750 4900
+F 0 "#PWR?" H 4750 4650 50  0001 C CNN
+F 1 "GND" H 4755 4727 50  0000 C CNN
+F 2 "" H 4750 4900 50  0001 C CNN
+F 3 "" H 4750 4900 50  0001 C CNN
+	1    4750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:C_Small C?
+U 1 1 622368F0
+P 4750 4800
+F 0 "C?" H 4650 4750 50  0000 R CNN
+F 1 "0.1uF" H 4650 4850 50  0000 R CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4750 4800 50  0001 C CNN
+F 3 "~" H 4750 4800 50  0001 C CNN
+	1    4750 4800
 	-1   0    0    1   
 $EndComp
 $Comp
 L apple-ice:C_Small C?
-U 1 1 625B307B
-P 8850 5800
-F 0 "C?" H 8750 5750 50  0000 R CNN
-F 1 "0.1uF" H 8750 5850 50  0000 R CNN
-F 2 "" H 8850 5800 50  0001 C CNN
-F 3 "~" H 8850 5800 50  0001 C CNN
-	1    8850 5800
+U 1 1 6222ECB3
+P 4250 4800
+F 0 "C?" H 4400 4750 50  0000 R CNN
+F 1 "0.1uF" H 4550 4850 50  0000 R CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4250 4800 50  0001 C CNN
+F 3 "~" H 4250 4800 50  0001 C CNN
+	1    4250 4800
 	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 4650 4750 4700
+Wire Wire Line
+	4600 4950 4600 4650
+Wire Wire Line
+	4250 4650 4250 4700
+Wire Wire Line
+	4400 4950 4400 4650
+Text Label 5100 5950 0    50   ~ 0
+A0_33
+Text Label 5100 5850 0    50   ~ 0
+A1_33
+Text Label 5100 5750 0    50   ~ 0
+A2_33
+Text Label 5100 5650 0    50   ~ 0
+A3_33
+Text Label 5100 5550 0    50   ~ 0
+A4_33
+Text Label 5100 5450 0    50   ~ 0
+A5_33
+Text Label 5100 5350 0    50   ~ 0
+A6_33
+Text Label 5100 5250 0    50   ~ 0
+A7_33
+Wire Wire Line
+	5400 5950 5100 5950
+Wire Wire Line
+	5100 5850 5400 5850
+Wire Wire Line
+	5400 5750 5100 5750
+Wire Wire Line
+	5100 5650 5400 5650
+Wire Wire Line
+	5100 5550 5400 5550
+Wire Wire Line
+	5400 5450 5100 5450
+Wire Wire Line
+	5100 5350 5400 5350
+Wire Wire Line
+	5100 5250 5400 5250
+Wire Wire Line
+	5300 6250 5300 6550
+Connection ~ 5300 6250
+Wire Wire Line
+	5100 6250 5300 6250
+Wire Wire Line
+	5300 6150 5300 6250
+Wire Wire Line
+	5100 6150 5300 6150
+Text Label 3750 5950 0    50   ~ 0
+A0
+Text Label 3750 5850 0    50   ~ 0
+A1
+Text Label 3750 5750 0    50   ~ 0
+A2
+Text Label 3750 5650 0    50   ~ 0
+A3
+Text Label 3750 5550 0    50   ~ 0
+A4
+Text Label 3750 5450 0    50   ~ 0
+A5
+Text Label 3750 5350 0    50   ~ 0
+A6
+Text Label 3750 5250 0    50   ~ 0
+A7
+Wire Wire Line
+	3750 5950 3900 5950
+Wire Wire Line
+	3750 5850 3900 5850
+Wire Wire Line
+	3750 5750 3900 5750
+Wire Wire Line
+	3750 5650 3900 5650
+Wire Wire Line
+	3750 5550 3900 5550
+Wire Wire Line
+	3750 5450 3900 5450
+Wire Wire Line
+	3750 5350 3900 5350
+Wire Wire Line
+	3750 5250 3900 5250
+$Comp
+L apple-ice:SN74LVC8T245PW U?
+U 1 1 60A74FA6
+P 4500 5750
+F 0 "U?" H 4500 5550 50  0000 C CNN
+F 1 "SN74LVC8T245PW" H 4500 5450 50  0000 C CNN
+F 2 "apple-ice:TSSOP-24_4.4x7.8mm_P0.65mm" H 4500 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 4600 6100 50  0001 C CNN
+	1    4500 5750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 8800 5600 8800
+Wire Wire Line
+	6000 8900 5600 8900
+Wire Wire Line
+	5600 9000 6000 9000
+Wire Wire Line
+	6000 9100 5600 9100
+Wire Wire Line
+	6000 9200 5600 9200
+Wire Wire Line
+	5600 9300 6000 9300
+Wire Wire Line
+	6000 9400 5600 9400
+Wire Wire Line
+	6000 9500 5600 9500
+Wire Wire Line
+	5600 7900 6000 7900
+Wire Wire Line
+	5600 8000 6000 8000
+Wire Wire Line
+	5600 8100 6000 8100
+Wire Wire Line
+	5600 8200 6000 8200
+Wire Wire Line
+	5600 8300 6000 8300
+Wire Wire Line
+	5600 8400 6000 8400
+Wire Wire Line
+	6000 8500 5600 8500
+Wire Wire Line
+	5600 8600 6000 8600
+Wire Wire Line
+	6000 8700 5600 8700
+Wire Wire Line
+	5600 7200 6000 7200
+Wire Wire Line
+	5600 7600 6000 7600
+Wire Wire Line
+	6000 7500 5600 7500
+Wire Wire Line
+	5600 7400 6000 7400
+Wire Wire Line
+	6000 7300 5600 7300
+Entry Wire Line
+	5500 8700 5600 8800
+Entry Wire Line
+	5500 8800 5600 8900
+Entry Wire Line
+	5500 8900 5600 9000
+Entry Wire Line
+	5500 9000 5600 9100
+Entry Wire Line
+	5500 9100 5600 9200
+Entry Wire Line
+	5500 9200 5600 9300
+Entry Wire Line
+	5500 9300 5600 9400
+Entry Wire Line
+	5500 9400 5600 9500
+Entry Wire Line
+	5600 7900 5500 7800
+Entry Wire Line
+	5600 8000 5500 7900
+Entry Wire Line
+	5600 8100 5500 8000
+Entry Wire Line
+	5600 8200 5500 8100
+Entry Wire Line
+	5600 8300 5500 8200
+Entry Wire Line
+	5600 8400 5500 8300
+Entry Wire Line
+	5600 8500 5500 8400
+Entry Wire Line
+	5600 8600 5500 8500
+Entry Wire Line
+	5600 8700 5500 8600
+Entry Wire Line
+	5600 7200 5500 7100
+Entry Wire Line
+	5600 7600 5500 7500
+Entry Wire Line
+	5600 7500 5500 7400
+Entry Wire Line
+	5600 7400 5500 7300
+Entry Wire Line
+	5500 7200 5600 7300
+Wire Wire Line
+	5600 7800 6000 7800
+Wire Wire Line
+	5600 7700 6000 7700
+Entry Wire Line
+	5500 7700 5600 7800
+Entry Wire Line
+	5600 7700 5500 7600
+Connection ~ 5750 10550
+Connection ~ 4500 4350
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 62175429
+P 4750 2700
+F 0 "#PWR?" H 4750 2450 50  0001 C CNN
+F 1 "GND" H 4755 2527 50  0000 C CNN
+F 2 "" H 4750 2700 50  0001 C CNN
+F 3 "" H 4750 2700 50  0001 C CNN
+	1    4750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 62166037
+P 4200 2700
+F 0 "#PWR?" H 4200 2450 50  0001 C CNN
+F 1 "GND" H 4205 2527 50  0000 C CNN
+F 2 "" H 4200 2700 50  0001 C CNN
+F 3 "" H 4200 2700 50  0001 C CNN
+	1    4200 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2450 4750 2500
+Wire Wire Line
+	4600 2450 4750 2450
+Wire Wire Line
+	4600 2750 4600 2450
+$Comp
+L apple-ice:C_Small C?
+U 1 1 61DABD65
+P 4750 2600
+F 0 "C?" H 4658 2554 50  0000 R CNN
+F 1 "0.1uF" H 4658 2645 50  0000 R CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4750 2600 50  0001 C CNN
+F 3 "~" H 4750 2600 50  0001 C CNN
+	1    4750 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 2450 4200 2500
+$Comp
+L apple-ice:C_Small C?
+U 1 1 61D12146
+P 4200 2600
+F 0 "C?" H 4350 2550 50  0000 R CNN
+F 1 "0.1uF" H 4500 2650 50  0000 R CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4200 2600 50  0001 C CNN
+F 3 "~" H 4200 2600 50  0001 C CNN
+	1    4200 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 2450 4200 2450
+Wire Wire Line
+	4400 2750 4400 2450
+Connection ~ 5200 4050
+Wire Wire Line
+	5200 4050 5200 4350
+Wire Wire Line
+	5200 4050 5100 4050
+Wire Wire Line
+	5200 3950 5200 4050
+Wire Wire Line
+	5100 3950 5200 3950
+$Comp
+L apple-ice:SN74LVC8T245PW U?
+U 1 1 6188BE40
+P 4500 3550
+F 0 "U?" H 4500 3350 50  0000 C CNN
+F 1 "SN74LVC8T245PW" H 4500 3250 50  0000 C CNN
+F 2 "apple-ice:TSSOP-24_4.4x7.8mm_P0.65mm" H 4500 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 4600 3900 50  0001 C CNN
+	1    4500 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4650 4250 4650
+Wire Wire Line
+	4600 4650 4750 4650
+Connection ~ 5850 4950
+Wire Wire Line
+	1600 2800 1450 2800
+Wire Wire Line
+	1450 2800 1450 1350
+Wire Wire Line
+	1450 1350 3900 1350
+Wire Wire Line
+	1600 2900 1350 2900
+Wire Wire Line
+	1350 2900 1350 1250
+Wire Wire Line
+	1350 1250 3900 1250
+Wire Wire Line
+	1600 3000 1250 3000
+Wire Wire Line
+	1250 3000 1250 1150
+Wire Wire Line
+	1250 1150 3900 1150
+Wire Wire Line
+	1600 3100 1150 3100
+Wire Wire Line
+	1150 3100 1150 1050
+Wire Wire Line
+	1150 1050 3900 1050
+Wire Wire Line
+	3000 3750 3900 3750
+Wire Wire Line
+	3000 3350 3350 3350
+Wire Wire Line
+	3350 3350 3350 3550
+Wire Wire Line
+	3450 3200 3450 3450
+Wire Wire Line
+	3450 3450 3900 3450
+Wire Wire Line
+	3000 3200 3450 3200
+Wire Wire Line
+	3000 3550 3100 3550
+Wire Wire Line
+	3100 3550 3100 3650
+Wire Wire Line
+	3100 3650 3150 3650
+Wire Wire Line
+	3350 3550 3900 3550
+Wire Wire Line
+	3550 3100 3550 3350
+Wire Wire Line
+	3550 3350 3900 3350
+Wire Wire Line
+	3000 3100 3550 3100
+Wire Wire Line
+	3650 3000 3650 3250
+Wire Wire Line
+	3650 3250 3900 3250
+Wire Wire Line
+	3000 3000 3650 3000
+Wire Wire Line
+	3750 2900 3750 3150
+Wire Wire Line
+	3750 3150 3900 3150
+Wire Wire Line
+	3000 2900 3750 2900
+Wire Wire Line
+	3850 2800 3850 3050
+Wire Wire Line
+	3850 3050 3900 3050
+Wire Wire Line
+	3000 2800 3850 2800
+Wire Wire Line
+	3350 3650 3900 3650
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 65399DB8
+P 4500 2350
+F 0 "#PWR?" H 4500 2100 50  0001 C CNN
+F 1 "GND" H 4505 2177 50  0000 C CNN
+F 2 "" H 4500 2350 50  0001 C CNN
+F 3 "" H 4500 2350 50  0001 C CNN
+	1    4500 2350
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	3650 5150 3750 5250
+Entry Wire Line
+	3650 5250 3750 5350
+Entry Wire Line
+	3650 5350 3750 5450
+Entry Wire Line
+	3650 5450 3750 5550
+Entry Wire Line
+	3650 5550 3750 5650
+Entry Wire Line
+	3650 5650 3750 5750
+Entry Wire Line
+	3650 5750 3750 5850
+Entry Wire Line
+	3650 5850 3750 5950
+Entry Wire Line
+	3650 7300 3750 7400
+Entry Wire Line
+	3650 7400 3750 7500
+Entry Wire Line
+	3650 7500 3750 7600
+Entry Wire Line
+	3650 7600 3750 7700
+Entry Wire Line
+	3650 7700 3750 7800
+Entry Wire Line
+	3650 7800 3750 7900
+Entry Wire Line
+	3650 7900 3750 8000
+Entry Wire Line
+	3650 8000 3750 8100
+Entry Wire Line
+	5400 7400 5500 7500
+Entry Wire Line
+	5400 7500 5500 7600
+Entry Wire Line
+	5400 7600 5500 7700
+Entry Wire Line
+	5400 7700 5500 7800
+Entry Wire Line
+	5400 7800 5500 7900
+Entry Wire Line
+	5400 7900 5500 8000
+Entry Wire Line
+	5400 8000 5500 8100
+Entry Wire Line
+	5400 8100 5500 8200
+Entry Wire Line
+	5400 5250 5500 5350
+Entry Wire Line
+	5400 5350 5500 5450
+Entry Wire Line
+	5400 5450 5500 5550
+Entry Wire Line
+	5400 5550 5500 5650
+Entry Wire Line
+	5400 5650 5500 5750
+Entry Wire Line
+	5400 5750 5500 5850
+Entry Wire Line
+	5400 5850 5500 5950
+Entry Wire Line
+	5400 5950 5500 6050
+Entry Bus Bus
+	1300 9050 1400 9150
+Wire Bus Line
+	1400 9150 3600 9150
+Entry Bus Bus
+	3600 9150 3700 9250
+Wire Wire Line
+	5100 1050 6850 1050
+Wire Wire Line
+	5100 1150 6850 1150
+Wire Wire Line
+	5100 1250 6850 1250
+Wire Wire Line
+	5100 1350 6850 1350
+NoConn ~ 5100 1450
+NoConn ~ 5100 1550
+NoConn ~ 5100 1650
+NoConn ~ 5100 1750
+Wire Wire Line
+	3900 1450 3900 1550
+Connection ~ 3900 1550
+Wire Wire Line
+	3900 1550 3900 1650
+Connection ~ 3900 1650
+Wire Wire Line
+	3900 1650 3900 1750
+Connection ~ 3900 1750
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 65CAC66C
+P 3900 1850
+F 0 "#PWR?" H 3900 1600 50  0001 C CNN
+F 1 "GND" H 3905 1677 50  0000 C CNN
+F 2 "" H 3900 1850 50  0001 C CNN
+F 3 "" H 3900 1850 50  0001 C CNN
+	1    3900 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1750 3900 1850
+Wire Wire Line
+	5100 3050 5750 3050
+Wire Wire Line
+	5750 3050 5750 1550
+Wire Wire Line
+	5750 1550 6850 1550
+Wire Wire Line
+	5100 3150 5850 3150
+Wire Wire Line
+	5850 3150 5850 1650
+Wire Wire Line
+	5850 1650 6850 1650
+Wire Wire Line
+	5100 3250 5950 3250
+Wire Wire Line
+	5950 3250 5950 1750
+Wire Wire Line
+	5950 1750 6850 1750
+Wire Wire Line
+	5100 3350 6050 3350
+Wire Wire Line
+	6050 3350 6050 1850
+Wire Wire Line
+	6050 1850 6850 1850
+Wire Wire Line
+	5100 3450 6150 3450
+Wire Wire Line
+	6150 3450 6150 1950
+Wire Wire Line
+	6150 1950 6850 1950
+Wire Wire Line
+	5100 3550 6250 3550
+Wire Wire Line
+	6250 3550 6250 2050
+Wire Wire Line
+	6250 2050 6850 2050
+Wire Wire Line
+	5100 3650 6350 3650
+Wire Wire Line
+	6350 3650 6350 2150
+Wire Wire Line
+	6350 2150 6850 2150
+Wire Wire Line
+	5100 3750 6450 3750
+Wire Wire Line
+	6450 3750 6450 2250
+Wire Wire Line
+	6450 2250 6850 2250
+Wire Wire Line
+	5650 1450 5650 1950
+Wire Wire Line
+	5650 1950 5550 1950
+Connection ~ 5550 1950
+Wire Wire Line
+	5550 1950 5550 1900
+Wire Wire Line
+	6350 4550 6600 4550
+Wire Wire Line
+	6350 4450 6550 4450
+Wire Wire Line
+	6500 2450 6500 4350
+Wire Wire Line
+	6550 4450 6550 2550
+Wire Wire Line
+	6550 2550 6850 2550
+Wire Wire Line
+	6600 4550 6600 2650
+Wire Wire Line
+	6600 2650 6850 2650
+Wire Wire Line
+	6650 4650 6650 2750
+Wire Wire Line
+	6650 2750 6850 2750
+Wire Wire Line
+	6700 4750 6700 2850
+Wire Wire Line
+	6700 2850 6850 2850
+Wire Wire Line
+	6750 4850 6750 2950
+Wire Wire Line
+	6750 2950 6850 2950
+Wire Wire Line
+	6850 2350 6500 2350
+Text Label 6500 2350 0    50   ~ 0
+~D_OE
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 6278B44E
+P 8000 7050
+F 0 "#PWR?" H 8000 6800 50  0001 C CNN
+F 1 "GND" H 8005 6877 50  0000 C CNN
+F 2 "" H 8000 7050 50  0001 C CNN
+F 3 "" H 8000 7050 50  0001 C CNN
+	1    8000 7050
+	1    0    0    -1  
+$EndComp
+Connection ~ 8000 6950
+Wire Wire Line
+	8000 6950 8000 7050
+Wire Wire Line
+	8000 6850 8000 6950
+Connection ~ 8000 6850
+Wire Wire Line
+	8000 6750 8000 6850
+Connection ~ 8000 6750
+Wire Wire Line
+	8000 6650 8000 6750
+Connection ~ 8000 6650
+Wire Wire Line
+	8000 6550 8000 6650
+Connection ~ 8000 6550
+Wire Wire Line
+	8000 6450 8000 6550
+NoConn ~ 9200 6950
+NoConn ~ 9200 6850
+NoConn ~ 9200 6750
+NoConn ~ 9200 6650
+NoConn ~ 9200 6550
+NoConn ~ 9200 6450
+Connection ~ 8600 7650
+Wire Wire Line
+	8600 7650 8600 7750
+Connection ~ 9450 7250
+Wire Wire Line
+	8600 7650 8600 7550
+Wire Wire Line
+	9450 7650 8600 7650
+Wire Wire Line
+	9450 7250 9450 7650
+Wire Wire Line
+	9450 7250 9200 7250
+Wire Wire Line
+	9450 7150 9450 7250
+Wire Wire Line
+	9200 7150 9450 7150
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 625B3087
+P 8350 5900
+F 0 "#PWR?" H 8350 5650 50  0001 C CNN
+F 1 "GND" H 8355 5727 50  0000 C CNN
+F 2 "" H 8350 5900 50  0001 C CNN
+F 3 "" H 8350 5900 50  0001 C CNN
+	1    8350 5900
+	1    0    0    -1  
 $EndComp
 $Comp
 L apple-ice:GND #PWR?
@@ -1909,91 +2413,1090 @@ F 3 "" H 8850 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L apple-ice:GND #PWR?
-U 1 1 625B3087
-P 8350 5900
-F 0 "#PWR?" H 8350 5650 50  0001 C CNN
-F 1 "GND" H 8355 5727 50  0000 C CNN
-F 2 "" H 8350 5900 50  0001 C CNN
-F 3 "" H 8350 5900 50  0001 C CNN
-	1    8350 5900
+L apple-ice:C_Small C?
+U 1 1 625B307B
+P 8850 5800
+F 0 "C?" H 8750 5750 50  0000 R CNN
+F 1 "0.1uF" H 8750 5850 50  0000 R CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8850 5800 50  0001 C CNN
+F 3 "~" H 8850 5800 50  0001 C CNN
+	1    8850 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L apple-ice:C_Small C?
+U 1 1 625B3075
+P 8350 5800
+F 0 "C?" H 8500 5750 50  0000 R CNN
+F 1 "0.1uF" H 8650 5850 50  0000 R CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8350 5800 50  0001 C CNN
+F 3 "~" H 8350 5800 50  0001 C CNN
+	1    8350 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8850 5650 8850 5700
+Wire Wire Line
+	8700 5650 8850 5650
+Wire Wire Line
+	8700 5950 8700 5650
+Wire Wire Line
+	8350 5650 8350 5700
+Wire Wire Line
+	8500 5650 8350 5650
+Wire Wire Line
+	8500 5950 8500 5650
+Wire Wire Line
+	7450 5900 7450 5800
+Wire Wire Line
+	7200 5900 7200 5800
+Wire Wire Line
+	7200 6350 8000 6350
+Wire Wire Line
+	7200 6350 7200 6100
+$Comp
+L apple-ice:R_Small R?
+U 1 1 61B4C429
+P 7200 6000
+F 0 "R?" H 7050 6050 50  0000 L CNN
+F 1 "22k" H 7000 5950 50  0000 L CNN
+F 2 "apple-ice:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7200 6000 50  0001 C CNN
+F 3 "~" H 7200 6000 50  0001 C CNN
+	1    7200 6000
 	1    0    0    -1  
 $EndComp
-Text Label 8850 5650 0    50   ~ 0
-3.3V
-Text Label 8350 5650 0    50   ~ 0
-5V
 Wire Wire Line
-	9200 7150 9450 7150
+	7450 6250 7600 6250
 Wire Wire Line
-	9450 7150 9450 7250
+	7450 6250 7450 6100
+$Comp
+L apple-ice:R_Small R?
+U 1 1 61B29255
+P 7450 6000
+F 0 "R?" H 7300 6050 50  0000 L CNN
+F 1 "22k" H 7250 5950 50  0000 L CNN
+F 2 "apple-ice:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7450 6000 50  0001 C CNN
+F 3 "~" H 7450 6000 50  0001 C CNN
+	1    7450 6000
+	1    0    0    -1  
+$EndComp
+Text Label 9200 6350 0    50   ~ 0
+SENSE_33
+Text Label 9200 6250 0    50   ~ 0
+RDDATA_33
 Wire Wire Line
-	9450 7250 9200 7250
+	9200 6350 9750 6350
 Wire Wire Line
-	9450 7250 9450 7650
+	9200 6250 9650 6250
+$Comp
+L apple-ice:SN74LVC8T245PW U?
+U 1 1 60A716EC
+P 8600 6750
+F 0 "U?" H 8600 6550 50  0000 C CNN
+F 1 "SN74LVC8T245PW" H 8600 6450 50  0000 C CNN
+F 2 "apple-ice:TSSOP-24_4.4x7.8mm_P0.65mm" H 8600 5550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 8700 7100 50  0001 C CNN
+	1    8600 6750
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
-	9450 7650 8600 7650
+	6800 4950 6800 4750
 Wire Wire Line
-	8600 7650 8600 7550
-Connection ~ 9450 7250
+	6800 4750 10500 4750
+Wire Wire Line
+	6900 5150 6900 4850
+Wire Wire Line
+	6900 4850 10500 4850
+Wire Wire Line
+	6350 5150 6900 5150
+Wire Wire Line
+	9650 6250 9650 4950
+Wire Wire Line
+	9650 4950 10500 4950
+Wire Wire Line
+	9750 6350 9750 5050
+Wire Wire Line
+	9750 5050 10500 5050
+Connection ~ 7200 6350
+Wire Wire Line
+	7600 5050 7600 6250
+Wire Wire Line
+	6350 5050 7600 5050
+Connection ~ 7600 6250
+Wire Wire Line
+	7600 6250 8000 6250
+Wire Wire Line
+	6800 5250 6800 6350
+Wire Wire Line
+	6800 6350 7200 6350
+$Comp
+L apple-ice:+5V #PWR?
+U 1 1 66F8D578
+P 8500 5650
+F 0 "#PWR?" H 8500 5500 50  0001 C CNN
+F 1 "+5V" H 8515 5823 50  0000 C CNN
+F 2 "" H 8500 5650 50  0001 C CNN
+F 3 "" H 8500 5650 50  0001 C CNN
+	1    8500 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 5650
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 66F9CCC3
+P 8700 5650
+F 0 "#PWR?" H 8700 5500 50  0001 C CNN
+F 1 "+3.3V" H 8715 5823 50  0000 C CNN
+F 2 "" H 8700 5650 50  0001 C CNN
+F 3 "" H 8700 5650 50  0001 C CNN
+	1    8700 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8700 5650
+$Comp
+L apple-ice:+5V #PWR?
+U 1 1 66FAA3B3
+P 7200 5800
+F 0 "#PWR?" H 7200 5650 50  0001 C CNN
+F 1 "+5V" H 7215 5973 50  0000 C CNN
+F 2 "" H 7200 5800 50  0001 C CNN
+F 3 "" H 7200 5800 50  0001 C CNN
+	1    7200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:+5V #PWR?
+U 1 1 66FAAAE0
+P 7450 5800
+F 0 "#PWR?" H 7450 5650 50  0001 C CNN
+F 1 "+5V" H 7465 5973 50  0000 C CNN
+F 2 "" H 7450 5800 50  0001 C CNN
+F 3 "" H 7450 5800 50  0001 C CNN
+	1    7450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 6711015F
+P 10100 7700
+F 0 "#PWR?" H 10100 7550 50  0001 C CNN
+F 1 "+3.3V" H 10115 7873 50  0000 C CNN
+F 2 "" H 10100 7700 50  0001 C CNN
+F 3 "" H 10100 7700 50  0001 C CNN
+	1    10100 7700
+	1    0    0    -1  
+$EndComp
 $Comp
 L apple-ice:GND #PWR?
-U 1 1 6262B9B2
-P 8600 7750
-F 0 "#PWR?" H 8600 7500 50  0001 C CNN
-F 1 "GND" H 8605 7577 50  0000 C CNN
-F 2 "" H 8600 7750 50  0001 C CNN
-F 3 "" H 8600 7750 50  0001 C CNN
-	1    8600 7750
+U 1 1 671ED4C2
+P 15450 3600
+F 0 "#PWR?" H 15450 3350 50  0001 C CNN
+F 1 "GND" H 15455 3427 50  0000 C CNN
+F 2 "" H 15450 3600 50  0001 C CNN
+F 3 "" H 15450 3600 50  0001 C CNN
+	1    15450 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15250 3600 15450 3600
+$Comp
+L apple-ice:+5V #PWR?
+U 1 1 672E892F
+P 4250 4650
+F 0 "#PWR?" H 4250 4500 50  0001 C CNN
+F 1 "+5V" H 4265 4823 50  0000 C CNN
+F 2 "" H 4250 4650 50  0001 C CNN
+F 3 "" H 4250 4650 50  0001 C CNN
+	1    4250 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 4650
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 672EFBA2
+P 4750 4650
+F 0 "#PWR?" H 4750 4500 50  0001 C CNN
+F 1 "+3.3V" H 4765 4823 50  0000 C CNN
+F 2 "" H 4750 4650 50  0001 C CNN
+F 3 "" H 4750 4650 50  0001 C CNN
+	1    4750 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 4650
+$Comp
+L apple-ice:+5V #PWR?
+U 1 1 672F8E5C
+P 4250 6800
+F 0 "#PWR?" H 4250 6650 50  0001 C CNN
+F 1 "+5V" H 4100 6850 50  0000 C CNN
+F 2 "" H 4250 6800 50  0001 C CNN
+F 3 "" H 4250 6800 50  0001 C CNN
+	1    4250 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 6800
+$Comp
+L apple-ice:+5V #PWR?
+U 1 1 672FA366
+P 4400 9000
+F 0 "#PWR?" H 4400 8850 50  0001 C CNN
+F 1 "+5V" H 4400 9150 50  0000 C CNN
+F 2 "" H 4400 9000 50  0001 C CNN
+F 3 "" H 4400 9000 50  0001 C CNN
+	1    4400 9000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4400 9000
+$Comp
+L apple-ice:+5V #PWR?
+U 1 1 67302A79
+P 3750 600
+F 0 "#PWR?" H 3750 450 50  0001 C CNN
+F 1 "+5V" V 3765 773 50  0000 C CNN
+F 2 "" H 3750 600 50  0001 C CNN
+F 3 "" H 3750 600 50  0001 C CNN
+	1    3750 600 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 550  3900 550 
+Wire Wire Line
+	3900 550  3900 600 
+Wire Wire Line
+	3900 600  3750 600 
+Connection ~ 4250 550 
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 67343A7F
+P 5250 600
+F 0 "#PWR?" H 5250 450 50  0001 C CNN
+F 1 "+3.3V" V 5350 650 50  0000 C CNN
+F 2 "" H 5250 600 50  0001 C CNN
+F 3 "" H 5250 600 50  0001 C CNN
+	1    5250 600 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 550  5100 550 
+Wire Wire Line
+	5100 550  5100 600 
+Wire Wire Line
+	5100 600  5250 600 
+Connection ~ 4750 550 
+$Comp
+L apple-ice:+12V #PWR?
+U 1 1 6749B896
+P 2400 2250
+F 0 "#PWR?" H 2400 2100 50  0001 C CNN
+F 1 "+12V" H 2415 2423 50  0000 C CNN
+F 2 "" H 2400 2250 50  0001 C CNN
+F 3 "" H 2400 2250 50  0001 C CNN
+	1    2400 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 7650 8600 7750
-Connection ~ 8600 7650
-NoConn ~ 9200 6450
-NoConn ~ 9200 6550
-NoConn ~ 9200 6650
-NoConn ~ 9200 6750
-NoConn ~ 9200 6850
-NoConn ~ 9200 6950
+	2400 2250 2400 2500
+$Comp
+L apple-ice:-12V #PWR?
+U 1 1 674F12EA
+P 2400 6550
+F 0 "#PWR?" H 2400 6400 50  0001 C CNN
+F 1 "-12V" H 2300 6550 50  0000 C CNN
+F 2 "" H 2400 6550 50  0001 C CNN
+F 3 "" H 2400 6550 50  0001 C CNN
+	1    2400 6550
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	8000 6450 8000 6550
-Connection ~ 8000 6550
+	2400 6550 2400 6200
+NoConn ~ 2200 6200
 Wire Wire Line
-	8000 6550 8000 6650
-Connection ~ 8000 6650
-Wire Wire Line
-	8000 6650 8000 6750
-Connection ~ 8000 6750
-Wire Wire Line
-	8000 6750 8000 6850
-Connection ~ 8000 6850
-Wire Wire Line
-	8000 6850 8000 6950
-Wire Wire Line
-	8000 6950 8000 7050
-Connection ~ 8000 6950
+	2300 6200 2300 6550
 $Comp
 L apple-ice:GND #PWR?
-U 1 1 6278B44E
-P 8000 7050
-F 0 "#PWR?" H 8000 6800 50  0001 C CNN
-F 1 "GND" H 8005 6877 50  0000 C CNN
-F 2 "" H 8000 7050 50  0001 C CNN
-F 3 "" H 8000 7050 50  0001 C CNN
-	1    8000 7050
+U 1 1 675DEA45
+P 2300 6550
+F 0 "#PWR?" H 2300 6300 50  0001 C CNN
+F 1 "GND" H 2305 6377 50  0000 C CNN
+F 2 "" H 2300 6550 50  0001 C CNN
+F 3 "" H 2300 6550 50  0001 C CNN
+	1    2300 6550
 	1    0    0    -1  
 $EndComp
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 676631FE
+P 4600 9000
+F 0 "#PWR?" H 4600 8850 50  0001 C CNN
+F 1 "+3.3V" H 4600 9150 50  0000 C CNN
+F 2 "" H 4600 9000 50  0001 C CNN
+F 3 "" H 4600 9000 50  0001 C CNN
+	1    4600 9000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4600 9000
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 676AF97B
+P 4600 6800
+F 0 "#PWR?" H 4600 6650 50  0001 C CNN
+F 1 "+3.3V" H 4750 6850 50  0000 C CNN
+F 2 "" H 4600 6800 50  0001 C CNN
+F 3 "" H 4600 6800 50  0001 C CNN
+	1    4600 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 4600 6800
+$Comp
+L apple-ice:+5V #PWR?
+U 1 1 676C8DA1
+P 4200 2450
+F 0 "#PWR?" H 4200 2300 50  0001 C CNN
+F 1 "+5V" H 4100 2500 50  0000 C CNN
+F 2 "" H 4200 2450 50  0001 C CNN
+F 3 "" H 4200 2450 50  0001 C CNN
+	1    4200 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 2450
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 677058BD
+P 4600 2450
+F 0 "#PWR?" H 4600 2300 50  0001 C CNN
+F 1 "+3.3V" H 4450 2500 50  0000 C CNN
+F 2 "" H 4600 2450 50  0001 C CNN
+F 3 "" H 4600 2450 50  0001 C CNN
+	1    4600 2450
+	-1   0    0    -1  
+$EndComp
+Connection ~ 4600 2450
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 677199DA
+P 5750 10000
+F 0 "#PWR?" H 5750 9850 50  0001 C CNN
+F 1 "+3.3V" H 5750 10150 50  0000 C CNN
+F 2 "" H 5750 10000 50  0001 C CNN
+F 3 "" H 5750 10000 50  0001 C CNN
+	1    5750 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:+12V #PWR?
+U 1 1 677B05E4
+P 5500 4950
+F 0 "#PWR?" H 5500 4800 50  0001 C CNN
+F 1 "+12V" V 5500 5100 50  0000 L CNN
+F 2 "" H 5500 4950 50  0001 C CNN
+F 3 "" H 5500 4950 50  0001 C CNN
+	1    5500 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 4950 5850 4950
+$Comp
+L apple-ice:+5V #PWR?
+U 1 1 67828B94
+P 5500 4850
+F 0 "#PWR?" H 5500 4700 50  0001 C CNN
+F 1 "+5V" V 5500 5050 50  0000 C CNN
+F 2 "" H 5500 4850 50  0001 C CNN
+F 3 "" H 5500 4850 50  0001 C CNN
+	1    5500 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L apple-ice:-12V #PWR?
+U 1 1 67831BCD
+P 5500 4750
+F 0 "#PWR?" H 5500 4600 50  0001 C CNN
+F 1 "-12V" V 5500 4950 50  0000 C CNN
+F 2 "" H 5500 4750 50  0001 C CNN
+F 3 "" H 5500 4750 50  0001 C CNN
+	1    5500 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7350 650  7850 650 
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 6794ACC4
+P 8550 650
+F 0 "#PWR?" H 8550 500 50  0001 C CNN
+F 1 "+3.3V" V 8500 550 50  0000 C CNN
+F 2 "" H 8550 650 50  0001 C CNN
+F 3 "" H 8550 650 50  0001 C CNN
+	1    8550 650 
+	0    1    1    0   
+$EndComp
+$Comp
+L apple-ice:C_Small C?
+U 1 1 6795644B
+P 8200 800
+F 0 "C?" H 8292 846 50  0000 L CNN
+F 1 "100n" H 8292 755 50  0000 L CNN
+F 2 "" H 8200 800 50  0001 C CNN
+F 3 "~" H 8200 800 50  0001 C CNN
+	1    8200 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 650  8200 700 
+Connection ~ 8200 650 
+Wire Wire Line
+	8200 650  8550 650 
+$Comp
+L apple-ice:C_Small C?
+U 1 1 679D2216
+P 7850 800
+F 0 "C?" H 7942 846 50  0000 L CNN
+F 1 "1u" H 7942 755 50  0000 L CNN
+F 2 "" H 7850 800 50  0001 C CNN
+F 3 "~" H 7850 800 50  0001 C CNN
+	1    7850 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 700  7850 650 
+Connection ~ 7850 650 
+Wire Wire Line
+	7850 650  8200 650 
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 67A0DFFA
+P 7850 900
+F 0 "#PWR?" H 7850 650 50  0001 C CNN
+F 1 "GND" H 7855 727 50  0000 C CNN
+F 2 "" H 7850 900 50  0001 C CNN
+F 3 "" H 7850 900 50  0001 C CNN
+	1    7850 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 67A12543
+P 8200 900
+F 0 "#PWR?" H 8200 650 50  0001 C CNN
+F 1 "GND" H 8205 727 50  0000 C CNN
+F 2 "" H 8200 900 50  0001 C CNN
+F 3 "" H 8200 900 50  0001 C CNN
+	1    8200 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 6800 7000 6800
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 67A485D3
+P 7700 6800
+F 0 "#PWR?" H 7700 6650 50  0001 C CNN
+F 1 "+3.3V" V 7650 6700 50  0000 C CNN
+F 2 "" H 7700 6800 50  0001 C CNN
+F 3 "" H 7700 6800 50  0001 C CNN
+	1    7700 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L apple-ice:C_Small C?
+U 1 1 67A485D9
+P 7350 6950
+F 0 "C?" H 7442 6996 50  0000 L CNN
+F 1 "100n" H 7442 6905 50  0000 L CNN
+F 2 "" H 7350 6950 50  0001 C CNN
+F 3 "~" H 7350 6950 50  0001 C CNN
+	1    7350 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 6800 7350 6850
+Connection ~ 7350 6800
+Wire Wire Line
+	7350 6800 7700 6800
+$Comp
+L apple-ice:C_Small C?
+U 1 1 67A485E2
+P 7000 6950
+F 0 "C?" H 7092 6996 50  0000 L CNN
+F 1 "1u" H 7092 6905 50  0000 L CNN
+F 2 "" H 7000 6950 50  0001 C CNN
+F 3 "~" H 7000 6950 50  0001 C CNN
+	1    7000 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 6850 7000 6800
+Connection ~ 7000 6800
+Wire Wire Line
+	7000 6800 7350 6800
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 67A485EB
+P 7000 7050
+F 0 "#PWR?" H 7000 6800 50  0001 C CNN
+F 1 "GND" H 7005 6877 50  0000 C CNN
+F 2 "" H 7000 7050 50  0001 C CNN
+F 3 "" H 7000 7050 50  0001 C CNN
+	1    7000 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 67A485F1
+P 7350 7050
+F 0 "#PWR?" H 7350 6800 50  0001 C CNN
+F 1 "GND" H 7355 6877 50  0000 C CNN
+F 2 "" H 7350 7050 50  0001 C CNN
+F 3 "" H 7350 7050 50  0001 C CNN
+	1    7350 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 700  10400 700 
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 67A8B55F
+P 11100 700
+F 0 "#PWR?" H 11100 550 50  0001 C CNN
+F 1 "+3.3V" V 11050 600 50  0000 C CNN
+F 2 "" H 11100 700 50  0001 C CNN
+F 3 "" H 11100 700 50  0001 C CNN
+	1    11100 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L apple-ice:C_Small C?
+U 1 1 67A8B565
+P 10750 850
+F 0 "C?" H 10842 896 50  0000 L CNN
+F 1 "100n" H 10842 805 50  0000 L CNN
+F 2 "" H 10750 850 50  0001 C CNN
+F 3 "~" H 10750 850 50  0001 C CNN
+	1    10750 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 700  10750 750 
+Connection ~ 10750 700 
+Wire Wire Line
+	10750 700  11100 700 
+$Comp
+L apple-ice:C_Small C?
+U 1 1 67A8B56E
+P 10400 850
+F 0 "C?" H 10492 896 50  0000 L CNN
+F 1 "1u" H 10492 805 50  0000 L CNN
+F 2 "" H 10400 850 50  0001 C CNN
+F 3 "~" H 10400 850 50  0001 C CNN
+	1    10400 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 750  10400 700 
+Connection ~ 10400 700 
+Wire Wire Line
+	10400 700  10750 700 
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 67A8B577
+P 10400 950
+F 0 "#PWR?" H 10400 700 50  0001 C CNN
+F 1 "GND" H 10405 777 50  0000 C CNN
+F 2 "" H 10400 950 50  0001 C CNN
+F 3 "" H 10400 950 50  0001 C CNN
+	1    10400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 67A8B57D
+P 10750 950
+F 0 "#PWR?" H 10750 700 50  0001 C CNN
+F 1 "GND" H 10755 777 50  0000 C CNN
+F 2 "" H 10750 950 50  0001 C CNN
+F 3 "" H 10750 950 50  0001 C CNN
+	1    10750 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 4000 11250 4000
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 67AD51E1
+P 11000 4000
+F 0 "#PWR?" H 11000 3850 50  0001 C CNN
+F 1 "+3.3V" H 11000 4150 50  0000 C CNN
+F 2 "" H 11000 4000 50  0001 C CNN
+F 3 "" H 11000 4000 50  0001 C CNN
+	1    11000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:C_Small C?
+U 1 1 67AD51E7
+P 11550 4200
+F 0 "C?" H 11642 4246 50  0000 L CNN
+F 1 "100n" H 11642 4155 50  0000 L CNN
+F 2 "" H 11550 4200 50  0001 C CNN
+F 3 "~" H 11550 4200 50  0001 C CNN
+	1    11550 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 4000 11550 4100
+$Comp
+L apple-ice:C_Small C?
+U 1 1 67AD51F0
+P 11250 4200
+F 0 "C?" H 11342 4246 50  0000 L CNN
+F 1 "1u" H 11342 4155 50  0000 L CNN
+F 2 "" H 11250 4200 50  0001 C CNN
+F 3 "~" H 11250 4200 50  0001 C CNN
+	1    11250 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 4100 11250 4000
+Connection ~ 11250 4000
+Wire Wire Line
+	11250 4000 11550 4000
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 67AD51F9
+P 11250 4300
+F 0 "#PWR?" H 11250 4050 50  0001 C CNN
+F 1 "GND" H 11255 4127 50  0000 C CNN
+F 2 "" H 11250 4300 50  0001 C CNN
+F 3 "" H 11250 4300 50  0001 C CNN
+	1    11250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 67AD51FF
+P 11550 4300
+F 0 "#PWR?" H 11550 4050 50  0001 C CNN
+F 1 "GND" H 11555 4127 50  0000 C CNN
+F 2 "" H 11550 4300 50  0001 C CNN
+F 3 "" H 11550 4300 50  0001 C CNN
+	1    11550 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 4000 11000 4450
+Connection ~ 11000 4000
+$Comp
+L apple-ice:C_Small C?
+U 1 1 67F269A8
+P 15000 4900
+F 0 "C?" H 15092 4946 50  0000 L CNN
+F 1 "1u" H 15092 4855 50  0000 L CNN
+F 2 "" H 15000 4900 50  0001 C CNN
+F 3 "~" H 15000 4900 50  0001 C CNN
+	1    15000 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 15000 4800
+Wire Wire Line
+	15000 4800 15250 4800
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 67F27073
+P 15000 5000
+F 0 "#PWR?" H 15000 4750 50  0001 C CNN
+F 1 "GND" H 15150 4950 50  0000 C CNN
+F 2 "" H 15000 5000 50  0001 C CNN
+F 3 "" H 15000 5000 50  0001 C CNN
+	1    15000 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15250 5000 15000 5000
+Connection ~ 15000 5000
+$Comp
+L apple-ice:SW_Push SW?
+U 1 1 67F8EF07
+P 13800 7050
+F 0 "SW?" H 13800 7250 50  0000 C CNN
+F 1 "SW_Push" H 13800 6950 50  0000 C CNN
+F 2 "" H 13800 7250 50  0001 C CNN
+F 3 "~" H 13800 7250 50  0001 C CNN
+	1    13800 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:R_Small R?
+U 1 1 67FA5CCD
+P 13250 6850
+F 0 "R?" H 13300 6900 50  0000 L CNN
+F 1 "10k" H 13300 6800 50  0000 L CNN
+F 2 "" H 13250 6850 50  0001 C CNN
+F 3 "~" H 13250 6850 50  0001 C CNN
+	1    13250 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 6950 13250 7050
+Wire Wire Line
+	13250 7050 13600 7050
+Wire Wire Line
+	14000 7050 14450 7050
+Wire Wire Line
+	14450 7050 14450 7100
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 68023C77
+P 14450 7100
+F 0 "#PWR?" H 14450 6850 50  0001 C CNN
+F 1 "GND" H 14450 6950 50  0000 C CNN
+F 2 "" H 14450 7100 50  0001 C CNN
+F 3 "" H 14450 7100 50  0001 C CNN
+	1    14450 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 6750 13250 6700
+$Comp
+L apple-ice:SW_Push SW?
+U 1 1 680F60B2
+P 13800 7650
+F 0 "SW?" H 13800 7850 50  0000 C CNN
+F 1 "SW_Push" H 13800 7550 50  0000 C CNN
+F 2 "" H 13800 7850 50  0001 C CNN
+F 3 "~" H 13800 7850 50  0001 C CNN
+	1    13800 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:R_Small R?
+U 1 1 680F60B8
+P 13250 7450
+F 0 "R?" H 13300 7500 50  0000 L CNN
+F 1 "10k" H 13300 7400 50  0000 L CNN
+F 2 "" H 13250 7450 50  0001 C CNN
+F 3 "~" H 13250 7450 50  0001 C CNN
+	1    13250 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 7550 13250 7650
+Wire Wire Line
+	13250 7650 13600 7650
+Wire Wire Line
+	14000 7650 14450 7650
+Wire Wire Line
+	14450 7650 14450 7700
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 680F60C2
+P 14450 7700
+F 0 "#PWR?" H 14450 7450 50  0001 C CNN
+F 1 "GND" H 14450 7550 50  0000 C CNN
+F 2 "" H 14450 7700 50  0001 C CNN
+F 3 "" H 14450 7700 50  0001 C CNN
+	1    14450 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 7350 13250 7300
+Text Label 12800 7050 0    50   ~ 0
+BTN1
+Wire Wire Line
+	13250 7050 12800 7050
+Connection ~ 13250 7050
+Wire Wire Line
+	13250 7650 12800 7650
+Connection ~ 13250 7650
+Text Label 12800 7650 0    50   ~ 0
+BTN2
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 682386F4
+P 13250 7300
+F 0 "#PWR?" H 13250 7150 50  0001 C CNN
+F 1 "+3.3V" H 13200 7450 50  0000 C CNN
+F 2 "" H 13250 7300 50  0001 C CNN
+F 3 "" H 13250 7300 50  0001 C CNN
+	1    13250 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:+3.3V #PWR?
+U 1 1 6827B3C6
+P 13250 6700
+F 0 "#PWR?" H 13250 6550 50  0001 C CNN
+F 1 "+3.3V" H 13200 6850 50  0000 C CNN
+F 2 "" H 13250 6700 50  0001 C CNN
+F 3 "" H 13250 6700 50  0001 C CNN
+	1    13250 6700
+	1    0    0    -1  
+$EndComp
+Text Label 9850 5350 0    50   ~ 0
+BTN1
+Wire Wire Line
+	9850 5350 10500 5350
+Text Label 9850 5450 0    50   ~ 0
+BTN2
+Wire Wire Line
+	9850 5450 10500 5450
+$Comp
+L apple-ice:LED D?
+U 1 1 68358489
+P 13250 8100
+F 0 "D?" H 13250 8000 50  0000 C CNN
+F 1 "LED" H 13250 8200 50  0000 C CNN
+F 2 "" H 13250 8100 50  0001 C CNN
+F 3 "~" H 13250 8100 50  0001 C CNN
+	1    13250 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L apple-ice:LED D?
+U 1 1 6835C1A8
+P 13250 8550
+F 0 "D?" H 13250 8450 50  0000 C CNN
+F 1 "LED" H 13250 8650 50  0000 C CNN
+F 2 "" H 13250 8550 50  0001 C CNN
+F 3 "~" H 13250 8550 50  0001 C CNN
+	1    13250 8550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13400 8100 14000 8100
+Wire Wire Line
+	14000 8100 14000 8200
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 6839CDDB
+P 14000 8400
+F 0 "#PWR?" H 14000 8150 50  0001 C CNN
+F 1 "GND" H 14000 8250 50  0000 C CNN
+F 2 "" H 14000 8400 50  0001 C CNN
+F 3 "" H 14000 8400 50  0001 C CNN
+	1    14000 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:R_Small R?
+U 1 1 683CEC59
+P 14000 8300
+F 0 "R?" V 13900 8300 50  0000 C CNN
+F 1 "2k2" V 14100 8300 50  0000 C CNN
+F 2 "" H 14000 8300 50  0001 C CNN
+F 3 "~" H 14000 8300 50  0001 C CNN
+	1    14000 8300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13400 8550 13850 8550
+Wire Wire Line
+	13850 8550 13850 8650
+$Comp
+L apple-ice:R_Small R?
+U 1 1 6848FCAF
+P 13850 8750
+F 0 "R?" V 13750 8750 50  0000 C CNN
+F 1 "2k2" V 13950 8750 50  0000 C CNN
+F 2 "" H 13850 8750 50  0001 C CNN
+F 3 "~" H 13850 8750 50  0001 C CNN
+	1    13850 8750
+	-1   0    0    1   
+$EndComp
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 68490A66
+P 13850 8850
+F 0 "#PWR?" H 13850 8600 50  0001 C CNN
+F 1 "GND" H 13850 8700 50  0000 C CNN
+F 2 "" H 13850 8850 50  0001 C CNN
+F 3 "" H 13850 8850 50  0001 C CNN
+	1    13850 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 8100 12800 8100
+Wire Wire Line
+	13100 8550 12800 8550
+Text Label 12800 8550 0    50   ~ 0
+LED2
+Text Label 12800 8100 0    50   ~ 0
+LED1
+Text Label 9850 5550 0    50   ~ 0
+LED1
+Wire Wire Line
+	9850 5550 10500 5550
+Text Label 9850 5650 0    50   ~ 0
+LED2
+Wire Wire Line
+	9850 5650 10500 5650
+$Comp
+L apple-ice:USB_B_Micro J?
+U 1 1 685CED0A
+P 11550 9350
+F 0 "J?" H 11607 9817 50  0000 C CNN
+F 1 "USB_B_Micro" H 11607 9726 50  0000 C CNN
+F 2 "" H 11700 9300 50  0001 C CNN
+F 3 "~" H 11700 9300 50  0001 C CNN
+	1    11550 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 9750 11500 9750
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 686AFBC2
+P 11500 9850
+F 0 "#PWR?" H 11500 9600 50  0001 C CNN
+F 1 "GND" H 11500 9700 50  0000 C CNN
+F 2 "" H 11500 9850 50  0001 C CNN
+F 3 "" H 11500 9850 50  0001 C CNN
+	1    11500 9850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 9750 11500 9850
+Connection ~ 11500 9750
+Wire Wire Line
+	11500 9750 11550 9750
+Wire Wire Line
+	11450 9750 11200 9750
+Wire Wire Line
+	11200 9750 11200 8750
+Wire Wire Line
+	11200 8750 11450 8750
+Connection ~ 11450 9750
+$Comp
+L apple-ice:C_Small C?
+U 1 1 6873492D
+P 11550 8750
+F 0 "C?" V 11600 8850 50  0000 L CNN
+F 1 "100n" V 11600 8500 50  0000 L CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 11550 8750 50  0001 C CNN
+F 3 "~" H 11550 8750 50  0001 C CNN
+	1    11550 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11650 8750 11950 8750
+Wire Wire Line
+	11850 9150 11950 9150
+Wire Wire Line
+	11950 9150 11950 9050
+Wire Wire Line
+	11950 8750 11950 8850
+$Comp
+L apple-ice:R_Small R?
+U 1 1 688C722E
+P 12550 9350
+F 0 "R?" V 12450 9350 50  0000 C CNN
+F 1 "22" V 12550 9350 50  0000 C CNN
+F 2 "" H 12550 9350 50  0001 C CNN
+F 3 "~" H 12550 9350 50  0001 C CNN
+	1    12550 9350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11850 9350 12450 9350
+$Comp
+L apple-ice:R_Small R?
+U 1 1 6894DC9A
+P 12550 9450
+F 0 "R?" V 12650 9450 50  0000 C CNN
+F 1 "22" V 12550 9450 50  0000 C CNN
+F 2 "" H 12550 9450 50  0001 C CNN
+F 3 "~" H 12550 9450 50  0001 C CNN
+	1    12550 9450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11850 9450 12450 9450
+Wire Wire Line
+	12450 9150 12450 9350
+Connection ~ 12450 9350
+Wire Wire Line
+	12650 9350 12750 9350
+Wire Wire Line
+	12650 9450 12750 9450
+Text Label 12750 8950 0    50   ~ 0
+USB_PU
+Text Label 12750 9350 0    50   ~ 0
+USB_P
+Text Label 12750 9450 0    50   ~ 0
+USB_N
+NoConn ~ 11850 9550
+Text Label 9850 5750 0    50   ~ 0
+USB_P
+Wire Wire Line
+	9850 5750 10500 5750
+Text Label 9850 5850 0    50   ~ 0
+USB_N
+Wire Wire Line
+	9850 5850 10500 5850
+Text Label 9850 6150 0    50   ~ 0
+USB_PU
+Wire Wire Line
+	9850 6150 10500 6150
+$Comp
+L apple-ice:C_Small C?
+U 1 1 68DD6B05
+P 15550 4900
+F 0 "C?" H 15642 4946 50  0000 L CNN
+F 1 "100n" H 15642 4855 50  0000 L CNN
+F 2 "" H 15550 4900 50  0001 C CNN
+F 3 "~" H 15550 4900 50  0001 C CNN
+	1    15550 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 15550 4800
+Wire Wire Line
+	15550 4800 15600 4800
+Wire Wire Line
+	15250 5000 15550 5000
+Connection ~ 15250 5000
+$Comp
+L apple-ice:Jumper_NO_Small JP?
+U 1 1 60C25D7C
+P 11950 8950
+F 0 "JP?" V 11904 8998 50  0000 L CNN
+F 1 "J_USB_5V" V 12000 9000 50  0000 L CNN
+F 2 "" H 11950 8950 50  0001 C CNN
+F 3 "~" H 11950 8950 50  0001 C CNN
+	1    11950 8950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11950 8750 11950 8550
+Connection ~ 11950 8750
+$Comp
+L apple-ice:+5V #PWR?
+U 1 1 60D920DD
+P 11950 8550
+F 0 "#PWR?" H 11950 8400 50  0001 C CNN
+F 1 "+5V" H 11965 8723 50  0000 C CNN
+F 2 "" H 11950 8550 50  0001 C CNN
+F 3 "" H 11950 8550 50  0001 C CNN
+	1    11950 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L apple-ice:R_Small R?
+U 1 1 689D4753
+P 12450 9050
+F 0 "R?" H 12350 9050 50  0000 C CNN
+F 1 "1k5" H 12350 9150 50  0000 C CNN
+F 2 "" H 12450 9050 50  0001 C CNN
+F 3 "~" H 12450 9050 50  0001 C CNN
+	1    12450 9050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12450 8950 12750 8950
 Wire Bus Line
-	4450 7700 4450 9250
+	3700 9250 3700 10150
 Wire Bus Line
-	2700 7150 2700 8200
+	1300 5050 1300 9050
 Wire Bus Line
-	2800 5050 2800 7050
+	5500 5350 5500 10150
 Wire Bus Line
-	6950 4450 6950 7950
-Wire Bus Line
-	5100 4250 5100 7150
-Wire Bus Line
-	6850 8050 6850 10500
+	3650 4250 3650 8000
 $EndSCHEMATC

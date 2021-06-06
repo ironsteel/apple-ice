@@ -1,13 +1,46 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +12V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
 $CMP +1V2
 D Power symbol creates a global label with name "+1V2"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
 K power-flag
 $ENDCMP
 #
 $CMP +5V
 D Power symbol creates a global label with name "+5V"
 K power-flag
+$ENDCMP
+#
+$CMP -12V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP 1N5817
+D 20V 1A Schottky Barrier Rectifier Diode, DO-41
+K diode Schottky
+F http://www.vishay.com/docs/88525/1n5817.pdf
+$ENDCMP
+#
+$CMP 1N5818
+D 30V 1A Schottky Barrier Rectifier Diode, DO-41
+K diode Schottky
+F http://www.vishay.com/docs/88525/1n5817.pdf
+$ENDCMP
+#
+$CMP 1N5819
+D 40V 1A Schottky Barrier Rectifier Diode, DO-41
+K diode Schottky
+F http://www.vishay.com/docs/88525/1n5817.pdf
 $ENDCMP
 #
 $CMP 74AXP8T245PW
@@ -81,6 +114,24 @@ K FPGA programmable logic
 F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
 $ENDCMP
 #
+$CMP Jumper
+D Jumper, normally closed
+K jumper bridge link NC
+F ~
+$ENDCMP
+#
+$CMP Jumper_NO_Small
+D Jumper, normally open, small symbol
+K jumper link bridge NO
+F ~
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
 $CMP MCP1703A-1202_SOT223
 D Low Quiescent Current LDO Regulator, 1.2V, 250mA, Vin<=16V, SOT-223
 K REGULATOR LDO
@@ -147,6 +198,30 @@ K R resistor
 F ~
 $ENDCMP
 #
+$CMP SB130
+D 30V 1A Schottky Barrier Rectifier Diode, DO-41
+K diode Schottky
+F http://www.diodes.com/_files/datasheets/ds23022.pdf
+$ENDCMP
+#
+$CMP SB140
+D 40V 1A Schottky Barrier Rectifier Diode, DO-41
+K diode Schottky
+F http://www.diodes.com/_files/datasheets/ds23022.pdf
+$ENDCMP
+#
+$CMP SB150
+D 50V 1A Schottky Barrier Rectifier Diode, DO-41
+K diode Schottky
+F http://www.diodes.com/_files/datasheets/ds23022.pdf
+$ENDCMP
+#
+$CMP SB160
+D 60V 1A Schottky Barrier Rectifier Diode, DO-41
+K diode Schottky
+F http://www.diodes.com/_files/datasheets/ds23022.pdf
+$ENDCMP
+#
 $CMP SN74LVC8T245PW
 D 8-bit dual supply translating transceiver, 3-state, TSSOP-24
 K bus 3state
@@ -157,6 +232,12 @@ $CMP SN74LVCH8T245PW
 D 8-bit dual supply translating transceiver, 3-state, bus hold, TSSOP-24
 K bus 3state hold
 F http://www.ti.com/lit/ds/symlink/sn74lvch8t245.pdf
+$ENDCMP
+#
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
 $ENDCMP
 #
 $CMP USB_B_Micro
