@@ -27,12 +27,12 @@ $EndComp
 $Comp
 L apple-ice:ICE40HX1K-TQ144 U6
 U 2 1 609DFA1D
-P 11000 5950
-F 0 "U6" H 11380 6078 50  0000 L CNN
-F 1 "ICE40HX1K-TQ144" H 11380 5987 50  0000 L CNN
-F 2 "apple-ice:TQFP-144_20x20mm_P0.5mm" H 11000 4500 50  0001 C CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 10150 7350 50  0001 C CNN
-	2    11000 5950
+P 11100 5950
+F 0 "U6" H 11480 6078 50  0000 L CNN
+F 1 "ICE40HX1K-TQ144" H 11480 5987 50  0000 L CNN
+F 2 "apple-ice:TQFP-144_20x20mm_P0.5mm" H 11100 4500 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 10250 7350 50  0001 C CNN
+	2    11100 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -765,15 +765,15 @@ Wire Wire Line
 $Comp
 L apple-ice:R_Small R1
 U 1 1 62BEE8A1
-P 3250 3650
-F 0 "R1" V 3180 3650 50  0000 C CNN
-F 1 "390" V 3320 3660 50  0000 C CNN
-F 2 "apple-ice:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3250 3650 50  0001 C CNN
-F 3 "~" H 3250 3650 50  0001 C CNN
-	1    3250 3650
+P 3200 3550
+F 0 "R1" V 3130 3550 50  0000 C CNN
+F 1 "390" V 3270 3560 50  0000 C CNN
+F 2 "apple-ice:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3200 3550 50  0001 C CNN
+F 3 "~" H 3200 3550 50  0001 C CNN
+	1    3200 3550
 	0    1    1    0   
 $EndComp
-Text Label 3020 2800 0    50   ~ 0
+Text Label 3000 2800 0    50   ~ 0
 RW
 Wire Wire Line
 	1600 5800 1350 5800
@@ -852,14 +852,6 @@ Connection ~ 5300 1600
 Wire Wire Line
 	5300 1600 5300 1700
 NoConn ~ 1600 3200
-Text Label 5750 1350 0    50   ~ 0
-~NMI
-Text Label 5750 1250 0    50   ~ 0
-~IRQ
-Text Label 5750 1150 0    50   ~ 0
-~INH
-Text Label 5750 1050 0    50   ~ 0
-~RDY
 $Comp
 L apple-ice:Conn_02x10_Odd_Even J1
 U 1 1 6132234F
@@ -1108,8 +1100,8 @@ Wire Wire Line
 Text Label 11000 8350 0    50   ~ 0
 16Mhz
 Wire Wire Line
-	10500 5950 9850 5950
-Text Label 9850 5950 0    50   ~ 0
+	10600 5950 9950 5950
+Text Label 9950 5950 0    50   ~ 0
 16Mhz
 $Comp
 L apple-ice:R_Small R9
@@ -1486,14 +1478,14 @@ Text Label 15200 3100 0    50   ~ 0
 ~FLASH_WP(~IO3)
 Text Label 15200 3200 0    50   ~ 0
 ~FLASH_HOLD(~IO4)
-Text Label 9850 5150 0    50   ~ 0
+Text Label 9950 5150 0    50   ~ 0
 ~FLASH_WP(~IO3)
 Wire Wire Line
-	9850 5150 10500 5150
-Text Label 9850 5250 0    50   ~ 0
+	9950 5150 10600 5150
+Text Label 9950 5250 0    50   ~ 0
 ~FLASH_HOLD(~IO4)
 Wire Wire Line
-	9850 5250 10500 5250
+	9950 5250 10600 5250
 Connection ~ 13050 4400
 Wire Wire Line
 	13050 4400 13050 4500
@@ -2057,19 +2049,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 1050 3900 1050
 Wire Wire Line
-	3000 3750 3900 3750
-Wire Wire Line
-	3000 3350 3350 3350
-Wire Wire Line
-	3000 3550 3100 3550
-Wire Wire Line
-	3100 3550 3100 3650
-Wire Wire Line
-	3100 3650 3150 3650
-Wire Wire Line
-	3350 3550 3900 3550
-Wire Wire Line
-	3350 3650 3900 3650
+	3000 3350 3200 3350
 $Comp
 L apple-ice:GND #PWR0142
 U 1 1 65399DB8
@@ -2151,14 +2131,6 @@ Wire Bus Line
 	1400 9150 3600 9150
 Entry Bus Bus
 	3600 9150 3700 9250
-Wire Wire Line
-	5100 1050 6850 1050
-Wire Wire Line
-	5100 1150 6850 1150
-Wire Wire Line
-	5100 1250 6850 1250
-Wire Wire Line
-	5100 1350 6850 1350
 NoConn ~ 5100 1450
 NoConn ~ 5100 1550
 NoConn ~ 5100 1650
@@ -2189,8 +2161,6 @@ Wire Wire Line
 	5100 3050 5600 3050
 Wire Wire Line
 	6200 1550 6850 1550
-Wire Wire Line
-	5100 3150 5600 3150
 Wire Wire Line
 	6200 1650 6850 1650
 Wire Wire Line
@@ -2224,9 +2194,7 @@ Wire Wire Line
 Connection ~ 5550 1950
 Wire Wire Line
 	5550 1950 5550 1900
-Wire Wire Line
-	6850 2350 6500 2350
-Text Label 6500 2350 0    50   ~ 0
+Text Label 9250 3200 0    50   ~ 0
 ~D_OE
 $Comp
 L apple-ice:GND #PWR0144
@@ -2253,15 +2221,11 @@ Wire Wire Line
 Connection ~ 8000 6650
 Wire Wire Line
 	8000 6550 8000 6650
-Connection ~ 8000 6550
-Wire Wire Line
-	8000 6450 8000 6550
 NoConn ~ 9200 6950
 NoConn ~ 9200 6850
 NoConn ~ 9200 6750
 NoConn ~ 9200 6650
 NoConn ~ 9200 6550
-NoConn ~ 9200 6450
 Connection ~ 8600 7650
 Wire Wire Line
 	8600 7650 8600 7750
@@ -2368,14 +2332,12 @@ F 3 "~" H 7450 6000 50  0001 C CNN
 	1    7450 6000
 	1    0    0    -1  
 $EndComp
-Text Label 9200 6350 0    50   ~ 0
+Text Label 9750 6350 2    50   ~ 0
 SENSE_33
-Text Label 9200 6250 0    50   ~ 0
+Text Label 9750 6250 2    50   ~ 0
 RDDATA_33
 Wire Wire Line
 	9200 6350 9750 6350
-Wire Wire Line
-	9200 6250 9650 6250
 $Comp
 L apple-ice:SN74LVC8T245PW U7
 U 1 1 60A716EC
@@ -2889,72 +2851,72 @@ F 3 "" H 10750 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11000 4000 11250 4000
+	11100 4000 11350 4000
 $Comp
 L apple-ice:+3.3V #PWR0179
 U 1 1 67AD51E1
-P 11000 4000
-F 0 "#PWR0179" H 11000 3850 50  0001 C CNN
-F 1 "+3.3V" H 11000 4150 50  0000 C CNN
-F 2 "" H 11000 4000 50  0001 C CNN
-F 3 "" H 11000 4000 50  0001 C CNN
-	1    11000 4000
+P 11100 4000
+F 0 "#PWR0179" H 11100 3850 50  0001 C CNN
+F 1 "+3.3V" H 11100 4150 50  0000 C CNN
+F 2 "" H 11100 4000 50  0001 C CNN
+F 3 "" H 11100 4000 50  0001 C CNN
+	1    11100 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L apple-ice:C_Small C24
 U 1 1 67AD51E7
-P 11550 4200
-F 0 "C24" H 11642 4246 50  0000 L CNN
-F 1 "100n" H 11642 4155 50  0000 L CNN
-F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 11550 4200 50  0001 C CNN
-F 3 "~" H 11550 4200 50  0001 C CNN
-	1    11550 4200
+P 11650 4200
+F 0 "C24" H 11742 4246 50  0000 L CNN
+F 1 "100n" H 11742 4155 50  0000 L CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 11650 4200 50  0001 C CNN
+F 3 "~" H 11650 4200 50  0001 C CNN
+	1    11650 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11550 4000 11550 4100
+	11650 4000 11650 4100
 $Comp
 L apple-ice:C_Small C23
 U 1 1 67AD51F0
-P 11250 4200
-F 0 "C23" H 11342 4246 50  0000 L CNN
-F 1 "1u" H 11342 4155 50  0000 L CNN
-F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 11250 4200 50  0001 C CNN
-F 3 "~" H 11250 4200 50  0001 C CNN
-	1    11250 4200
+P 11350 4200
+F 0 "C23" H 11442 4246 50  0000 L CNN
+F 1 "1u" H 11442 4155 50  0000 L CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 11350 4200 50  0001 C CNN
+F 3 "~" H 11350 4200 50  0001 C CNN
+	1    11350 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11250 4100 11250 4000
-Connection ~ 11250 4000
+	11350 4100 11350 4000
+Connection ~ 11350 4000
 Wire Wire Line
-	11250 4000 11550 4000
+	11350 4000 11650 4000
 $Comp
 L apple-ice:GND #PWR0180
 U 1 1 67AD51F9
-P 11250 4300
-F 0 "#PWR0180" H 11250 4050 50  0001 C CNN
-F 1 "GND" H 11255 4127 50  0000 C CNN
-F 2 "" H 11250 4300 50  0001 C CNN
-F 3 "" H 11250 4300 50  0001 C CNN
-	1    11250 4300
+P 11350 4300
+F 0 "#PWR0180" H 11350 4050 50  0001 C CNN
+F 1 "GND" H 11355 4127 50  0000 C CNN
+F 2 "" H 11350 4300 50  0001 C CNN
+F 3 "" H 11350 4300 50  0001 C CNN
+	1    11350 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L apple-ice:GND #PWR0181
 U 1 1 67AD51FF
-P 11550 4300
-F 0 "#PWR0181" H 11550 4050 50  0001 C CNN
-F 1 "GND" H 11555 4127 50  0000 C CNN
-F 2 "" H 11550 4300 50  0001 C CNN
-F 3 "" H 11550 4300 50  0001 C CNN
-	1    11550 4300
+P 11650 4300
+F 0 "#PWR0181" H 11650 4050 50  0001 C CNN
+F 1 "GND" H 11655 4127 50  0000 C CNN
+F 2 "" H 11650 4300 50  0001 C CNN
+F 3 "" H 11650 4300 50  0001 C CNN
+	1    11650 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11000 4000 11000 4450
-Connection ~ 11000 4000
+	11100 4000 11100 4450
+Connection ~ 11100 4000
 $Comp
 L apple-ice:C_Small C29
 U 1 1 67F269A8
@@ -3101,14 +3063,14 @@ F 3 "" H 13250 6700 50  0001 C CNN
 	1    13250 6700
 	1    0    0    -1  
 $EndComp
-Text Label 9850 5350 0    50   ~ 0
+Text Label 9950 5350 0    50   ~ 0
 BTN1
 Wire Wire Line
-	9850 5350 10500 5350
-Text Label 9850 5450 0    50   ~ 0
+	9950 5350 10600 5350
+Text Label 9950 5450 0    50   ~ 0
 BTN2
 Wire Wire Line
-	9850 5450 10500 5450
+	9950 5450 10600 5450
 $Comp
 L apple-ice:LED D1
 U 1 1 68358489
@@ -3191,14 +3153,14 @@ Text Label 12800 8550 0    50   ~ 0
 LED2
 Text Label 12800 8100 0    50   ~ 0
 LED1
-Text Label 9850 5550 0    50   ~ 0
+Text Label 9950 5550 0    50   ~ 0
 LED1
 Wire Wire Line
-	9850 5550 10500 5550
-Text Label 9850 5650 0    50   ~ 0
+	9950 5550 10600 5550
+Text Label 9950 5650 0    50   ~ 0
 LED2
 Wire Wire Line
-	9850 5650 10500 5650
+	9950 5650 10600 5650
 $Comp
 L apple-ice:USB_B_Micro J2
 U 1 1 685CED0A
@@ -3277,18 +3239,18 @@ USB_P
 Text Label 12750 9450 0    50   ~ 0
 USB_N
 NoConn ~ 11850 9550
-Text Label 9850 5750 0    50   ~ 0
+Text Label 9950 5750 0    50   ~ 0
 USB_P
 Wire Wire Line
-	9850 5750 10500 5750
-Text Label 9850 5850 0    50   ~ 0
+	9950 5750 10600 5750
+Text Label 9950 5850 0    50   ~ 0
 USB_N
 Wire Wire Line
-	9850 5850 10500 5850
-Text Label 9850 6150 0    50   ~ 0
+	9950 5850 10600 5850
+Text Label 9950 6150 0    50   ~ 0
 USB_PU
 Wire Wire Line
-	9850 6150 10500 6150
+	9950 6150 10600 6150
 $Comp
 L apple-ice:R_Small R10
 U 1 1 689D4753
@@ -3302,7 +3264,7 @@ F 3 "~" H 12450 9050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12450 8950 12750 8950
-Text Label 3000 2900 0    50   ~ 0
+Text Label 3150 2900 0    50   ~ 0
 ~IOSEL
 Text Label 3000 3000 0    50   ~ 0
 ~IOSTROBE
@@ -3313,60 +3275,34 @@ Text Label 3000 3200 0    50   ~ 0
 Text Label 3000 3350 0    50   ~ 0
 PHI0
 Wire Wire Line
-	3350 3350 3350 3550
+	3000 3200 3200 3200
 Wire Wire Line
-	3450 3450 3900 3450
+	3000 3100 3300 3100
 Wire Wire Line
-	3550 3350 3900 3350
+	3000 3000 3400 3000
 Wire Wire Line
-	3450 3200 3450 3450
-Wire Wire Line
-	3000 3200 3450 3200
-Wire Wire Line
-	3000 3100 3550 3100
-Wire Wire Line
-	3550 3100 3550 3350
-Wire Wire Line
-	3650 3250 3900 3250
-Wire Wire Line
-	3750 3150 3900 3150
-Wire Wire Line
-	3850 3050 3900 3050
-Wire Wire Line
-	3850 2800 3850 3050
-Wire Wire Line
-	3750 2900 3750 3150
-Wire Wire Line
-	3650 3000 3650 3250
-Wire Wire Line
-	3000 3000 3650 3000
-Wire Wire Line
-	3000 2900 3750 2900
-Wire Wire Line
-	3000 2800 3850 2800
-Text Label 3000 3550 0    50   ~ 0
+	3000 2900 3400 2900
+Text Label 3350 3550 0    50   ~ 0
 Q3
-Text Label 3000 3750 0    50   ~ 0
+Text Label 3350 3750 0    50   ~ 0
 7M
-Text Label 5600 3050 2    50   ~ 0
-RW_33
-Text Label 5600 3150 2    50   ~ 0
-~IOSEL_33
-Text Label 5600 3350 2    50   ~ 0
-~DEVSEL_33
-Text Label 5600 3450 2    50   ~ 0
-~RES_33
 Text Label 5600 3550 2    50   ~ 0
-PHI0_33
-Text Label 5600 3650 2    50   ~ 0
-Q3_33
+RW_33
+Text Label 5600 3050 2    50   ~ 0
+~DEVSEL_33
 Text Label 5600 3750 2    50   ~ 0
-7M_33
+~RES_33
+Text Label 5550 3150 2    50   ~ 0
+PHI0_33
 Text Label 5600 3250 2    50   ~ 0
+Q3_33
+Text Label 5600 3450 2    50   ~ 0
+7M_33
+Text Label 5600 3650 2    50   ~ 0
 ~IOSTROBE_33
 Text Label 6200 2250 2    50   ~ 0
 RW_33
-Text Label 6200 2150 2    50   ~ 0
+Text Label 9750 6450 2    50   ~ 0
 ~IOSEL_33
 Text Label 6200 2050 2    50   ~ 0
 ~IOSTROBE_33
@@ -3525,25 +3461,17 @@ Wire Wire Line
 Wire Wire Line
 	6350 5150 6950 5150
 Wire Wire Line
-	9650 3950 9100 3950
-Wire Wire Line
-	9100 3950 9100 1800
+	9100 4000 9100 1800
 Wire Wire Line
 	9100 1800 9400 1800
-Wire Wire Line
-	9650 3950 9650 6250
-Wire Wire Line
-	9750 3900 9150 3900
 Wire Wire Line
 	9150 3900 9150 1900
 Wire Wire Line
 	9150 1900 9400 1900
-Wire Wire Line
-	9750 3900 9750 6350
-NoConn ~ 10500 4750
-NoConn ~ 10500 4850
-NoConn ~ 10500 4950
-NoConn ~ 10500 5050
+NoConn ~ 10600 4750
+NoConn ~ 10600 4850
+NoConn ~ 10600 4950
+NoConn ~ 10600 5050
 Text Label 14300 5100 0    50   ~ 0
 FPGA_VCC
 $Comp
@@ -3662,6 +3590,112 @@ Wire Wire Line
 	11850 6450 12250 6450
 Wire Wire Line
 	15250 4800 15600 4800
+Text Label 6100 1150 0    50   ~ 0
+~IRQ
+Text Label 6100 1250 0    50   ~ 0
+~INH
+Text Label 6100 1350 0    50   ~ 0
+~RDY
+Text Label 6100 1050 0    50   ~ 0
+~NMI
+Wire Wire Line
+	5100 1050 5700 1050
+Wire Wire Line
+	5700 1050 5700 1350
+Wire Wire Line
+	5700 1350 6850 1350
+Wire Wire Line
+	5100 1150 5600 1150
+Wire Wire Line
+	5600 1150 5600 1250
+Wire Wire Line
+	5600 1250 6850 1250
+Wire Wire Line
+	5100 1250 5350 1250
+Wire Wire Line
+	5350 1250 5350 1000
+Wire Wire Line
+	5350 1000 5800 1000
+Wire Wire Line
+	5800 1000 5800 1150
+Wire Wire Line
+	5800 1150 6850 1150
+Wire Wire Line
+	5100 1350 5300 1350
+Wire Wire Line
+	5300 1350 5300 950 
+Wire Wire Line
+	5300 950  5850 950 
+Wire Wire Line
+	5850 950  5850 1050
+Wire Wire Line
+	5850 1050 6850 1050
+Wire Wire Line
+	8000 6450 6800 6450
+Text Label 6800 6450 0    50   ~ 0
+~IOSEL
+Wire Wire Line
+	9200 3800 9200 2000
+Wire Wire Line
+	9200 2000 9400 2000
+Wire Wire Line
+	9200 6450 9750 6450
+Wire Wire Line
+	9200 3800 9650 3800
+Wire Wire Line
+	9100 4000 9850 4000
+Wire Wire Line
+	9150 3900 9750 3900
+Text Label 9650 3800 0    50   ~ 0
+RDDATA_33
+Text Label 9750 3900 0    50   ~ 0
+SENSE_33
+Text Label 9850 4000 0    50   ~ 0
+~IOSEL_33
+Wire Wire Line
+	9200 6250 9750 6250
+Wire Wire Line
+	3000 2800 3400 2800
+Wire Wire Line
+	3000 3750 3350 3750
+Wire Wire Line
+	3000 3550 3100 3550
+Wire Wire Line
+	3300 3550 3350 3550
+Text Label 3550 3550 0    50   ~ 0
+RW
+Wire Wire Line
+	3550 3050 3900 3050
+Text Label 3550 3650 0    50   ~ 0
+~IOSTROBE
+Wire Wire Line
+	3550 3250 3900 3250
+Text Label 3550 3050 0    50   ~ 0
+~DEVSEL
+Wire Wire Line
+	3550 3350 3900 3350
+Text Label 3550 3750 0    50   ~ 0
+~RES
+Wire Wire Line
+	3550 3450 3900 3450
+Text Label 3550 3150 0    50   ~ 0
+PHI0
+Wire Wire Line
+	3550 3550 3900 3550
+Text Label 3550 3250 0    50   ~ 0
+Q3
+Wire Wire Line
+	3550 3650 3900 3650
+Text Label 3550 3450 0    50   ~ 0
+7M
+Wire Wire Line
+	3550 3750 3900 3750
+Wire Wire Line
+	3550 3150 3900 3150
+Wire Wire Line
+	5100 3150 5550 3150
+Wire Wire Line
+	9400 3200 9250 3200
 Wire Bus Line
 	3700 9250 3700 10150
 Wire Bus Line
