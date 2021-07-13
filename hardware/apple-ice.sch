@@ -914,8 +914,6 @@ Wire Wire Line
 	5850 5050 5850 4950
 Wire Wire Line
 	5850 4850 5500 4850
-Wire Wire Line
-	5850 4750 5500 4750
 NoConn ~ 5850 4650
 Text Label 5500 4550 0    50   ~ 0
 ~ENABLE2
@@ -1478,14 +1476,8 @@ Text Label 15200 3100 0    50   ~ 0
 ~FLASH_WP(~IO3)
 Text Label 15200 3200 0    50   ~ 0
 ~FLASH_HOLD(~IO4)
-Text Label 9950 5150 0    50   ~ 0
-~FLASH_WP(~IO3)
-Wire Wire Line
-	9950 5150 10600 5150
-Text Label 9950 5250 0    50   ~ 0
+Text Label 6200 2950 0    50   ~ 0
 ~FLASH_HOLD(~IO4)
-Wire Wire Line
-	9950 5250 10600 5250
 Connection ~ 13050 4400
 Wire Wire Line
 	13050 4400 13050 4500
@@ -1557,9 +1549,9 @@ Wire Wire Line
 	14050 3100 14900 3100
 Wire Wire Line
 	14050 3200 15050 3200
-Text Label 14250 2900 0    50   ~ 0
-iC40_SDO
 Text Label 14250 2800 0    50   ~ 0
+iC40_SDO
+Text Label 14250 2900 0    50   ~ 0
 iC40_SDI
 Wire Wire Line
 	13450 5700 13450 5950
@@ -2168,8 +2160,6 @@ Wire Wire Line
 Wire Wire Line
 	6200 1750 6850 1750
 Wire Wire Line
-	5100 3350 5600 3350
-Wire Wire Line
 	6200 1850 6850 1850
 Wire Wire Line
 	5100 3450 5600 3450
@@ -2181,8 +2171,6 @@ Wire Wire Line
 	6200 2050 6850 2050
 Wire Wire Line
 	5100 3650 5600 3650
-Wire Wire Line
-	6200 2150 6850 2150
 Wire Wire Line
 	5100 3750 5600 3750
 Wire Wire Line
@@ -2528,19 +2516,6 @@ F 3 "" H 2400 2250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2400 2250 2400 2500
-$Comp
-L apple-ice:-12V #PWR0160
-U 1 1 674F12EA
-P 2400 6550
-F 0 "#PWR0160" H 2400 6400 50  0001 C CNN
-F 1 "-12V" H 2300 6550 50  0000 C CNN
-F 2 "" H 2400 6550 50  0001 C CNN
-F 3 "" H 2400 6550 50  0001 C CNN
-	1    2400 6550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2400 6550 2400 6200
 NoConn ~ 2200 6200
 Wire Wire Line
 	2300 6200 2300 6550
@@ -2636,17 +2611,6 @@ F 1 "+5V" V 5500 5050 50  0000 C CNN
 F 2 "" H 5500 4850 50  0001 C CNN
 F 3 "" H 5500 4850 50  0001 C CNN
 	1    5500 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L apple-ice:-12V #PWR0169
-U 1 1 67831BCD
-P 5500 4750
-F 0 "#PWR0169" H 5500 4600 50  0001 C CNN
-F 1 "-12V" V 5500 4950 50  0000 C CNN
-F 2 "" H 5500 4750 50  0001 C CNN
-F 3 "" H 5500 4750 50  0001 C CNN
-	1    5500 4750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -3063,14 +3027,8 @@ F 3 "" H 13250 6700 50  0001 C CNN
 	1    13250 6700
 	1    0    0    -1  
 $EndComp
-Text Label 9950 5350 0    50   ~ 0
+Text Label 10200 6650 0    50   ~ 0
 BTN1
-Wire Wire Line
-	9950 5350 10600 5350
-Text Label 9950 5450 0    50   ~ 0
-BTN2
-Wire Wire Line
-	9950 5450 10600 5450
 $Comp
 L apple-ice:LED D1
 U 1 1 68358489
@@ -3239,18 +3197,12 @@ USB_P
 Text Label 12750 9450 0    50   ~ 0
 USB_N
 NoConn ~ 11850 9550
-Text Label 9950 5750 0    50   ~ 0
+Text Label 10200 7050 0    50   ~ 0
 USB_P
-Wire Wire Line
-	9950 5750 10600 5750
-Text Label 9950 5850 0    50   ~ 0
+Text Label 10200 6950 0    50   ~ 0
 USB_N
-Wire Wire Line
-	9950 5850 10600 5850
-Text Label 9950 6150 0    50   ~ 0
+Text Label 10200 7150 0    50   ~ 0
 USB_PU
-Wire Wire Line
-	9950 6150 10600 6150
 $Comp
 L apple-ice:R_Small R10
 U 1 1 689D4753
@@ -3672,8 +3624,6 @@ Wire Wire Line
 	3550 3250 3900 3250
 Text Label 3550 3050 0    50   ~ 0
 ~DEVSEL
-Wire Wire Line
-	3550 3350 3900 3350
 Text Label 3550 3750 0    50   ~ 0
 ~RES
 Wire Wire Line
@@ -3696,6 +3646,28 @@ Wire Wire Line
 	5100 3150 5550 3150
 Wire Wire Line
 	9400 3200 9250 3200
+Text Label 6200 2850 0    50   ~ 0
+~FLASH_WP(~IO3)
+Wire Wire Line
+	6200 2950 6850 2950
+Wire Wire Line
+	6200 2850 6850 2850
+Wire Wire Line
+	10200 6950 10600 6950
+Wire Wire Line
+	10200 7050 10600 7050
+Wire Wire Line
+	10200 7150 10600 7150
+Wire Wire Line
+	10200 6650 10600 6650
+Text Label 10200 6750 0    50   ~ 0
+BTN2
+Wire Wire Line
+	10200 6750 10600 6750
+NoConn ~ 5850 4750
+NoConn ~ 3900 3350
+NoConn ~ 5100 3350
+NoConn ~ 2400 6200
 Wire Bus Line
 	3700 9250 3700 10150
 Wire Bus Line
