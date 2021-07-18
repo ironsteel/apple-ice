@@ -3668,6 +3668,63 @@ NoConn ~ 5850 4750
 NoConn ~ 3900 3350
 NoConn ~ 5100 3350
 NoConn ~ 2400 6200
+$Comp
+L apple-ice:+1V2 #PWR?
+U 1 1 60FFB47A
+P 12850 6800
+F 0 "#PWR?" H 12850 6650 50  0001 C CNN
+F 1 "+1V2" V 12850 6900 50  0000 L CNN
+F 2 "" H 12850 6800 50  0001 C CNN
+F 3 "" H 12850 6800 50  0001 C CNN
+	1    12850 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L apple-ice:C_Small C?
+U 1 1 60FFB480
+P 12500 6900
+F 0 "C?" H 12592 6946 50  0000 L CNN
+F 1 "100n" H 12592 6855 50  0000 L CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 12500 6900 50  0001 C CNN
+F 3 "~" H 12500 6900 50  0001 C CNN
+	1    12500 6900
+	1    0    0    -1  
+$EndComp
+Connection ~ 12500 6800
+$Comp
+L apple-ice:C_Small C?
+U 1 1 60FFB487
+P 12250 6900
+F 0 "C?" H 12342 6946 50  0000 L CNN
+F 1 "1u" H 12342 6855 50  0000 L CNN
+F 2 "apple-ice:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 12250 6900 50  0001 C CNN
+F 3 "~" H 12250 6900 50  0001 C CNN
+	1    12250 6900
+	1    0    0    -1  
+$EndComp
+Connection ~ 12250 6800
+Wire Wire Line
+	12250 6800 12500 6800
+$Comp
+L apple-ice:GND #PWR?
+U 1 1 60FFB48F
+P 12250 7000
+F 0 "#PWR?" H 12250 6750 50  0001 C CNN
+F 1 "GND" H 12400 6950 50  0000 C CNN
+F 2 "" H 12250 7000 50  0001 C CNN
+F 3 "" H 12250 7000 50  0001 C CNN
+	1    12250 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 7000 12250 7000
+Connection ~ 12250 7000
+Wire Wire Line
+	12500 6800 12850 6800
+Text Label 11850 6800 0    50   ~ 0
+FPGA_VCC
+Wire Wire Line
+	11850 6800 12250 6800
 Wire Bus Line
 	3700 9250 3700 10150
 Wire Bus Line
