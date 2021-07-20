@@ -91,6 +91,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_02x15_Odd_Even
+D Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP ECS-2520MV-xxx-xx
 D HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD
 K Crystal Clock Oscillator ECS SMD
