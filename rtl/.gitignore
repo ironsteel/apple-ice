@@ -1,0 +1,6 @@
+*.vcd
+*_tb
+synth.log
+*.bin
+*.asc
+*.json
