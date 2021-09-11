@@ -5,7 +5,10 @@ DEVICE = hx1k
 PKG = tq144
 
 all: $(PROJ).bin
-	tinyprog -p $(PROJ).bin
+	sudo tinyprog -p $(PROJ).bin
+
+ssc.mem:
+	hexdump -e '1/1 "%02X" "\n"' rom/ssc.bin -v > rom/$@
 
 %.json: *.v
 	yosys -q -l $(PROJ).log -p 'synth_ice40 -top $(PROJ) -json $@' $^

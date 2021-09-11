@@ -26,7 +26,7 @@ set_io _reset 47
 set_io fclk 43
 set_io rw 52
 set_io _iosel 120
-set_io _iostrobe 49
+set_io _iostrobe 56
 
 set_io _en245 144
 set_io _devsel 48
@@ -37,3 +37,23 @@ set_io _nmi 37
 set_io _irq 38
 set_io _inh 39
 set_io _rdy 41
+
+set_io rx 74
+set_io tx 76
+
+set_io irq_oe 42
+
+set_io enbuf 79
+set_io oe_dbg 81
+
+
+set_io test[0] 90
+set_io test[1] 91
+set_io test[2] 94
+set_io test[3] 95
+set_io test[4] 96
+set_io test[5] 97
+set_io test[6] 98
+set_io test[7] 99
+
+
