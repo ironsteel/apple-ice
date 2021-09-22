@@ -2157,8 +2157,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 3550 5600 3550
 Wire Wire Line
-	6200 2050 6850 2050
-Wire Wire Line
 	5100 3650 5600 3650
 Wire Wire Line
 	5100 3750 5600 3750
@@ -3244,7 +3242,7 @@ Text Label 6200 2250 2    50   ~ 0
 RW_33
 Text Label 9750 6450 2    50   ~ 0
 ~IOSEL_33
-Text Label 6200 2050 2    50   ~ 0
+Text Label 6200 2350 2    50   ~ 0
 ~IOSTROBE_33
 Text Label 6200 1950 2    50   ~ 0
 ~DEVSEL_33
@@ -3969,7 +3967,6 @@ NoConn ~ 9400 2900
 NoConn ~ 9400 3000
 NoConn ~ 9400 3100
 NoConn ~ 6850 2150
-NoConn ~ 6850 2350
 NoConn ~ 6850 2450
 NoConn ~ 6850 2550
 NoConn ~ 6850 2650
@@ -4067,6 +4064,10 @@ Wire Wire Line
 Connection ~ 12600 1550
 Wire Wire Line
 	12600 1450 13300 1450
+Connection ~ 12600 1450
+Connection ~ 13300 1450
+Wire Wire Line
+	6200 2350 6850 2350
 Wire Bus Line
 	3700 9250 3700 10150
 Wire Bus Line
@@ -4075,6 +4076,4 @@ Wire Bus Line
 	5500 5350 5500 10150
 Wire Bus Line
 	3650 4250 3650 8000
-Connection ~ 12600 1450
-Connection ~ 13300 1450
 $EndSCHEMATC
