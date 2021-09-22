@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Apple ][ iCE"
+Date "2021-09-22"
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
