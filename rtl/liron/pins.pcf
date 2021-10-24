@@ -1,0 +1,62 @@
+set_io clk_16  93
+set_io addr[0]  11
+set_io addr[1]  12
+set_io addr[2]  19
+set_io addr[3]  20
+set_io addr[4]  21
+set_io addr[5]  22
+set_io addr[6]  23
+set_io addr[7]  24
+set_io addr[8]  25
+set_io addr[9]  26
+set_io addr[10] 28
+set_io addr[11] 29
+
+set_io data[0]  1
+set_io data[1]  2
+set_io data[2]  3
+set_io data[3]  4
+set_io data[4]  7
+set_io data[5]  8
+set_io data[6]  9
+set_io data[7]  10
+
+set_io q3 44
+set_io _reset 47
+set_io fclk 43
+set_io rw 52
+set_io _iosel 120
+set_io _iostrobe 56
+
+set_io _en245 144
+
+set_io phase[0] 112
+set_io phase[1] 113
+set_io phase[2] 114
+set_io phase[3] 115
+
+set_io _wrreq 116
+set_io select 117
+set_io _enbl1 118
+set_io wrdata 119
+set_io sense 121
+set_io rddata 122
+set_io _devsel 48
+
+set_io btn    101
+
+set_io _nmi 37
+set_io _irq 38
+set_io _inh 39
+set_io _rdy 41
+
+set_io test[0] 73
+set_io test[1] 74
+set_io test[2] 75
+set_io test[3] 76
+set_io test[4] 78
+set_io test[5] 79
+set_io test[6] 80
+set_io test[7] 81
+
+set_io phi0 45
